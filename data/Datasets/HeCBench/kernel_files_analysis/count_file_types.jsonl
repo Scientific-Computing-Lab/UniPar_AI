@@ -1,0 +1,1758 @@
+{"kernel_name": "accuracy-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "accuracy-hip", ".cu": 1}
+{"kernel_name": "accuracy-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "accuracy-sycl", ".cpp": 1}
+{"kernel_name": "ace-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "ace-hip", ".cu": 1}
+{"kernel_name": "ace-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "ace-sycl", ".cpp": 1}
+{"kernel_name": "adam-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "adam-hip", ".cu": 1}
+{"kernel_name": "adam-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "adam-sycl", ".cpp": 1}
+{"kernel_name": "addBiasResidualLayerNorm-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "addBiasResidualLayerNorm-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "addBiasResidualLayerNorm-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "adv-cuda", ".cu": 2}
+{"kernel_name": "adv-hip", ".cu": 2}
+{"kernel_name": "adv-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "adv-sycl", ".cpp": 1}
+{"kernel_name": "aes-cuda", ".h": 1, ".cu": 4}
+{"kernel_name": "aes-hip", ".h": 1, ".cu": 4}
+{"kernel_name": "aes-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 4}
+{"kernel_name": "aes-sycl", ".h": 1, ".cpp": 4}
+{"kernel_name": "affine-cuda", ".h": 2, ".cu": 1, ".raw": 1}
+{"kernel_name": "affine-hip", ".hipcl": 1, ".cu": 1, ".raw": 1}
+{"kernel_name": "affine-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".raw": 1}
+{"kernel_name": "affine-sycl", ".hipsycl": 1, ".cpp": 1, ".raw": 1}
+{"kernel_name": "aidw-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "aidw-hip", ".cu": 1}
+{"kernel_name": "aidw-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "aidw-sycl", ".cpp": 1}
+{"kernel_name": "aligned-types-cuda", ".cu": 1}
+{"kernel_name": "aligned-types-hip", ".cu": 1}
+{"kernel_name": "aligned-types-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "aligned-types-sycl", ".cpp": 1}
+{"kernel_name": "all-pairs-distance-cuda", ".cu": 1}
+{"kernel_name": "all-pairs-distance-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "all-pairs-distance-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "all-pairs-distance-sycl", ".cpp": 1}
+{"kernel_name": "allreduce-cuda", ".cu": 3, ".h": 2}
+{"kernel_name": "allreduce-hip", ".cu": 3, ".h": 2}
+{"kernel_name": "allreduce-sycl", ".cpp": 3, ".h": 2}
+{"kernel_name": "amgmk-cuda", ".c": 7, ".cu": 7, ".h": 4}
+{"kernel_name": "amgmk-hip", ".hipcl": 1, ".cu": 7, ".h": 4}
+{"kernel_name": "amgmk-omp", ".aomp": 1, ".nvc": 1, ".cpp": 7, ".h": 4}
+{"kernel_name": "amgmk-sycl", ".hipsycl": 1, ".cpp": 7, ".h": 4}
+{"kernel_name": "ans-cuda", ".md": 1, ".h": 13, ".cc": 6, ".cu": 2}
+{"kernel_name": "ans-hip", ".hipcl": 1, ".md": 1, ".h": 13, ".cc": 6, ".cu": 2}
+{"kernel_name": "ans-omp", ".aomp": 1, ".nvc": 1, ".md": 1, ".h": 13, ".cc": 8}
+{"kernel_name": "ans-sycl", ".md": 1, ".h": 13, ".cc": 8}
+{"kernel_name": "aobench-cuda", ".cu": 1}
+{"kernel_name": "aobench-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "aobench-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "aobench-sycl", ".hipsycl": 1, ".cpp": 1}
+{"kernel_name": "aop-cuda", ".cu": 1}
+{"kernel_name": "aop-hip", ".cu": 1}
+{"kernel_name": "aop-omp", ".cpp": 1, ".o": 1}
+{"kernel_name": "aop-sycl", ".cpp": 1}
+{"kernel_name": "asmooth-cuda", ".cu": 1, ".cpp": 1}
+{"kernel_name": "asmooth-hip", ".cu": 1}
+{"kernel_name": "asmooth-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "asmooth-sycl", ".cpp": 1}
+{"kernel_name": "assert-cuda", ".cu": 1}
+{"kernel_name": "assert-hip", ".cu": 1}
+{"kernel_name": "assert-sycl", ".cpp": 1}
+{"kernel_name": "asta-cuda", ".cu": 1, ".h": 3}
+{"kernel_name": "asta-hip", ".hipcl": 1, ".cu": 1, ".h": 3}
+{"kernel_name": "asta-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1, ".h": 3}
+{"kernel_name": "asta-sycl", ".hipsycl": 1, ".cpp": 1, ".h": 3}
+{"kernel_name": "atan2-cuda", ".cu": 1}
+{"kernel_name": "atan2-hip", ".cu": 1}
+{"kernel_name": "atan2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "atan2-sycl", ".cpp": 1}
+{"kernel_name": "atomicAggregate-cuda", ".cu": 1}
+{"kernel_name": "atomicAggregate-hip", ".cu": 1}
+{"kernel_name": "atomicAggregate-sycl", ".cpp": 1}
+{"kernel_name": "atomicCAS-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "atomicCAS-hip", ".cu": 1}
+{"kernel_name": "atomicCAS-sycl", ".cpp": 1}
+{"kernel_name": "atomicCost-cuda", ".cu": 1}
+{"kernel_name": "atomicCost-hip", ".cu": 1}
+{"kernel_name": "atomicCost-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "atomicCost-sycl", ".cpp": 1}
+{"kernel_name": "atomicIntrinsics-cuda", ".h": 2, ".cu": 2}
+{"kernel_name": "atomicIntrinsics-hip", ".hipcl": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "atomicIntrinsics-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "atomicIntrinsics-sycl", ".hipsycl": 1, ".cpp": 2}
+{"kernel_name": "atomicPerf-cuda", ".cu": 1}
+{"kernel_name": "atomicPerf-hip", ".cu": 1}
+{"kernel_name": "atomicPerf-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "atomicPerf-sycl", ".cpp": 1}
+{"kernel_name": "atomicReduction-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "atomicReduction-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "atomicReduction-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "atomicReduction-sycl", ".hipsycl": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "atomicSystemWide-cuda", ".cu": 1}
+{"kernel_name": "atomicSystemWide-hip", ".cu": 1}
+{"kernel_name": "atomicSystemWide-sycl", ".cpp": 1}
+{"kernel_name": "attention-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "attention-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "attention-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "attention-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "attentionMultiHead-cuda", ".cu": 1}
+{"kernel_name": "attentionMultiHead-hip", ".cu": 1}
+{"kernel_name": "attentionMultiHead-sycl", ".cpp": 1}
+{"kernel_name": "axhelm-cuda", ".gz": 1, ".cpp": 3, ".cu": 1, ".hpp": 1, ".h": 1}
+{"kernel_name": "axhelm-hip", ".gz": 1, ".hipcl": 1, ".cpp": 4, ".hpp": 1, ".h": 1}
+{"kernel_name": "axhelm-omp", ".gz": 1, ".aomp": 1, ".nvc": 1, ".cpp": 3, ".hpp": 1, ".h": 1}
+{"kernel_name": "axhelm-sycl", ".gz": 1, ".hipsycl": 1, ".cpp": 3, ".hpp": 1, ".h": 1}
+{"kernel_name": "b+tree-cuda", ".h": 6, ".cu": 5, ".c": 2}
+{"kernel_name": "b+tree-hip", ".hipcl": 1, ".h": 6, ".cu": 5, ".c": 2, ".prehip": 4}
+{"kernel_name": "b+tree-omp", ".aomp": 1, ".nvc": 1, ".h": 5, ".c": 5}
+{"kernel_name": "b+tree-sycl", ".h": 5, ".c": 5, ".sycl": 2}
+{"kernel_name": "babelstream-cuda", ".cu": 1}
+{"kernel_name": "babelstream-hip", ".cu": 1}
+{"kernel_name": "babelstream-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "babelstream-sycl", ".cpp": 1}
+{"kernel_name": "background-subtract-cuda", ".cu": 1}
+{"kernel_name": "background-subtract-hip", ".cu": 1}
+{"kernel_name": "background-subtract-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "background-subtract-sycl", ".cpp": 1}
+{"kernel_name": "backprop-cuda", ".cu": 4, ".h": 3}
+{"kernel_name": "backprop-hip", ".hipcl": 1, ".cu": 4}
+{"kernel_name": "backprop-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4}
+{"kernel_name": "backprop-sycl", ".cpp": 4, ".sycl": 2}
+{"kernel_name": "bezier-surface-cuda", ".cu": 1, ".txt": 1}
+{"kernel_name": "bezier-surface-hip", ".hipcl": 1, ".cu": 1, ".txt": 1}
+{"kernel_name": "bezier-surface-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1, ".txt": 1}
+{"kernel_name": "bezier-surface-sycl", ".cpp": 1, ".txt": 1}
+{"kernel_name": "bfs-cuda", ".cu": 1}
+{"kernel_name": "bfs-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "bfs-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "bfs-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "bh-cuda", ".cu": 1}
+{"kernel_name": "bh-hip", ".cu": 1}
+{"kernel_name": "bh-sycl", ".cpp": 1}
+{"kernel_name": "bicgstab-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "bicgstab-hip", ".cu": 1}
+{"kernel_name": "bilateral-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "bilateral-hip", ".cu": 1}
+{"kernel_name": "bilateral-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "bilateral-sycl", ".cpp": 1}
+{"kernel_name": "bincount-cuda", ".cu": 1}
+{"kernel_name": "bincount-hip", ".cu": 1}
+{"kernel_name": "bincount-sycl", ".cpp": 1}
+{"kernel_name": "binomial-cuda", ".h": 2, ".cu": 3}
+{"kernel_name": "binomial-hip", ".h": 2, ".cu": 3}
+{"kernel_name": "binomial-omp", ".aomp": 1, ".h": 2, ".cpp": 3, ".o": 3}
+{"kernel_name": "binomial-sycl", ".h": 2, ".cpp": 3}
+{"kernel_name": "bitcracker-cuda", ".h": 3, ".cu": 4, ".py": 1}
+{"kernel_name": "bitcracker-hip", ".h": 3, ".cu": 4}
+{"kernel_name": "bitcracker-sycl", ".h": 3, ".cpp": 4}
+{"kernel_name": "bitonic-sort-cuda", ".cu": 1}
+{"kernel_name": "bitonic-sort-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "bitonic-sort-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "bitonic-sort-sycl", ".cpp": 1}
+{"kernel_name": "bitpacking-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "bitpacking-hip", ".cu": 3, ".h": 1}
+{"kernel_name": "bitpacking-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "bitpermute-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "bitpermute-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "bitpermute-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "black-scholes-cuda", ".cu": 3, ".cuh": 4}
+{"kernel_name": "black-scholes-hip", ".hipcl": 1, ".cu": 3, ".cuh": 4}
+{"kernel_name": "black-scholes-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 4, ".o": 1}
+{"kernel_name": "black-scholes-sycl", ".cpp": 3, ".h": 4}
+{"kernel_name": "blas-dot-cuda", ".cu": 1}
+{"kernel_name": "blas-dot-hip", ".cu": 1}
+{"kernel_name": "blas-dot-sycl", ".cpp": 1}
+{"kernel_name": "blas-fp8gemm-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "blas-fp8gemm-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "blas-gemm-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "blas-gemm-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "blas-gemm-omp", ".cpp": 1}
+{"kernel_name": "blas-gemm-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "blas-gemmBatched-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "blas-gemmBatched-hip", ".cu": 1}
+{"kernel_name": "blas-gemmBatched-sycl", ".cpp": 1}
+{"kernel_name": "blas-gemmEx-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "blas-gemmEx-hip", ".cu": 1}
+{"kernel_name": "blas-gemmEx-sycl", ".cpp": 1}
+{"kernel_name": "blas-gemmEx2-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "blas-gemmEx2-hip", ".cu": 1}
+{"kernel_name": "blas-gemmEx2-sycl", ".cpp": 1}
+{"kernel_name": "blas-gemmStridedBatched-cuda", ".cu": 1}
+{"kernel_name": "blas-gemmStridedBatched-hip", ".cu": 1}
+{"kernel_name": "blas-gemmStridedBatched-sycl", ".cpp": 1}
+{"kernel_name": "blockAccess-cuda", ".txt": 1, ".h": 3, ".cu": 1}
+{"kernel_name": "blockAccess-hip", ".txt": 1, ".cu": 1}
+{"kernel_name": "blockAccess-sycl", ".txt": 1, ".h": 3, ".cpp": 1}
+{"kernel_name": "blockexchange-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "blockexchange-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "blockexchange-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "bm3d-cuda", ".h": 1, ".cu": 4, ".hpp": 3, ".png": 2}
+{"kernel_name": "bm3d-hip", ".cu": 4, ".hpp": 3}
+{"kernel_name": "bm3d-sycl", ".cpp": 4, ".hpp": 3}
+{"kernel_name": "bmf-cuda", ".md": 1, ".h": 6, ".cuh": 5, ".hpp": 2, ".cu": 1}
+{"kernel_name": "bmf-hip", ".h": 6, ".cuh": 5, ".hpp": 2, ".cu": 1}
+{"kernel_name": "bmf-sycl", ".h": 10, ".cpp": 1}
+{"kernel_name": "bn-cuda", ".h": 1, ".cu": 2}
+{"kernel_name": "bn-hip", ".hipcl": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "bn-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2, ".o": 1}
+{"kernel_name": "bn-sycl", ".h": 1, ".cpp": 2}
+{"kernel_name": "bonds-cuda", ".cu": 3, ".h": 3}
+{"kernel_name": "bonds-hip", ".cu": 2, ".h": 2}
+{"kernel_name": "bonds-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 2, ".o": 1}
+{"kernel_name": "bonds-sycl", ".cpp": 3, ".h": 3}
+{"kernel_name": "boxfilter-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "boxfilter-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "boxfilter-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 4}
+{"kernel_name": "boxfilter-sycl", ".cpp": 4, ".h": 3, ".ppm": 1}
+{"kernel_name": "bscan-cuda", ".cu": 1}
+{"kernel_name": "bscan-hip", ".cu": 1}
+{"kernel_name": "bscan-sycl", ".cpp": 2}
+{"kernel_name": "bsearch-cuda", ".cu": 1}
+{"kernel_name": "bsearch-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "bsearch-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "bsearch-sycl", ".h": 4, ".cpp": 1}
+{"kernel_name": "bspline-vgh-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "bspline-vgh-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "bspline-vgh-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "bspline-vgh-sycl", ".cpp": 1}
+{"kernel_name": "bsw-cuda", ".cu": 4, ".hpp": 3, ".gz": 1}
+{"kernel_name": "bsw-hip", ".hipcl": 1, ".cu": 4, ".hpp": 3}
+{"kernel_name": "bsw-sycl", ".cpp": 4, ".hpp": 3}
+{"kernel_name": "btree-cuda", ".h": 1, ".cuh": 4, ".cu": 4}
+{"kernel_name": "btree-sycl", ".h": 7, ".cpp": 2}
+{"kernel_name": "burger-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "burger-hip", ".cu": 1}
+{"kernel_name": "burger-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "burger-sycl", ".cpp": 1}
+{"kernel_name": "bwt-cuda", ".cu": 1, ".hpp": 1, ".cpp": 1}
+{"kernel_name": "bwt-hip", ".cu": 1}
+{"kernel_name": "bwt-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 2}
+{"kernel_name": "bwt-sycl", ".cpp": 1}
+{"kernel_name": "car-cuda", ".cu": 1, ".h": 2}
+{"kernel_name": "car-hip", ".cu": 1}
+{"kernel_name": "car-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "car-sycl", ".cpp": 1}
+{"kernel_name": "cbsfil-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "cbsfil-hip", ".cu": 1}
+{"kernel_name": "cbsfil-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "cbsfil-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "cc-cuda", ".cu": 1}
+{"kernel_name": "cc-hip", ".cu": 1}
+{"kernel_name": "cc-sycl", ".cpp": 1}
+{"kernel_name": "ccl-cuda", ".cu": 1}
+{"kernel_name": "ccl-hip", ".cu": 1}
+{"kernel_name": "ccl-sycl", ".cpp": 1}
+{"kernel_name": "ccs-cuda", ".c": 6, ".h": 1, ".out": 1, ".gz": 1, ".cu": 1}
+{"kernel_name": "ccs-hip", ".cu": 1}
+{"kernel_name": "ccs-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "ccs-sycl", ".cpp": 1}
+{"kernel_name": "ccsd-trpdrv-cuda", ".cu": 3}
+{"kernel_name": "ccsd-trpdrv-hip", ".hipcl": 1, ".cu": 3}
+{"kernel_name": "ccsd-trpdrv-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".o": 3}
+{"kernel_name": "ccsd-trpdrv-sycl", ".cpp": 3}
+{"kernel_name": "ced-cuda", ".gz": 1, ".h": 3, ".cu": 2, ".cpp": 1}
+{"kernel_name": "ced-hip", ".hipcl": 1, ".gz": 1, ".h": 3, ".cu": 2}
+{"kernel_name": "ced-sycl", ".gz": 1, ".h": 3, ".cpp": 2}
+{"kernel_name": "cfd-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "cfd-hip", ".hipcl": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "cfd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "cfd-sycl", ".cpp": 1, ".sycl": 5, ".h": 1}
+{"kernel_name": "chacha20-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "chacha20-hip", ".cu": 1}
+{"kernel_name": "chacha20-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "chacha20-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "channelShuffle-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "channelShuffle-hip", ".cu": 1}
+{"kernel_name": "channelShuffle-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "channelShuffle-sycl", ".cpp": 1}
+{"kernel_name": "channelSum-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "channelSum-hip", ".cu": 1}
+{"kernel_name": "channelSum-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "channelSum-sycl", ".cpp": 1}
+{"kernel_name": "che-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "che-hip", ".cu": 1}
+{"kernel_name": "che-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "che-sycl", ".cpp": 1}
+{"kernel_name": "chemv-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "chemv-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "chemv-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".o": 1}
+{"kernel_name": "chemv-sycl", ".cpp": 2}
+{"kernel_name": "chi2-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "chi2-hip", ".cu": 1}
+{"kernel_name": "chi2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "chi2-sycl", ".cpp": 1}
+{"kernel_name": "clenergy-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "clenergy-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "clenergy-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1, ".o": 2}
+{"kernel_name": "clenergy-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "clink-cuda", ".gz": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "clink-hip", ".hipcl": 1, ".gz": 1, ".cu": 1}
+{"kernel_name": "clink-omp", ".aomp": 1, ".nvc": 1, ".gz": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "clink-sycl", ".gz": 1, ".cpp": 1}
+{"kernel_name": "clock-cuda", ".cu": 1}
+{"kernel_name": "clock-hip", ".cu": 1}
+{"kernel_name": "cm-cuda", ".cpp": 2, ".h": 2, ".cu": 1}
+{"kernel_name": "cm-hip", ".cu": 1}
+{"kernel_name": "cm-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "cm-sycl", ".h": 2, ".cpp": 2}
+{"kernel_name": "cmembench-cuda", ".cu": 1}
+{"kernel_name": "cmembench-hip", ".cu": 1}
+{"kernel_name": "cmp-cuda", ".cpp": 6, ".hpp": 6, ".cu": 1}
+{"kernel_name": "cmp-hip", ".cu": 1}
+{"kernel_name": "cmp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "cmp-sycl", ".cpp": 1}
+{"kernel_name": "cobahh-cuda", ".cu": 1, ".h": 2}
+{"kernel_name": "cobahh-hip", ".hipcl": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "cobahh-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "cobahh-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "collision-cuda", ".cu": 1}
+{"kernel_name": "collision-hip", ".cu": 1}
+{"kernel_name": "collision-sycl", ".cpp": 1}
+{"kernel_name": "colorwheel-cuda", ".cu": 1}
+{"kernel_name": "colorwheel-hip", ".cu": 1}
+{"kernel_name": "colorwheel-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "colorwheel-sycl", ".cpp": 1}
+{"kernel_name": "columnarSolver-cuda", ".gz": 1, ".cu": 2}
+{"kernel_name": "columnarSolver-hip", ".cu": 2}
+{"kernel_name": "columnarSolver-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "columnarSolver-sycl", ".cpp": 2}
+{"kernel_name": "complex-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "complex-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "complex-omp", ".aomp": 1, ".nvc": 1, ".h": 2, ".cpp": 1, ".o": 1}
+{"kernel_name": "complex-sycl", ".h": 3, ".cpp": 1}
+{"kernel_name": "compute-score-cuda", ".cu": 2, ".h": 2}
+{"kernel_name": "compute-score-hip", ".hipcl": 1, ".cu": 2, ".h": 2}
+{"kernel_name": "compute-score-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 2}
+{"kernel_name": "compute-score-sycl", ".cpp": 2, ".h": 2}
+{"kernel_name": "concat-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "concat-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "concat-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1, ".o": 1}
+{"kernel_name": "concat-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "concurrentKernels-cuda", ".cu": 1}
+{"kernel_name": "concurrentKernels-hip", ".cu": 1}
+{"kernel_name": "concurrentKernels-sycl", ".cpp": 1}
+{"kernel_name": "contract-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "contract-hip", ".cu": 1}
+{"kernel_name": "contract-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "contract-sycl", ".cpp": 1}
+{"kernel_name": "conversion-cuda", ".cu": 1}
+{"kernel_name": "conversion-hip", ".cu": 1}
+{"kernel_name": "conversion-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "conversion-sycl", ".cpp": 1}
+{"kernel_name": "convolution1D-cuda", ".cu": 1}
+{"kernel_name": "convolution1D-hip", ".cu": 1}
+{"kernel_name": "convolution1D-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "convolution1D-sycl", ".cpp": 1}
+{"kernel_name": "convolution3D-cuda", ".cu": 2}
+{"kernel_name": "convolution3D-hip", ".cu": 2}
+{"kernel_name": "convolution3D-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "convolution3D-sycl", ".cpp": 2, ".hpp": 1}
+{"kernel_name": "convolutionDeformable-cuda", ".py": 3, ".h": 3, ".cpp": 1, ".cu": 2}
+{"kernel_name": "convolutionDeformable-hip", ".py": 3, ".h": 3, ".cpp": 1, ".hip": 2}
+{"kernel_name": "convolutionDeformable-sycl", ".py": 3, ".h": 4, ".cpp": 3}
+{"kernel_name": "convolutionSeparable-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "convolutionSeparable-hip", ".hipcl": 1, ".cu": 3, ".h": 1}
+{"kernel_name": "convolutionSeparable-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 3}
+{"kernel_name": "convolutionSeparable-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "cooling-cuda", ".cu": 1}
+{"kernel_name": "cooling-hip", ".cu": 1}
+{"kernel_name": "cooling-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "cooling-sycl", ".cpp": 1}
+{"kernel_name": "coordinates-cuda", ".cu": 1, ".hpp": 1}
+{"kernel_name": "coordinates-hip", ".cu": 1}
+{"kernel_name": "coordinates-sycl", ".cpp": 1, ".hpp": 1}
+{"kernel_name": "copy-cuda", ".cu": 1}
+{"kernel_name": "copy-hip", ".cu": 1}
+{"kernel_name": "crc64-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "crc64-hip", ".cu": 2, ".h": 1, ".hipcl": 1}
+{"kernel_name": "crc64-omp", ".cpp": 2, ".h": 1, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "crc64-sycl", ".cpp": 2, ".h": 2}
+{"kernel_name": "cross-cuda", ".cu": 1}
+{"kernel_name": "cross-hip", ".cu": 1}
+{"kernel_name": "cross-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "cross-sycl", ".cpp": 1}
+{"kernel_name": "crossEntropy-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "crossEntropy-hip", ".cu": 1}
+{"kernel_name": "crossEntropy-sycl", ".cpp": 1}
+{"kernel_name": "crs-cuda", ".cu": 6, ".h": 4}
+{"kernel_name": "crs-hip", ".cu": 3, ".h": 1}
+{"kernel_name": "crs-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 5}
+{"kernel_name": "crs-sycl", ".cpp": 6, ".h": 4}
+{"kernel_name": "d2q9-bgk-cuda", ".cu": 1, ".gz": 1}
+{"kernel_name": "d2q9-bgk-hip", ".hipcl": 1, ".cu": 1, ".gz": 1}
+{"kernel_name": "d2q9-bgk-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".gz": 1}
+{"kernel_name": "d2q9-bgk-sycl", ".cpp": 1, ".gz": 1}
+{"kernel_name": "d3q19-bgk-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "d3q19-bgk-hip", ".cu": 1}
+{"kernel_name": "d3q19-bgk-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "damage-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "damage-hip", ".cu": 1}
+{"kernel_name": "damage-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "damage-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "daphne-cuda", ".apache": 1, ".autoware": 1, ".bsd": 1, ".cpp": 1, ".h": 2, ".cu": 1}
+{"kernel_name": "daphne-hip", ".apache": 1, ".autoware": 1, ".bsd": 1, ".cu": 1}
+{"kernel_name": "daphne-sycl", ".apache": 1, ".autoware": 1, ".bsd": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "dct8x8-cuda", ".h": 1, ".cu": 3}
+{"kernel_name": "dct8x8-hip", ".h": 1, ".cu": 3, ".hipcl": 1}
+{"kernel_name": "dct8x8-omp", ".h": 1, ".cpp": 3, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "dct8x8-sycl", ".h": 1, ".cpp": 3}
+{"kernel_name": "ddbp-cuda", ".cu": 1}
+{"kernel_name": "ddbp-hip", ".cu": 1}
+{"kernel_name": "ddbp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "ddbp-sycl", ".cpp": 1}
+{"kernel_name": "debayer-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "debayer-hip", ".h": 2, ".cu": 1}
+{"kernel_name": "debayer-omp", ".aomp": 1, ".nvc": 1, ".h": 2, ".cpp": 1}
+{"kernel_name": "debayer-sycl", ".h": 3, ".cpp": 1}
+{"kernel_name": "degrid-cuda", ".h": 1, ".cu": 2}
+{"kernel_name": "degrid-hip", ".h": 1, ".cu": 2}
+{"kernel_name": "degrid-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2, ".o": 1}
+{"kernel_name": "degrid-sycl", ".h": 1, ".cpp": 2}
+{"kernel_name": "dense-embedding-cuda", ".cu": 1}
+{"kernel_name": "dense-embedding-hip", ".cu": 1}
+{"kernel_name": "dense-embedding-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "dense-embedding-sycl", ".cpp": 1}
+{"kernel_name": "depixel-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "depixel-hip", ".cu": 1}
+{"kernel_name": "depixel-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "depixel-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "deredundancy-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "deredundancy-hip", ".hipcl": 1, ".cu": 3, ".h": 1}
+{"kernel_name": "deredundancy-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1}
+{"kernel_name": "deredundancy-sycl", ".cpp": 3, ".gz": 1, ".h": 1}
+{"kernel_name": "determinant-cuda", ".cu": 1}
+{"kernel_name": "determinant-hip", ".cu": 1}
+{"kernel_name": "determinant-sycl", ".cpp": 1}
+{"kernel_name": "diamond-cuda", ".cu": 1}
+{"kernel_name": "diamond-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "diamond-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "diamond-sycl", ".dmnd": 1, ".gz": 1, ".cpp": 59, ".h": 100, ".c": 8, ".hh": 2}
+{"kernel_name": "dispatch-cuda", ".cu": 1}
+{"kernel_name": "dispatch-hip", ".cu": 1}
+{"kernel_name": "dispatch-sycl", ".cpp": 1}
+{"kernel_name": "distort-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "distort-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "distort-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "distort-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "divergence-cuda", ".cu": 1, ".hpp": 2, ".txt": 1, ".cpp": 1}
+{"kernel_name": "divergence-hip", ".hipcl": 1, ".cu": 1, ".hpp": 2, ".txt": 1, ".cpp": 1}
+{"kernel_name": "divergence-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".hpp": 2, ".txt": 1}
+{"kernel_name": "divergence-sycl", ".cpp": 2, ".hpp": 2, ".txt": 1}
+{"kernel_name": "doh-cuda", ".cu": 1}
+{"kernel_name": "doh-hip", ".cu": 1}
+{"kernel_name": "doh-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "doh-sycl", ".cpp": 1}
+{"kernel_name": "dp-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "dp-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "dp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1, ".o": 2}
+{"kernel_name": "dp-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "dpid-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "dpid-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "dpid-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "dropout-cuda", ".cu": 1}
+{"kernel_name": "dropout-hip", ".cu": 1}
+{"kernel_name": "dropout-sycl", ".cpp": 1}
+{"kernel_name": "dslash-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "dslash-hip", ".hipcl": 1, ".cu": 3, ".h": 1}
+{"kernel_name": "dslash-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1}
+{"kernel_name": "dslash-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "dwconv-cuda", ".cu": 1}
+{"kernel_name": "dwconv-hip", ".cu": 1}
+{"kernel_name": "dwconv-sycl", ".cpp": 1}
+{"kernel_name": "dwconv1d-cuda", ".py": 1, ".cu": 1, ".cpp": 1}
+{"kernel_name": "dwconv1d-hip", ".py": 1, ".cu": 1, ".cpp": 1}
+{"kernel_name": "dwconv1d-sycl", ".py": 1, ".cpp": 2}
+{"kernel_name": "dwt2d-sycl", ".sycl": 4, ".h": 1, ".cpp": 1}
+{"kernel_name": "dxtc1-cuda", ".cu": 4, ".h": 4}
+{"kernel_name": "dxtc1-hip", ".hipcl": 1, ".cu": 4, ".h": 4}
+{"kernel_name": "dxtc2-cuda", ".h": 4, ".cu": 2}
+{"kernel_name": "dxtc2-hip", ".h": 3, ".cu": 2}
+{"kernel_name": "dxtc2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".h": 4, ".o": 3}
+{"kernel_name": "dxtc2-sycl", ".cpp": 4, ".h": 4, ".dds": 4, ".ppm": 1}
+{"kernel_name": "easyWave-cuda", ".cpp": 6, ".h": 6, ".cuh": 1, ".cu": 1}
+{"kernel_name": "easyWave-hip", ".hipcl": 1, ".cpp": 6, ".h": 6, ".cuh": 1, ".cu": 1}
+{"kernel_name": "easyWave-omp", ".aomp": 1, ".nvc": 1, ".cpp": 7, ".h": 6, ".flt": 1, ".grd": 1}
+{"kernel_name": "easyWave-sycl", ".cpp": 7, ".h": 6}
+{"kernel_name": "ecdh-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "ecdh-hip", ".cu": 1}
+{"kernel_name": "ecdh-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "ecdh-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "egs-cuda", ".h": 1, ".c": 3, ".gz": 1, ".cu": 3}
+{"kernel_name": "egs-hip", ".h": 1, ".c": 3, ".cu": 3}
+{"kernel_name": "eigenvalue-cuda", ".cu": 4, ".h": 1}
+{"kernel_name": "eigenvalue-hip", ".cu": 4, ".h": 1}
+{"kernel_name": "eigenvalue-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".h": 1, ".o": 2}
+{"kernel_name": "eigenvalue-sycl", ".cpp": 4, ".h": 1}
+{"kernel_name": "eikonal-cuda", ".md": 1, ".cu": 3, ".h": 6, ".cpp": 2}
+{"kernel_name": "eikonal-hip", ".md": 1, ".cu": 3, ".h": 3}
+{"kernel_name": "eikonal-sycl", ".md": 1, ".cpp": 4, ".h": 4}
+{"kernel_name": "entropy-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "entropy-hip", ".cu": 1}
+{"kernel_name": "entropy-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "entropy-sycl", ".cpp": 1}
+{"kernel_name": "epistasis-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "epistasis-hip", ".cu": 1}
+{"kernel_name": "epistasis-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "epistasis-sycl", ".cpp": 1}
+{"kernel_name": "ert-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "ert-hip", ".h": 2, ".cu": 1}
+{"kernel_name": "ert-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "expdist-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "expdist-hip", ".cu": 1}
+{"kernel_name": "expdist-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "expdist-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "extend2-cuda", ".txt": 1, ".cu": 1}
+{"kernel_name": "extend2-hip", ".hipcl": 1, ".txt": 1, ".cu": 1}
+{"kernel_name": "extend2-omp", ".aomp": 1, ".nvc": 1, ".txt": 1, ".cpp": 1}
+{"kernel_name": "extend2-sycl", ".txt": 1, ".cpp": 2, ".h": 1, ".bin": 17}
+{"kernel_name": "extrema-cuda", ".cu": 1}
+{"kernel_name": "extrema-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "extrema-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "extrema-sycl", ".cpp": 1}
+{"kernel_name": "f16max-cuda", ".cu": 1}
+{"kernel_name": "f16max-hip", ".cu": 1}
+{"kernel_name": "f16max-sycl", ".cpp": 1}
+{"kernel_name": "f16sp-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "f16sp-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "f16sp-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "face-cuda", ".gz": 1, ".cu": 5, ".h": 3}
+{"kernel_name": "face-hip", ".cu": 1}
+{"kernel_name": "face-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "face-sycl", ".cpp": 5, ".h": 3}
+{"kernel_name": "fdtd3d-cuda", ".cu": 5, ".h": 5}
+{"kernel_name": "fdtd3d-hip", ".cu": 5, ".h": 5, ".hipcl": 1}
+{"kernel_name": "fdtd3d-omp", ".cpp": 5, ".h": 5, ".aomp": 1, ".nvc": 1, ".o": 5}
+{"kernel_name": "fdtd3d-sycl", ".cpp": 5, ".h": 5}
+{"kernel_name": "feynman-kac-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "feynman-kac-hip", ".cu": 1}
+{"kernel_name": "feynman-kac-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "feynman-kac-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "fft-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "fft-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "fft-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "fft-sycl", ".sycl": 2, ".cpp": 1, ".h": 1}
+{"kernel_name": "fhd-cuda", ".cu": 1}
+{"kernel_name": "fhd-hip", ".cu": 1}
+{"kernel_name": "fhd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "fhd-sycl", ".cpp": 1}
+{"kernel_name": "filter-cuda", ".cu": 1}
+{"kernel_name": "filter-hip", ".cu": 1}
+{"kernel_name": "filter-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "filter-sycl", ".cpp": 1}
+{"kernel_name": "flame-cuda", ".hpp": 1, ".gz": 1, ".cu": 4}
+{"kernel_name": "flame-hip", ".hipcl": 1, ".hpp": 1, ".cu": 4}
+{"kernel_name": "flame-sycl", ".hpp": 1, ".cpp": 4}
+{"kernel_name": "flip-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "flip-hip", ".cu": 1}
+{"kernel_name": "flip-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "flip-sycl", ".cpp": 1}
+{"kernel_name": "floydwarshall-cuda", ".cu": 1}
+{"kernel_name": "floydwarshall-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "floydwarshall-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "floydwarshall-sycl", ".cpp": 1}
+{"kernel_name": "floydwarshall2-cuda", ".gz": 1, ".cu": 1}
+{"kernel_name": "floydwarshall2-hip", ".cu": 1}
+{"kernel_name": "floydwarshall2-sycl", ".cpp": 1}
+{"kernel_name": "fluidSim-cuda", ".cu": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "fluidSim-hip", ".cu": 1}
+{"kernel_name": "fluidSim-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "fluidSim-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "fpc-cuda", ".cu": 1}
+{"kernel_name": "fpc-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "fpc-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "fpc-sycl", ".cpp": 1}
+{"kernel_name": "fpdc-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "fpdc-hip", ".cu": 1}
+{"kernel_name": "fpdc-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "fpdc-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "frechet-cuda", ".cpp": 1, ".cu": 1, ".h": 3}
+{"kernel_name": "frechet-hip", ".cu": 1}
+{"kernel_name": "frechet-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 3}
+{"kernel_name": "frechet-sycl", ".cpp": 1, ".h": 3}
+{"kernel_name": "fresnel-cuda", ".cu": 5}
+{"kernel_name": "fresnel-hip", ".cu": 5}
+{"kernel_name": "fresnel-omp", ".aomp": 1, ".nvc": 1, ".cpp": 5}
+{"kernel_name": "fresnel-sycl", ".cpp": 5}
+{"kernel_name": "frna-cuda", ".seq": 1, ".h": 7, ".c": 4, ".cu": 1}
+{"kernel_name": "frna-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "frna-omp", ".aomp": 1, ".nvc": 1, ".h": 7, ".c": 4, ".cpp": 1}
+{"kernel_name": "frna-sycl", ".h": 7, ".c": 4, ".cpp": 1}
+{"kernel_name": "fsm-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "fsm-hip", ".cu": 1}
+{"kernel_name": "fsm-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "fsm-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "fwt-cuda", ".cu": 3}
+{"kernel_name": "fwt-hip", ".cu": 2}
+{"kernel_name": "fwt-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".o": 2}
+{"kernel_name": "fwt-sycl", ".cpp": 3}
+{"kernel_name": "ga-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "ga-hip", ".cu": 1}
+{"kernel_name": "ga-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "ga-sycl", ".cpp": 1}
+{"kernel_name": "gabor-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "gabor-hip", ".cu": 1}
+{"kernel_name": "gabor-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "gabor-sycl", ".cpp": 1}
+{"kernel_name": "gamma-correction-cuda", ".cpp": 1, ".cu": 1, ".hpp": 6}
+{"kernel_name": "gamma-correction-hip", ".hipcl": 1, ".cu": 1, ".hpp": 6}
+{"kernel_name": "gamma-correction-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".hpp": 6, ".o": 1}
+{"kernel_name": "gamma-correction-sycl", ".cpp": 1, ".hpp": 6}
+{"kernel_name": "gaussian-cuda", ".cu": 2, ".h": 2}
+{"kernel_name": "gaussian-hip", ".hipcl": 1, ".cu": 2, ".h": 2}
+{"kernel_name": "gaussian-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 2}
+{"kernel_name": "gaussian-sycl", ".cpp": 2, ".h": 2}
+{"kernel_name": "gc-cuda", ".cu": 1}
+{"kernel_name": "gc-hip", ".cu": 1}
+{"kernel_name": "gc-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "gc-sycl", ".cpp": 1}
+{"kernel_name": "gd-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "gd-hip", ".cu": 1}
+{"kernel_name": "gd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 2}
+{"kernel_name": "gd-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "ge-spmm-cuda", ".h": 1, ".cu": 1, ".c": 1, ".sh": 1, ".hpp": 2}
+{"kernel_name": "ge-spmm-hip", ".cu": 1, ".sh": 1}
+{"kernel_name": "ge-spmm-sycl", ".h": 1, ".cpp": 1, ".sh": 1}
+{"kernel_name": "geam-cuda", ".cu": 1}
+{"kernel_name": "geam-hip", ".cu": 1}
+{"kernel_name": "geam-sycl", ".cpp": 1}
+{"kernel_name": "gels-cuda", ".cu": 1}
+{"kernel_name": "gels-hip", ".cu": 1}
+{"kernel_name": "gels-sycl", ".cpp": 1}
+{"kernel_name": "gelu-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "gelu-hip", ".cu": 1}
+{"kernel_name": "gelu-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "gemv-cuda", ".cu": 2, ".h": 2}
+{"kernel_name": "gemv-hip", ".cu": 2, ".h": 2}
+{"kernel_name": "gemv-sycl", ".cpp": 2, ".h": 2}
+{"kernel_name": "geodesic-cuda", ".txt": 1, ".cu": 1}
+{"kernel_name": "geodesic-hip", ".hipcl": 1, ".txt": 1, ".cu": 1}
+{"kernel_name": "geodesic-omp", ".aomp": 1, ".nvc": 1, ".txt": 1, ".cpp": 1}
+{"kernel_name": "geodesic-sycl", ".gz": 1, ".cpp": 1}
+{"kernel_name": "gerbil-cuda", ".md": 1, ".h": 28, ".cu": 2, ".cpp": 15}
+{"kernel_name": "gerbil-hip", ".md": 1, ".h": 28, ".cu": 2, ".cpp": 15}
+{"kernel_name": "gibbs-cuda", ".gz": 1, ".cu": 1}
+{"kernel_name": "gibbs-hip", ".cu": 1}
+{"kernel_name": "gibbs-sycl", ".cpp": 1}
+{"kernel_name": "glu-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "glu-hip", ".cu": 1}
+{"kernel_name": "glu-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "glu-sycl", ".cpp": 1}
+{"kernel_name": "gmm-cuda", ".txt": 1, ".cu": 4, ".gz": 1, ".h": 1}
+{"kernel_name": "gmm-hip", ".hipcl": 1, ".txt": 1, ".cu": 4, ".gz": 1, ".h": 1}
+{"kernel_name": "gmm-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".gz": 1, ".h": 1}
+{"kernel_name": "gmm-sycl", ".txt": 1, ".cpp": 4, ".gz": 1, ".h": 1}
+{"kernel_name": "goulash-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "goulash-hip", ".cu": 1}
+{"kernel_name": "goulash-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "goulash-sycl", ".cpp": 1}
+{"kernel_name": "gpp-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "gpp-hip", ".cu": 1}
+{"kernel_name": "gpp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "gpp-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "graphB+-cuda", ".gz": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "graphB+-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "graphB+-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "graphExecution-cuda", ".cu": 1}
+{"kernel_name": "graphExecution-hip", ".cu": 1}
+{"kernel_name": "graphExecution-sycl", ".cpp": 1}
+{"kernel_name": "grep-cuda", ".h": 4, ".cu": 5, ".sh": 1, ".gz": 1}
+{"kernel_name": "grep-hip", ".hipcl": 1, ".h": 4, ".cu": 5, ".sh": 1}
+{"kernel_name": "grep-omp", ".aomp": 1, ".nvc": 1, ".h": 4, ".cpp": 5, ".sh": 1}
+{"kernel_name": "grep-sycl", ".h": 4, ".cpp": 5, ".sh": 1}
+{"kernel_name": "grrt-cuda", ".h": 1, ".cu": 2}
+{"kernel_name": "grrt-hip", ".h": 1, ".cu": 2}
+{"kernel_name": "grrt-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2}
+{"kernel_name": "grrt-sycl", ".h": 1, ".cpp": 2}
+{"kernel_name": "gru-cuda", ".cu": 1}
+{"kernel_name": "gru-hip", ".cu": 1}
+{"kernel_name": "gru-sycl", ".cpp": 1}
+{"kernel_name": "haccmk-cuda", ".cu": 1}
+{"kernel_name": "haccmk-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "haccmk-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "haccmk-sycl", ".cpp": 1}
+{"kernel_name": "halo-finder-cuda", ".c": 10, ".cxx": 14, ".h": 26, ".in": 1, ".mk": 3, ".hpp": 5, ".sh": 1}
+{"kernel_name": "halo-finder-hip", ".c": 10, ".cxx": 14, ".h": 26, ".in": 1, ".mk": 3, ".hpp": 5, ".sh": 1}
+{"kernel_name": "halo-finder-sycl", ".c": 9, ".cxx": 14, ".h": 26, ".mk": 3, ".hpp": 5, ".sh": 1}
+{"kernel_name": "hausdorff-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "hausdorff-hip", ".cu": 1}
+{"kernel_name": "hausdorff-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "hausdorff-sycl", ".cpp": 1}
+{"kernel_name": "haversine-cuda", ".cu": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "haversine-hip", ".cu": 1}
+{"kernel_name": "haversine-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "haversine-sycl", ".cpp": 1}
+{"kernel_name": "hbc-cuda", ".md": 1, ".cu": 1, ".cpp": 4, ".h": 3, ".gz": 1}
+{"kernel_name": "hbc-hip", ".md": 1, ".cu": 1}
+{"kernel_name": "hbc-sycl", ".md": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "heartwall-cuda", ".cu": 2, ".h": 6, ".c": 4}
+{"kernel_name": "heartwall-hip", ".hipcl": 1, ".cu": 2, ".h": 6, ".c": 4}
+{"kernel_name": "heartwall-omp", ".aomp": 1, ".nvc": 1, ".c": 5, ".cpp": 2, ".h": 6}
+{"kernel_name": "heartwall-sycl", ".c": 5, ".h": 5, ".cpp": 1, ".sycl": 1}
+{"kernel_name": "heat-cuda", ".cu": 1}
+{"kernel_name": "heat-hip", ".cu": 1}
+{"kernel_name": "heat-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "heat-sycl", ".cpp": 1}
+{"kernel_name": "heat2d-cuda", ".h": 1, ".c": 2, ".cu": 1, ".py": 2}
+{"kernel_name": "heat2d-hip", ".h": 1, ".c": 2, ".cu": 1, ".py": 2}
+{"kernel_name": "heat2d-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".c": 1, ".cpp": 1, ".py": 2}
+{"kernel_name": "heat2d-sycl", ".h": 1, ".c": 2, ".cpp": 1, ".py": 2}
+{"kernel_name": "hellinger-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "hellinger-hip", ".cu": 1}
+{"kernel_name": "hellinger-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "hellinger-sycl", ".cpp": 1}
+{"kernel_name": "henry-cuda", ".gz": 1, ".cu": 1}
+{"kernel_name": "henry-hip", ".cu": 1}
+{"kernel_name": "henry-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "henry-sycl", ".cpp": 1}
+{"kernel_name": "hexciton-cuda", ".h": 1, ".cu": 4, ".hpp": 1}
+{"kernel_name": "hexciton-hip", ".cu": 4, ".hpp": 1}
+{"kernel_name": "hexciton-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".hpp": 1}
+{"kernel_name": "hexciton-sycl", ".cpp": 3, ".hpp": 1}
+{"kernel_name": "histogram-cuda", ".cu": 1, ".h": 4}
+{"kernel_name": "histogram-hip", ".hipcl": 1, ".cu": 1, ".h": 4}
+{"kernel_name": "histogram-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".hpp": 3, ".h": 1, ".o": 1}
+{"kernel_name": "histogram-sycl", ".cpp": 1, ".hpp": 3, ".h": 1}
+{"kernel_name": "hmm-cuda", ".cu": 3}
+{"kernel_name": "hmm-hip", ".cu": 3, ".hipcl": 1}
+{"kernel_name": "hmm-omp", ".cpp": 3, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "hmm-sycl", ".cpp": 3}
+{"kernel_name": "hogbom-cuda", ".cu": 1, ".h": 4, ".cpp": 3}
+{"kernel_name": "hogbom-hip", ".cu": 1}
+{"kernel_name": "hogbom-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "hogbom-sycl", ".cpp": 1}
+{"kernel_name": "hotspot-cuda", ".cu": 1, ".h": 2}
+{"kernel_name": "hotspot-hip", ".cu": 1}
+{"kernel_name": "hotspot-sycl", ".cpp": 1, ".h": 1, ".sycl": 1}
+{"kernel_name": "hotspot3D-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "hotspot3D-hip", ".cu": 2, ".h": 1, ".hipcl": 1}
+{"kernel_name": "hotspot3D-omp", ".cpp": 2, ".h": 1, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "hotspot3D-sycl", ".cpp": 2, ".h": 1, ".sycl": 1}
+{"kernel_name": "hpl-cuda", ".md": 2, ".dat": 5, ".intel64": 1, ".top": 1, ".am": 3, ".in": 5, ".m4": 2, ".guess": 1, ".sub": 1, ".ac": 1, ".h": 19, ".a": 1, ".auxil": 1, ".blas": 1, ".comm": 1, ".gesv": 1, ".grid": 1, ".matgen": 1, ".panel": 1, ".pauxil": 1, ".pfact": 1, ".pgesv": 1, ".pmatgen": 1, ".ptest": 1, ".ptimer": 1, ".test": 1, ".timer": 1, ".units": 1, ".3": 124, ".freebsd_piv_cblas": 1, ".hpux_fblas": 1, ".i860_fblas": 1, ".irix_fblas": 1, ".linux_athlon_cblas": 1, ".linux_athlon_fblas": 1, ".linux_athlon_vsipl": 1, ".linux_intel64": 1, ".linux_pii_cblas": 1, ".linux_pii_cblas_gm": 1, ".linux_pii_fblas": 1, ".linux_pii_fblas_gm": 1, ".linux_pii_vsipl": 1, ".linux_pii_vsipl_gm": 1, ".macosx_accelerate": 1, ".pwr2_fblas": 1, ".pwr3_fblas": 1, ".pwrpc_fblas": 1, ".sun4sol2-g_fblas": 1, ".sun4sol2-g_vsipl": 1, ".sun4sol2_fblas": 1, ".t3e_fblas": 1, ".tru64_fblas": 1, ".tru64_fblas_elan": 1, ".c": 130, ".inc": 13, ".cpp": 1}
+{"kernel_name": "hpl-hip", ".md": 2, ".dat": 5, ".intel64": 1, ".top": 1, ".am": 3, ".in": 5, ".m4": 2, ".guess": 1, ".sub": 1, ".ac": 1, ".h": 19, ".a": 1, ".auxil": 1, ".blas": 1, ".comm": 1, ".gesv": 1, ".grid": 1, ".matgen": 1, ".panel": 1, ".pauxil": 1, ".pfact": 1, ".pgesv": 1, ".pmatgen": 1, ".ptest": 1, ".ptimer": 1, ".test": 1, ".timer": 1, ".units": 1, ".3": 124, ".freebsd_piv_cblas": 1, ".hpux_fblas": 1, ".i860_fblas": 1, ".irix_fblas": 1, ".linux_athlon_cblas": 1, ".linux_athlon_fblas": 1, ".linux_athlon_vsipl": 1, ".linux_intel64": 1, ".linux_pii_cblas": 1, ".linux_pii_cblas_gm": 1, ".linux_pii_fblas": 1, ".linux_pii_fblas_gm": 1, ".linux_pii_vsipl": 1, ".linux_pii_vsipl_gm": 1, ".macosx_accelerate": 1, ".pwr2_fblas": 1, ".pwr3_fblas": 1, ".pwrpc_fblas": 1, ".sun4sol2-g_fblas": 1, ".sun4sol2-g_vsipl": 1, ".sun4sol2_fblas": 1, ".t3e_fblas": 1, ".tru64_fblas": 1, ".tru64_fblas_elan": 1, ".c": 130, ".inc": 13, ".cpp": 1}
+{"kernel_name": "hpl-sycl", ".md": 2, ".dat": 5, ".intel64": 1, ".top": 1, ".am": 3, ".in": 5, ".m4": 2, ".guess": 1, ".sub": 1, ".ac": 1, ".h": 19, ".a": 1, ".auxil": 1, ".blas": 1, ".comm": 1, ".gesv": 1, ".grid": 1, ".matgen": 1, ".panel": 1, ".pauxil": 1, ".pfact": 1, ".pgesv": 1, ".pmatgen": 1, ".ptest": 1, ".ptimer": 1, ".test": 1, ".timer": 1, ".units": 1, ".3": 124, ".freebsd_piv_cblas": 1, ".hpux_fblas": 1, ".i860_fblas": 1, ".irix_fblas": 1, ".linux_athlon_cblas": 1, ".linux_athlon_fblas": 1, ".linux_athlon_vsipl": 1, ".linux_intel64": 1, ".linux_pii_cblas": 1, ".linux_pii_cblas_gm": 1, ".linux_pii_fblas": 1, ".linux_pii_fblas_gm": 1, ".linux_pii_vsipl": 1, ".linux_pii_vsipl_gm": 1, ".macosx_accelerate": 1, ".pwr2_fblas": 1, ".pwr3_fblas": 1, ".pwrpc_fblas": 1, ".sun4sol2-g_fblas": 1, ".sun4sol2-g_vsipl": 1, ".sun4sol2_fblas": 1, ".t3e_fblas": 1, ".tru64_fblas": 1, ".tru64_fblas_elan": 1, ".c": 130, ".inc": 13, ".cpp": 1}
+{"kernel_name": "hungarian-cuda", ".cu": 1}
+{"kernel_name": "hungarian-hip", ".cu": 1}
+{"kernel_name": "hungarian-sycl", ".cpp": 1}
+{"kernel_name": "hwt1d-cuda", ".h": 1, ".cu": 3}
+{"kernel_name": "hwt1d-hip", ".h": 1, ".cu": 3}
+{"kernel_name": "hwt1d-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2, ".o": 2}
+{"kernel_name": "hwt1d-sycl", ".h": 1, ".cpp": 3}
+{"kernel_name": "hybridsort-cuda", ".cu": 3, ".h": 14, ".cpp": 3}
+{"kernel_name": "hybridsort-hip", ".hipcl": 1, ".cu": 3, ".h": 7}
+{"kernel_name": "hybridsort-omp", ".aomp": 1, ".nvc": 1, ".c": 3, ".h": 7}
+{"kernel_name": "hybridsort-sycl", ".c": 3, ".h": 2, ".sycl": 5}
+{"kernel_name": "hypterm-cuda", ".cu": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "hypterm-hip", ".cu": 1}
+{"kernel_name": "hypterm-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "hypterm-sycl", ".cpp": 1}
+{"kernel_name": "idivide-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "idivide-hip", ".cu": 1}
+{"kernel_name": "idivide-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "idivide-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "interleave-cuda", ".cu": 1, ".cpp": 1}
+{"kernel_name": "interleave-hip", ".hipcl": 1, ".cu": 1, ".cpp": 1}
+{"kernel_name": "interleave-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "interleave-sycl", ".cpp": 2}
+{"kernel_name": "interval-cuda", ".h": 5, ".cu": 1, ".hpp": 102}
+{"kernel_name": "interval-hip", ".h": 4, ".cu": 1}
+{"kernel_name": "interval-omp", ".aomp": 1, ".nvc": 1, ".h": 4, ".cpp": 1}
+{"kernel_name": "interval-sycl", ".h": 4, ".cpp": 1}
+{"kernel_name": "intrinsics-cast-cuda", ".cu": 1}
+{"kernel_name": "intrinsics-cast-hip", ".cu": 1}
+{"kernel_name": "intrinsics-cast-sycl", ".cpp": 1}
+{"kernel_name": "intrinsics-simd-cuda", ".cu": 1}
+{"kernel_name": "inversek2j-cuda", ".cu": 1}
+{"kernel_name": "inversek2j-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "inversek2j-omp", ".aomp": 1, ".nvc": 1, ".txt": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "inversek2j-sycl", ".txt": 1, ".cpp": 1}
+{"kernel_name": "is-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "is-hip", ".cu": 1}
+{"kernel_name": "is-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "ising-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "ising-hip", ".hipcl": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "ising-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "ising-sycl", ".cpp": 1}
+{"kernel_name": "iso2dfd-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "iso2dfd-hip", ".hipcl": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "iso2dfd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1, ".o": 1}
+{"kernel_name": "iso2dfd-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "jaccard-cuda", ".cu": 1}
+{"kernel_name": "jaccard-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "jaccard-sycl", ".cpp": 1}
+{"kernel_name": "jacobi-cuda", ".cu": 1}
+{"kernel_name": "jacobi-hip", ".cu": 1}
+{"kernel_name": "jacobi-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "jacobi-sycl", ".cpp": 1}
+{"kernel_name": "jenkins-hash-cuda", ".cu": 1}
+{"kernel_name": "jenkins-hash-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "jenkins-hash-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "jenkins-hash-sycl", ".cpp": 1}
+{"kernel_name": "kalman-cuda", ".cu": 1}
+{"kernel_name": "kalman-hip", ".cu": 1}
+{"kernel_name": "kalman-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "kalman-sycl", ".cpp": 1}
+{"kernel_name": "keccaktreehash-cuda", ".cu": 5, ".h": 6}
+{"kernel_name": "keccaktreehash-hip", ".cu": 5, ".h": 6, ".hipcl": 1}
+{"kernel_name": "keccaktreehash-omp", ".cpp": 5, ".h": 6, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "keccaktreehash-sycl", ".cpp": 5, ".h": 6}
+{"kernel_name": "keogh-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "keogh-hip", ".cu": 1}
+{"kernel_name": "keogh-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "keogh-sycl", ".cpp": 1}
+{"kernel_name": "kernelLaunch-cuda", ".cu": 1}
+{"kernel_name": "kernelLaunch-hip", ".cu": 1}
+{"kernel_name": "kernelLaunch-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "kernelLaunch-sycl", ".cpp": 1}
+{"kernel_name": "kmc-cuda", ".c": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "kmc-hip", ".cpp": 1}
+{"kernel_name": "kmc-sycl", ".cpp": 1}
+{"kernel_name": "kmeans-cuda", ".cu": 1, ".cpp": 4, ".h": 2}
+{"kernel_name": "kmeans-hip", ".hipcl": 1, ".cu": 1, ".cpp": 4, ".h": 2}
+{"kernel_name": "kmeans-omp", ".aomp": 1, ".nvc": 1, ".c": 5, ".h": 2}
+{"kernel_name": "kmeans-sycl", ".c": 5, ".h": 2}
+{"kernel_name": "knn-cuda", ".cu": 1}
+{"kernel_name": "knn-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "knn-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "knn-sycl", ".cpp": 1}
+{"kernel_name": "kurtosis-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "kurtosis-hip", ".cu": 1}
+{"kernel_name": "kurtosis-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "lanczos-cuda", ".h": 7, ".cu": 2, ".py": 1}
+{"kernel_name": "lanczos-hip", ".hipcl": 1, ".h": 7, ".cu": 2, ".py": 1}
+{"kernel_name": "lanczos-omp", ".aomp": 1, ".nvc": 1, ".h": 7, ".cpp": 2, ".py": 1}
+{"kernel_name": "lanczos-sycl", ".h": 7, ".cpp": 2, ".py": 1}
+{"kernel_name": "langevin-cuda", ".cu": 1}
+{"kernel_name": "langevin-hip", ".cu": 1}
+{"kernel_name": "langevin-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "langevin-sycl", ".cpp": 1}
+{"kernel_name": "langford-cuda", ".cu": 1}
+{"kernel_name": "langford-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "langford-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "langford-sycl", ".cpp": 1}
+{"kernel_name": "laplace-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "laplace-hip", ".hipcl": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "laplace-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1, ".o": 1}
+{"kernel_name": "laplace-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "laplace3d-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "laplace3d-hip", ".cu": 1}
+{"kernel_name": "laplace3d-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "laplace3d-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "lavaMD-cuda", ".h": 4, ".cu": 3}
+{"kernel_name": "lavaMD-hip", ".hipcl": 1, ".h": 4, ".cu": 3}
+{"kernel_name": "lavaMD-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 3, ".o": 3}
+{"kernel_name": "lavaMD-sycl", ".sycl": 1, ".cpp": 3, ".h": 3}
+{"kernel_name": "layernorm-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "layernorm-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "layernorm-sycl", ".hpp": 1, ".cpp": 1}
+{"kernel_name": "layout-cuda", ".cu": 1}
+{"kernel_name": "layout-hip", ".cu": 1}
+{"kernel_name": "layout-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "layout-sycl", ".cpp": 1}
+{"kernel_name": "lci-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "lci-hip", ".cu": 1}
+{"kernel_name": "lci-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "lci-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "lda-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "lda-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "lda-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "lda-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "ldpc-cuda", ".h": 2, ".cu": 3}
+{"kernel_name": "ldpc-hip", ".h": 2, ".hipcl": 1, ".cu": 3}
+{"kernel_name": "ldpc-omp", ".h": 2, ".aomp": 1, ".nvc": 1, ".cpp": 3}
+{"kernel_name": "ldpc-sycl", ".h": 2, ".cpp": 3}
+{"kernel_name": "lebesgue-cuda", ".cu": 1, ".h": 1, ".cpp": 2}
+{"kernel_name": "lebesgue-hip", ".cu": 1}
+{"kernel_name": "lebesgue-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "lebesgue-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "leukocyte-cuda", ".c": 82, ".h": 34, ".sh": 1, ".cache": 1, ".in": 3, ".dat": 2, ".gz": 1, ".z": 1, ".uu": 2, ".1": 1, ".2": 1, ".3": 1, ".zip": 2, ".mak": 1}
+{"kernel_name": "leukocyte-hip", ".hipcl": 1, ".c": 82, ".h": 34, ".cache": 1, ".in": 3, ".dat": 2, ".gz": 1, ".z": 1, ".uu": 2, ".1": 1, ".2": 1, ".3": 1, ".zip": 2, ".mak": 1}
+{"kernel_name": "leukocyte-omp", ".aomp": 1, ".nvc": 1, ".c": 82, ".h": 34, ".cache": 1, ".in": 3, ".dat": 2, ".gz": 1, ".z": 1, ".uu": 2, ".1": 1, ".2": 1, ".3": 1, ".zip": 2, ".mak": 1}
+{"kernel_name": "leukocyte-sycl", ".c": 82, ".h": 31, ".sycl": 3, ".cache": 1, ".in": 3, ".dat": 2, ".gz": 1, ".z": 1, ".uu": 2, ".1": 1, ".2": 1, ".3": 1, ".zip": 2, ".mak": 1}
+{"kernel_name": "lfib4-cuda", ".cu": 1}
+{"kernel_name": "lfib4-hip", ".cu": 1}
+{"kernel_name": "lfib4-sycl", ".cpp": 1}
+{"kernel_name": "libor-cuda", ".cu": 1}
+{"kernel_name": "libor-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "libor-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "libor-sycl", ".cpp": 1}
+{"kernel_name": "lid-driven-cavity-cuda", ".cu": 1}
+{"kernel_name": "lid-driven-cavity-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "lid-driven-cavity-omp", ".aomp": 1, ".nvc": 1, ".h": 11, ".cpp": 1}
+{"kernel_name": "lid-driven-cavity-sycl", ".sycl": 11, ".h": 1, ".cpp": 2}
+{"kernel_name": "lif-cuda", ".cu": 1}
+{"kernel_name": "lif-hip", ".cu": 1}
+{"kernel_name": "lif-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "lif-sycl", ".cpp": 1}
+{"kernel_name": "linearprobing-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "linearprobing-hip", ".cu": 3, ".h": 1}
+{"kernel_name": "linearprobing-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 3}
+{"kernel_name": "linearprobing-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "local-ht-cuda", ".dat": 12, ".cu": 3, ".hpp": 2, ".sh": 1}
+{"kernel_name": "log2-cuda", ".h": 1, ".config": 1, ".cu": 1}
+{"kernel_name": "log2-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "log2-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "log2-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "logan-cuda", ".txt": 1, ".cuh": 4, ".cu": 4}
+{"kernel_name": "logan-hip", ".cuh": 4, ".cu": 4}
+{"kernel_name": "logan-sycl", ".hpp": 4, ".cpp": 4}
+{"kernel_name": "logic-resim-cuda", ".md": 1, ".h": 17, ".cpp": 12, ".cu": 1, ".vcd": 1, ".file": 1}
+{"kernel_name": "logic-resim-hip", ".md": 1, ".h": 17, ".cpp": 12, ".cu": 1, ".prehip": 2}
+{"kernel_name": "logic-resim-sycl", ".md": 1, ".h": 17, ".cpp": 13}
+{"kernel_name": "logic-rewrite-cuda", ".hpp": 1, ".cu": 11, ".h": 45, ".cuh": 10, ".inc": 1}
+{"kernel_name": "logic-rewrite-hip", ".hpp": 1, ".cu": 11, ".h": 45, ".cuh": 10, ".inc": 1}
+{"kernel_name": "logprob-cuda", ".cu": 1, ".h": 2}
+{"kernel_name": "logprob-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "logprob-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "lombscargle-cuda", ".cu": 1}
+{"kernel_name": "lombscargle-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "lombscargle-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "lombscargle-sycl", ".cpp": 1}
+{"kernel_name": "loopback-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "loopback-hip", ".cu": 2}
+{"kernel_name": "loopback-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "loopback-sycl", ".cpp": 2}
+{"kernel_name": "lr-cuda", ".h": 2, ".cu": 3}
+{"kernel_name": "lr-hip", ".cu": 1}
+{"kernel_name": "lr-omp", ".aomp": 1, ".nvc": 1, ".h": 2, ".cpp": 3}
+{"kernel_name": "lr-sycl", ".gz": 1, ".h": 2, ".cpp": 3}
+{"kernel_name": "lrn-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "lrn-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "lrn-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "lrn-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "lsqt-cuda", ".cpu": 1, ".gpu": 1, ".cu": 10, ".h": 8, ".gz": 1}
+{"kernel_name": "lsqt-hip", ".cpu": 1, ".gpu": 1, ".cu": 10, ".h": 8}
+{"kernel_name": "lsqt-omp", ".cpp": 10, ".h": 8, ".cpu": 1, ".gpu": 1, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "lsqt-sycl", ".cpp": 10, ".h": 7}
+{"kernel_name": "lud-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "lud-hip", ".hipcl": 1, ".cu": 3, ".h": 1}
+{"kernel_name": "lud-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".c": 1, ".h": 1}
+{"kernel_name": "lud-sycl", ".sycl": 3, ".cpp": 2, ".h": 1}
+{"kernel_name": "ludb-cuda", ".cu": 1}
+{"kernel_name": "ludb-hip", ".cu": 1}
+{"kernel_name": "ludb-sycl", ".cpp": 1}
+{"kernel_name": "lulesh-cuda", ".cu": 4, ".h": 1}
+{"kernel_name": "lulesh-hip", ".hipcl": 1, ".cu": 4, ".h": 1}
+{"kernel_name": "lulesh-omp", ".aomp": 1, ".nvc": 1, ".cc": 4, ".h": 1}
+{"kernel_name": "lulesh-sycl", ".cc": 5, ".h": 2}
+{"kernel_name": "lzss-cuda", ".md": 1, ".sh": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "lzss-hip", ".cu": 1}
+{"kernel_name": "lzss-sycl", ".cpp": 1}
+{"kernel_name": "mallocFree-cuda", ".cu": 1}
+{"kernel_name": "mallocFree-hip", ".cu": 1}
+{"kernel_name": "mallocFree-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "mallocFree-sycl", ".cpp": 1}
+{"kernel_name": "mandelbrot-cuda", ".hpp": 2, ".cu": 1}
+{"kernel_name": "mandelbrot-hip", ".hipcl": 1, ".hpp": 2, ".cu": 1}
+{"kernel_name": "mandelbrot-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".hpp": 2, ".o": 1}
+{"kernel_name": "mandelbrot-sycl", ".cpp": 1, ".hpp": 2}
+{"kernel_name": "marchingCubes-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "marchingCubes-hip", ".cu": 1}
+{"kernel_name": "marchingCubes-sycl", ".cpp": 1}
+{"kernel_name": "mask-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "mask-hip", ".cu": 1}
+{"kernel_name": "mask-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "mask-sycl", ".cpp": 1}
+{"kernel_name": "match-cuda", ".cu": 1}
+{"kernel_name": "match-hip", ".cu": 1}
+{"kernel_name": "match-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "match-sycl", ".cpp": 1}
+{"kernel_name": "matern-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "matern-hip", ".cu": 1}
+{"kernel_name": "matern-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "matern-sycl", ".cpp": 1}
+{"kernel_name": "matrix-rotate-cuda", ".cu": 1}
+{"kernel_name": "matrix-rotate-hip", ".cu": 1}
+{"kernel_name": "matrix-rotate-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "matrix-rotate-sycl", ".cpp": 1}
+{"kernel_name": "matrixT-cuda", ".cu": 1}
+{"kernel_name": "matrixT-hip", ".cu": 1}
+{"kernel_name": "matrixT-sycl", ".cpp": 1}
+{"kernel_name": "maxFlops-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "maxFlops-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "maxFlops-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "maxFlops-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "maxpool3d-cuda", ".cu": 1}
+{"kernel_name": "maxpool3d-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "maxpool3d-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "maxpool3d-sycl", ".cpp": 1}
+{"kernel_name": "mcmd-cuda", ".cpp": 33, ".cu": 1, ".txt": 1, ".pqr": 1, ".inp": 1}
+{"kernel_name": "mcmd-hip", ".cu": 1}
+{"kernel_name": "mcmd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "mcmd-sycl", ".cpp": 1}
+{"kernel_name": "mcpr-cuda", ".bz2": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "mcpr-hip", ".cu": 1}
+{"kernel_name": "mcpr-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "mcpr-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "md-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "md-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "md-omp", ".h": 1, ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "md-sycl", ".h": 3, ".cpp": 1}
+{"kernel_name": "md5hash-cuda", ".cpp": 1, ".cu": 1}
+{"kernel_name": "md5hash-hip", ".cu": 1, ".hipcl": 1}
+{"kernel_name": "md5hash-omp", ".cpp": 1, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "md5hash-sycl", ".cpp": 1}
+{"kernel_name": "mdh-cuda", ".cu": 2, ".h": 2}
+{"kernel_name": "mdh-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "mdh-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "mdh-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "meanshift-cuda", ".md": 1, ".h": 2, ".gz": 1, ".cu": 1}
+{"kernel_name": "meanshift-hip", ".cu": 1}
+{"kernel_name": "meanshift-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "meanshift-sycl", ".cpp": 1}
+{"kernel_name": "medianfilter-cuda", ".cu": 4, ".h": 1}
+{"kernel_name": "medianfilter-hip", ".hipcl": 1, ".cu": 4, ".h": 1}
+{"kernel_name": "medianfilter-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 3}
+{"kernel_name": "medianfilter-sycl", ".cpp": 4, ".h": 1, ".ppm": 1}
+{"kernel_name": "memcpy-cuda", ".cu": 1}
+{"kernel_name": "memcpy-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "memcpy-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "memcpy-sycl", ".cpp": 1}
+{"kernel_name": "memtest-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "memtest-hip", ".cu": 1}
+{"kernel_name": "memtest-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "memtest-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "merge-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "merge-hip", ".cu": 1}
+{"kernel_name": "merge-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "merge-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "merkle-cuda", ".cu": 5, ".hpp": 4}
+{"kernel_name": "merkle-hip", ".cu": 5, ".hpp": 4}
+{"kernel_name": "merkle-sycl", ".cpp": 5, ".hpp": 4}
+{"kernel_name": "metropolis-cuda", ".h": 6, ".cu": 3}
+{"kernel_name": "metropolis-hip", ".h": 6, ".cu": 3}
+{"kernel_name": "metropolis-omp", ".aomp": 1, ".nvc": 1, ".h": 6, ".cpp": 3}
+{"kernel_name": "metropolis-sycl", ".h": 6, ".cpp": 3}
+{"kernel_name": "mf-sgd-cuda", ".md": 1, ".cpp": 1, ".cu": 1, ".h": 2}
+{"kernel_name": "mf-sgd-hip", ".md": 1, ".cpp": 1, ".cu": 1, ".h": 2}
+{"kernel_name": "mf-sgd-sycl", ".md": 1, ".cpp": 2, ".h": 2}
+{"kernel_name": "michalewicz-cuda", ".cu": 1}
+{"kernel_name": "michalewicz-hip", ".cu": 1}
+{"kernel_name": "michalewicz-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "michalewicz-sycl", ".cpp": 1}
+{"kernel_name": "miniDGS-cuda", ".in": 1, ".osx": 1, ".rtc": 1, ".h": 27, ".c": 126, ".pdf": 1, ".ps": 1, ".neu": 1, ".cu": 1}
+{"kernel_name": "miniFE-cuda", ".hpp": 95, ".cpp": 13, ".serial": 6, ".debug": 1, ".purify": 1, ".quantify": 1, ".redstorm": 1, ".tbb": 1, ".tpi": 1, ".cuh": 2, ".0": 6, ".1": 3, ".am": 3, ".in": 6, ".h": 11, ".m4": 13, ".ac": 1, ".cmake": 1, ".guess": 1, ".sub": 1, ".pl": 6, ".c": 15, ".cu": 2}
+{"kernel_name": "miniFE-hip", ".hpp": 95, ".cpp": 13, ".serial": 6, ".debug": 1, ".purify": 1, ".quantify": 1, ".redstorm": 1, ".tbb": 1, ".tpi": 1, ".cuh": 2, ".0": 6, ".1": 3, ".am": 3, ".in": 6, ".h": 11, ".m4": 13, ".ac": 1, ".cmake": 1, ".guess": 1, ".sub": 1, ".pl": 6, ".c": 15, ".cu": 2, ".hipcl": 1}
+{"kernel_name": "miniFE-omp", ".hpp": 93, ".cpp": 13, ".serial": 6, ".debug": 1, ".purify": 1, ".quantify": 1, ".redstorm": 1, ".tbb": 1, ".tpi": 1, ".cuh": 2, ".0": 6, ".1": 3, ".am": 3, ".in": 6, ".h": 11, ".m4": 13, ".ac": 1, ".cmake": 1, ".guess": 1, ".sub": 1, ".pl": 6, ".c": 15, ".cu": 2, ".aomp": 1, ".nvc": 1}
+{"kernel_name": "miniFE-sycl", ".hpp": 93, ".cpp": 13, ".serial": 6, ".debug": 1, ".purify": 1, ".quantify": 1, ".redstorm": 1, ".tbb": 1, ".tpi": 1, ".cuh": 2, ".0": 6, ".1": 3, ".am": 3, ".in": 6, ".h": 11, ".m4": 13, ".ac": 1, ".cmake": 1, ".guess": 1, ".sub": 1, ".pl": 6, ".c": 15, ".cu": 2}
+{"kernel_name": "miniWeather-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "miniWeather-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "miniWeather-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "miniWeather-sycl", ".cpp": 1}
+{"kernel_name": "minibude-cuda", ".txt": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "minibude-hip", ".txt": 1, ".hipcl": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "minibude-omp", ".txt": 1, ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2}
+{"kernel_name": "minibude-sycl", ".txt": 1, ".h": 1, ".gz": 1, ".cpp": 2}
+{"kernel_name": "minimap2-cuda", ".cu": 2, ".h": 6, ".cpp": 4}
+{"kernel_name": "minimap2-hip", ".hipcl": 1, ".cu": 2, ".h": 6, ".cpp": 4}
+{"kernel_name": "minimap2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 5, ".h": 6}
+{"kernel_name": "minimap2-sycl", ".gz": 1, ".cpp": 6, ".h": 6}
+{"kernel_name": "minimod-cuda", ".cu": 6, ".h": 4}
+{"kernel_name": "minimod-hip", ".cu": 6, ".h": 4}
+{"kernel_name": "minimod-sycl", ".cpp": 6, ".h": 4}
+{"kernel_name": "minisweep-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "minisweep-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "minisweep-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 1}
+{"kernel_name": "minisweep-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "minkowski-cuda", ".cu": 1, ".cpp": 1}
+{"kernel_name": "minkowski-hip", ".cu": 1}
+{"kernel_name": "minkowski-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "minkowski-sycl", ".cpp": 1}
+{"kernel_name": "minmax-cuda", ".cu": 1, ".hpp": 2}
+{"kernel_name": "minmax-hip"}
+{"kernel_name": "minmax-sycl", ".cpp": 1}
+{"kernel_name": "mis-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "mis-hip", ".cu": 1}
+{"kernel_name": "mis-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "mis-sycl", ".cpp": 1}
+{"kernel_name": "mixbench-cuda", ".cu": 1}
+{"kernel_name": "mixbench-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "mixbench-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "mixbench-sycl", ".cpp": 1}
+{"kernel_name": "mmcsf-cuda", ".py": 1, ".cu": 3, ".h": 3, ".tns": 1}
+{"kernel_name": "mmcsf-hip", ".cu": 2, ".h": 2}
+{"kernel_name": "mmcsf-sycl", ".cpp": 3, ".h": 3}
+{"kernel_name": "mnist-cuda", ".zip": 1, ".h": 3, ".cu": 1}
+{"kernel_name": "mnist-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "mnist-sycl", ".h": 3, ".cpp": 1}
+{"kernel_name": "morphology-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "morphology-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "morphology-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "morphology-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "mpc-cuda", ".c": 1, ".cu": 1, ".h": 1}
+{"kernel_name": "mpc-hip", ".cu": 1}
+{"kernel_name": "mpc-sycl", ".cpp": 1}
+{"kernel_name": "mr-cuda", ".h": 6, ".cu": 1}
+{"kernel_name": "mr-hip", ".cu": 1}
+{"kernel_name": "mr-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "mr-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "mrc-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "mrc-hip", ".cu": 1}
+{"kernel_name": "mrc-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "mrc-sycl", ".cpp": 1}
+{"kernel_name": "mrg32k3a-cuda", ".cu": 1}
+{"kernel_name": "mrg32k3a-hip", ".cu": 1}
+{"kernel_name": "mrg32k3a-sycl", ".cpp": 1}
+{"kernel_name": "mriQ-cuda", ".cu": 2, ".cc": 1, ".h": 1}
+{"kernel_name": "mriQ-hip", ".cu": 2}
+{"kernel_name": "mriQ-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "mriQ-sycl", ".cpp": 2}
+{"kernel_name": "mt-cuda", ".cu": 3, ".h": 2, ".gz": 1}
+{"kernel_name": "mt-hip", ".cu": 3, ".h": 2, ".hipcl": 1, ".gz": 1}
+{"kernel_name": "mt-omp", ".cpp": 3, ".h": 2, ".aomp": 1, ".nvc": 1, ".gz": 1}
+{"kernel_name": "mt-sycl", ".cpp": 3, ".h": 2, ".gz": 1}
+{"kernel_name": "mtf-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "mtf-hip"}
+{"kernel_name": "mtf-sycl", ".cpp": 1}
+{"kernel_name": "multimaterial-cuda", ".cu": 3, ".tgz": 1}
+{"kernel_name": "multimaterial-hip", ".hipcl": 1, ".cu": 3}
+{"kernel_name": "multimaterial-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3}
+{"kernel_name": "multimaterial-sycl", ".cpp": 3}
+{"kernel_name": "multinomial-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "multinomial-hip", ".cu": 1}
+{"kernel_name": "multinomial-sycl", ".cpp": 1}
+{"kernel_name": "murmurhash3-cuda", ".cu": 1}
+{"kernel_name": "murmurhash3-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "murmurhash3-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "murmurhash3-sycl", ".cpp": 1}
+{"kernel_name": "myocyte-cuda", ".h": 1, ".cu": 9, ".c": 1}
+{"kernel_name": "myocyte-hip", ".hipcl": 1, ".h": 1, ".cu": 9, ".c": 1}
+{"kernel_name": "myocyte-omp", ".aomp": 1, ".nvc": 1, ".h": 6, ".c": 8}
+{"kernel_name": "myocyte-sycl", ".h": 1, ".cpp": 9, ".c": 1}
+{"kernel_name": "nbnxm-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "nbnxm-hip", ".cu": 1}
+{"kernel_name": "nbnxm-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "nbody-cuda", ".cu": 2, ".hpp": 4, ".txt": 1, ".md": 1}
+{"kernel_name": "nbody-hip", ".cu": 2, ".hpp": 4, ".txt": 1, ".hipcl": 1, ".md": 1}
+{"kernel_name": "nbody-omp", ".cpp": 2, ".hpp": 3, ".txt": 1, ".aomp": 1, ".nvc": 1, ".o": 2}
+{"kernel_name": "nbody-sycl", ".cpp": 2, ".hpp": 3, ".txt": 1, ".md": 1}
+{"kernel_name": "ne-cuda", ".cu": 1}
+{"kernel_name": "ne-hip", ".cu": 1}
+{"kernel_name": "ne-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "ne-sycl", ".cpp": 1}
+{"kernel_name": "nlll-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "nlll-hip", ".cu": 1}
+{"kernel_name": "nlll-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "nlll-sycl", ".cpp": 1}
+{"kernel_name": "nms-cuda", ".txt": 1, ".cu": 1}
+{"kernel_name": "nms-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "nms-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "nms-sycl", ".cpp": 1}
+{"kernel_name": "nn-cuda", ".txt": 1, ".cu": 2, ".h": 2}
+{"kernel_name": "nn-hip", ".hipcl": 1, ".txt": 1, ".cu": 2, ".h": 2}
+{"kernel_name": "nn-omp", ".aomp": 1, ".nvc": 1, ".txt": 1, ".cpp": 2, ".h": 2}
+{"kernel_name": "nn-sycl", ".txt": 1, ".cpp": 2, ".h": 2}
+{"kernel_name": "nonzero-cuda", ".cu": 1}
+{"kernel_name": "nonzero-hip", ".cu": 1}
+{"kernel_name": "nonzero-sycl", ".cpp": 1}
+{"kernel_name": "norm2-cuda", ".cu": 1}
+{"kernel_name": "norm2-hip", ".cu": 1}
+{"kernel_name": "norm2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "norm2-sycl", ".cpp": 1}
+{"kernel_name": "nosync-cuda", ".cu": 1}
+{"kernel_name": "nosync-hip", ".cu": 1}
+{"kernel_name": "nosync-sycl", ".cpp": 1}
+{"kernel_name": "nqueen-cuda", ".cu": 1}
+{"kernel_name": "nqueen-hip", ".cu": 1}
+{"kernel_name": "nqueen-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "nqueen-sycl", ".cpp": 1}
+{"kernel_name": "ntt-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "ntt-hip", ".cu": 1}
+{"kernel_name": "ntt-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "ntt-sycl", ".cpp": 1}
+{"kernel_name": "nw-cuda", ".cu": 1, ".cpp": 1}
+{"kernel_name": "nw-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "nw-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "nw-sycl", ".sycl": 2, ".cpp": 1}
+{"kernel_name": "openmp-cuda", ".cu": 1}
+{"kernel_name": "openmp-hip", ".cu": 1}
+{"kernel_name": "openmp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "openmp-sycl", ".cpp": 1}
+{"kernel_name": "opticalFlow-cuda", ".cuh": 6, ".h": 8, ".cu": 3}
+{"kernel_name": "opticalFlow-hip", ".cuh": 6, ".h": 3, ".cu": 3}
+{"kernel_name": "opticalFlow-sycl", ".hpp": 6, ".h": 3, ".cpp": 3}
+{"kernel_name": "overlap-cuda", ".cu": 1}
+{"kernel_name": "overlap-hip", ".cu": 1}
+{"kernel_name": "overlap-sycl", ".cpp": 1}
+{"kernel_name": "overlay-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "overlay-hip", ".cu": 1}
+{"kernel_name": "overlay-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "overlay-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "p2p-cuda", ".cu": 1}
+{"kernel_name": "p2p-hip", ".cu": 1}
+{"kernel_name": "p2p-sycl", ".cpp": 1}
+{"kernel_name": "p4-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "p4-hip", ".cu": 1}
+{"kernel_name": "p4-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "p4-sycl", ".cpp": 1}
+{"kernel_name": "pad-cuda", ".cpp": 1, ".cu": 2, ".h": 5}
+{"kernel_name": "pad-hip", ".cu": 2}
+{"kernel_name": "pad-sycl", ".cpp": 3, ".h": 5}
+{"kernel_name": "page-rank-cuda", ".cu": 1}
+{"kernel_name": "page-rank-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "page-rank-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "page-rank-sycl", ".cpp": 1}
+{"kernel_name": "particle-diffusion-cuda", ".cu": 1}
+{"kernel_name": "particle-diffusion-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "particle-diffusion-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "particle-diffusion-sycl", ".cpp": 1}
+{"kernel_name": "particlefilter-cuda", ".h": 4, ".cu": 1}
+{"kernel_name": "particlefilter-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "particlefilter-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "particlefilter-sycl", ".sycl": 4, ".cpp": 1}
+{"kernel_name": "particles-cuda", ".cu": 5, ".h": 1}
+{"kernel_name": "particles-hip", ".hipcl": 1, ".cu": 5}
+{"kernel_name": "particles-omp", ".aomp": 1, ".nvc": 1, ".cpp": 5, ".h": 1}
+{"kernel_name": "particles-sycl", ".cpp": 5, ".h": 1}
+{"kernel_name": "pathfinder-cuda", ".cu": 1}
+{"kernel_name": "pathfinder-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "pathfinder-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "pathfinder-sycl", ".sycl": 1, ".cpp": 1}
+{"kernel_name": "pcc-cuda", ".cu": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "pcc-hip", ".cu": 1}
+{"kernel_name": "pcc-sycl", ".cpp": 1}
+{"kernel_name": "perlin-cuda", ".cu": 2, ".hpp": 3}
+{"kernel_name": "perlin-hip", ".cu": 2, ".hpp": 3}
+{"kernel_name": "perlin-sycl", ".cpp": 2, ".hpp": 3}
+{"kernel_name": "permutate-cuda", ".cuh": 2, ".cu": 1, ".h": 3, ".cpp": 11}
+{"kernel_name": "permutate-hip", ".cuh": 2, ".cu": 1}
+{"kernel_name": "permutate-omp", ".aomp": 1, ".nvc": 1, ".hpp": 2, ".cpp": 1}
+{"kernel_name": "permutate-sycl", ".hpp": 2, ".cpp": 1}
+{"kernel_name": "permute-cuda", ".cu": 1}
+{"kernel_name": "permute-hip", ".cu": 1}
+{"kernel_name": "permute-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "permute-sycl", ".cpp": 1}
+{"kernel_name": "perplexity-cuda", ".cu": 1, ".cpp": 1}
+{"kernel_name": "perplexity-hip", ".cu": 1}
+{"kernel_name": "perplexity-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "perplexity-sycl", ".cpp": 1}
+{"kernel_name": "phmm-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "phmm-hip", ".cu": 1}
+{"kernel_name": "phmm-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "phmm-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "pingpong-cuda", ".cu": 2}
+{"kernel_name": "pingpong-hip", ".cu": 2}
+{"kernel_name": "pingpong-sycl", ".cpp": 2}
+{"kernel_name": "pitch-cuda", ".cu": 1}
+{"kernel_name": "pitch-hip", ".cu": 1}
+{"kernel_name": "pitch-sycl", ".cpp": 1}
+{"kernel_name": "pnpoly-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "pnpoly-hip", ".cu": 1}
+{"kernel_name": "pnpoly-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "pnpoly-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "pns-cuda", ".cu": 3, ".h": 2}
+{"kernel_name": "pns-hip", ".cu": 1}
+{"kernel_name": "pns-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 2, ".o": 1}
+{"kernel_name": "pns-sycl", ".cpp": 3, ".h": 2}
+{"kernel_name": "pointwise-cuda", ".cu": 1}
+{"kernel_name": "pointwise-hip", ".cu": 1}
+{"kernel_name": "pointwise-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "pointwise-sycl", ".cpp": 1}
+{"kernel_name": "pool-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "pool-hip", ".cu": 1}
+{"kernel_name": "pool-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "pool-sycl", ".cpp": 1}
+{"kernel_name": "popcount-cuda", ".cu": 1}
+{"kernel_name": "popcount-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "popcount-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "popcount-sycl", ".cpp": 1}
+{"kernel_name": "prefetch-cuda", ".cu": 1}
+{"kernel_name": "prefetch-hip", ".cu": 1}
+{"kernel_name": "prefetch-sycl", ".cpp": 1}
+{"kernel_name": "present-cuda", ".cu": 1}
+{"kernel_name": "present-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "present-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "present-sycl", ".cpp": 1}
+{"kernel_name": "prna-cuda", ".gz": 3, ".c": 4, ".h": 6, ".cu": 1}
+{"kernel_name": "prna-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "prna-omp", ".aomp": 1, ".nvc": 1, ".c": 4, ".h": 6, ".cpp": 1}
+{"kernel_name": "prna-sycl", ".c": 4, ".h": 6, ".cpp": 1}
+{"kernel_name": "projectile-cuda", ".cu": 1, ".hpp": 1}
+{"kernel_name": "projectile-hip", ".hipcl": 1, ".cu": 1, ".hpp": 1}
+{"kernel_name": "projectile-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".hpp": 1}
+{"kernel_name": "projectile-sycl", ".cpp": 1, ".hpp": 1}
+{"kernel_name": "pso-cuda", ".h": 1, ".cpp": 2, ".cu": 1}
+{"kernel_name": "pso-hip", ".cu": 1}
+{"kernel_name": "pso-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "pso-sycl", ".cpp": 1}
+{"kernel_name": "qem-cuda", ".cu": 2, ".h": 2}
+{"kernel_name": "qem-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "qem-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "qkv-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "qkv-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "qkv-sycl", ".hpp": 1, ".cpp": 1}
+{"kernel_name": "qrg-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "qrg-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "qrg-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "qrg-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "qtclustering-cuda", ".cpp": 5, ".h": 11, ".cu": 1}
+{"kernel_name": "qtclustering-hip", ".hipcl": 1, ".cpp": 5, ".h": 11, ".cu": 1}
+{"kernel_name": "qtclustering-omp", ".aomp": 1, ".nvc": 1, ".cpp": 6, ".h": 8}
+{"kernel_name": "qtclustering-sycl", ".cpp": 6, ".h": 8}
+{"kernel_name": "quicksort-cuda", ".h": 1, ".cuh": 1, ".cu": 1}
+{"kernel_name": "quicksort-hip", ".hipcl": 1, ".h": 1, ".cuh": 1, ".cu": 1}
+{"kernel_name": "quicksort-omp", ".aomp": 1, ".nvc": 1, ".h": 4, ".cpp": 1}
+{"kernel_name": "quicksort-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "radixsort-cuda", ".cu": 5, ".h": 2}
+{"kernel_name": "radixsort-hip", ".hipcl": 1, ".cu": 5, ".h": 2}
+{"kernel_name": "radixsort-omp", ".aomp": 1, ".nvc": 1, ".cpp": 5, ".h": 2}
+{"kernel_name": "radixsort-sycl", ".cpp": 5, ".h": 2}
+{"kernel_name": "radixsort2-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "radixsort2-hip", ".cu": 1}
+{"kernel_name": "radixsort2-sycl", ".cpp": 1}
+{"kernel_name": "rainflow-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "rainflow-hip", ".cu": 1}
+{"kernel_name": "rainflow-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "rainflow-sycl", ".cpp": 1}
+{"kernel_name": "randomAccess-cuda", ".cu": 1}
+{"kernel_name": "randomAccess-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "randomAccess-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "randomAccess-sycl", ".cpp": 1}
+{"kernel_name": "rayleighBenardConvection-cuda", ".cu": 1}
+{"kernel_name": "rayleighBenardConvection-hip", ".cu": 1}
+{"kernel_name": "rayleighBenardConvection-sycl", ".cpp": 1}
+{"kernel_name": "reaction-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "reaction-hip", ".cu": 1}
+{"kernel_name": "reaction-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "reaction-sycl", ".cpp": 2}
+{"kernel_name": "recursiveGaussian-cuda", ".cu": 3, ".ppm": 1, ".h": 3}
+{"kernel_name": "recursiveGaussian-hip", ".hipcl": 1, ".cu": 3, ".h": 2}
+{"kernel_name": "recursiveGaussian-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 2}
+{"kernel_name": "recursiveGaussian-sycl", ".cpp": 3, ".h": 2}
+{"kernel_name": "relu-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "relu-hip", ".cu": 1}
+{"kernel_name": "relu-sycl", ".cpp": 1}
+{"kernel_name": "remap-cuda", ".cu": 1}
+{"kernel_name": "remap-hip", ".cu": 1}
+{"kernel_name": "remap-sycl", ".cpp": 1}
+{"kernel_name": "resize-cuda", ".cu": 1}
+{"kernel_name": "resize-hip", ".cu": 1}
+{"kernel_name": "resize-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "resize-sycl", ".cpp": 1}
+{"kernel_name": "resnet-kernels-cuda", ".cu": 6, ".h": 5, ".py": 1}
+{"kernel_name": "resnet-kernels-hip", ".cu": 6, ".h": 5}
+{"kernel_name": "resnet-kernels-sycl", ".cpp": 6, ".h": 5}
+{"kernel_name": "reverse-cuda", ".cu": 1}
+{"kernel_name": "reverse-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "reverse-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "reverse-sycl", ".cpp": 1}
+{"kernel_name": "reverse2D-cuda", ".cu": 1, ".cuh": 2}
+{"kernel_name": "reverse2D-hip", ".cu": 1, ".cuh": 2}
+{"kernel_name": "reverse2D-sycl", ".cpp": 1, ".hpp": 2}
+{"kernel_name": "rfs-cuda", ".cu": 1}
+{"kernel_name": "rfs-hip", ".cu": 1}
+{"kernel_name": "rfs-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "rfs-sycl", ".cpp": 1}
+{"kernel_name": "ring-cuda", ".cu": 1}
+{"kernel_name": "ring-hip", ".cu": 1}
+{"kernel_name": "ring-sycl", ".cpp": 1}
+{"kernel_name": "rle-cuda", ".cu": 1, ".h": 2}
+{"kernel_name": "rle-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "rng-wallace-cuda", ".h": 2, ".cu": 2}
+{"kernel_name": "rng-wallace-hip", ".hipcl": 1, ".h": 2, ".cu": 2}
+{"kernel_name": "rng-wallace-omp", ".aomp": 1, ".nvc": 1, ".h": 2, ".cpp": 1}
+{"kernel_name": "rng-wallace-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "rodrigues-cuda", ".cu": 1}
+{"kernel_name": "rodrigues-hip", ".cu": 1}
+{"kernel_name": "rodrigues-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "rodrigues-sycl", ".cpp": 1}
+{"kernel_name": "romberg-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "romberg-hip", ".cu": 1}
+{"kernel_name": "romberg-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "romberg-sycl", ".cpp": 1}
+{"kernel_name": "rotary-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "rotary-hip", ".cu": 1}
+{"kernel_name": "rotary-sycl", ".h": 2, ".cpp": 1}
+{"kernel_name": "rowwiseMoments-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "rowwiseMoments-hip", ".cu": 1}
+{"kernel_name": "rowwiseMoments-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "rsbench-cuda", ".cu": 6, ".h": 1}
+{"kernel_name": "rsbench-hip", ".hipcl": 1, ".cu": 6, ".h": 1}
+{"kernel_name": "rsbench-omp", ".aomp": 1, ".nvc": 1, ".c": 6, ".h": 1}
+{"kernel_name": "rsbench-sycl", ".cpp": 6, ".h": 1}
+{"kernel_name": "rsc-cuda", ".h": 4, ".cu": 2, ".cpp": 1, ".csv": 1}
+{"kernel_name": "rsc-hip", ".h": 1, ".cu": 2}
+{"kernel_name": "rsc-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 2, ".o": 3}
+{"kernel_name": "rsc-sycl", ".h": 1, ".cpp": 2}
+{"kernel_name": "rsmt-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "rsmt-sycl", ".cpp": 1}
+{"kernel_name": "rtm8-cuda", ".c": 1, ".cu": 1}
+{"kernel_name": "rtm8-hip", ".hipcl": 1, ".c": 1, ".cu": 1}
+{"kernel_name": "rtm8-omp", ".aomp": 1, ".nvc": 1, ".c": 1, ".cpp": 1}
+{"kernel_name": "rtm8-sycl", ".c": 1, ".cpp": 1}
+{"kernel_name": "rushlarsen-cuda", ".cu": 4, ".h": 1}
+{"kernel_name": "rushlarsen-hip", ".cu": 4, ".h": 1}
+{"kernel_name": "rushlarsen-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".h": 1}
+{"kernel_name": "rushlarsen-sycl", ".cpp": 4, ".h": 1}
+{"kernel_name": "s3d-cuda", ".cu": 4, ".h": 13}
+{"kernel_name": "s3d-hip", ".hipcl": 1, ".cu": 4, ".h": 13, ".cpp": 1}
+{"kernel_name": "s3d-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".h": 32, ".o": 4}
+{"kernel_name": "s3d-sycl", ".cpp": 4, ".h": 5, ".sycl": 27}
+{"kernel_name": "s8n-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "s8n-hip", ".cu": 1}
+{"kernel_name": "s8n-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "s8n-sycl", ".cpp": 1}
+{"kernel_name": "sa-cuda", ".h": 1, ".cu": 1}
+{"kernel_name": "sa-hip", ".cu": 1}
+{"kernel_name": "sa-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "sad-cuda", ".gz": 1, ".cu": 1}
+{"kernel_name": "sad-hip", ".cu": 1}
+{"kernel_name": "sad-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "sad-sycl", ".cpp": 1}
+{"kernel_name": "sampling-cuda", ".cu": 2}
+{"kernel_name": "sampling-hip", ".hipcl": 1, ".cu": 2}
+{"kernel_name": "sampling-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "sampling-sycl", ".cpp": 2}
+{"kernel_name": "saxpy-ompt-cuda", ".c": 5, ".h": 4}
+{"kernel_name": "saxpy-ompt-hip", ".c": 5, ".h": 4}
+{"kernel_name": "saxpy-ompt-sycl", ".c": 5, ".h": 4}
+{"kernel_name": "sc-cuda", ".cu": 2, ".cpp": 1, ".h": 5}
+{"kernel_name": "sc-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "sc-sycl", ".cpp": 2, ".h": 5}
+{"kernel_name": "scan-cuda", ".cu": 1}
+{"kernel_name": "scan-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "scan-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "scan-sycl", ".cpp": 1}
+{"kernel_name": "scan2-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "scan2-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "scan2-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "scan2-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "scan3-cuda", ".cu": 1}
+{"kernel_name": "scan3-hip", ".cu": 1}
+{"kernel_name": "scan3-sycl", ".cpp": 1}
+{"kernel_name": "scel-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "scel-hip", ".cu": 1}
+{"kernel_name": "scel-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "scel-sycl", ".cpp": 1}
+{"kernel_name": "score-cuda", ".cu": 1}
+{"kernel_name": "score-hip", ".cu": 1}
+{"kernel_name": "score-sycl", ".cpp": 1}
+{"kernel_name": "sddmm-batch-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "sddmm-batch-hip", ".cu": 1}
+{"kernel_name": "seam-carving-cuda", ".gz": 1, ".h": 3, ".cu": 1}
+{"kernel_name": "seam-carving-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "seam-carving-sycl", ".h": 3, ".cpp": 1}
+{"kernel_name": "secp256k1-cuda", ".cu": 1}
+{"kernel_name": "secp256k1-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "secp256k1-omp", ".aomp": 1, ".clang": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "secp256k1-sycl", ".cpp": 1}
+{"kernel_name": "segment-reduce-cuda", ".cu": 1}
+{"kernel_name": "segment-reduce-hip", ".cu": 1}
+{"kernel_name": "segment-reduce-sycl", ".cpp": 1}
+{"kernel_name": "segsort-cuda", ".md": 1, ".cu": 1, ".cuh": 11}
+{"kernel_name": "segsort-hip", ".md": 1, ".cu": 1, ".cuh": 11}
+{"kernel_name": "segsort-sycl", ".cpp": 1, ".hpp": 11}
+{"kernel_name": "sheath-cuda", ".cu": 1}
+{"kernel_name": "sheath-hip", ".cu": 1}
+{"kernel_name": "sheath-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "sheath-sycl", ".cpp": 1}
+{"kernel_name": "shmembench-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "shmembench-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "shmembench-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "shmembench-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "shuffle-cuda", ".cu": 1}
+{"kernel_name": "shuffle-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "shuffle-sycl", ".cpp": 1}
+{"kernel_name": "si-cuda", ".txt": 1, ".md": 1, ".cuh": 1, ".hpp": 3, ".cpp": 1, ".cu": 1}
+{"kernel_name": "si-hip", ".txt": 1, ".md": 1, ".h": 1, ".hpp": 3, ".cpp": 2}
+{"kernel_name": "si-sycl", ".txt": 1, ".md": 1, ".hpp": 3, ".cpp": 2}
+{"kernel_name": "simpleMultiDevice-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "simpleMultiDevice-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "simpleMultiDevice-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "simpleSpmv-cuda", ".cu": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "simpleSpmv-hip", ".cu": 1}
+{"kernel_name": "simpleSpmv-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "simpleSpmv-sycl", ".cpp": 1}
+{"kernel_name": "simplemoc-cuda", ".h": 1, ".cu": 3}
+{"kernel_name": "simplemoc-hip", ".hipcl": 1, ".h": 1, ".cu": 3}
+{"kernel_name": "simplemoc-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 3, ".o": 3}
+{"kernel_name": "simplemoc-sycl", ".h": 1, ".cpp": 3}
+{"kernel_name": "slit-cuda", ".cu": 1}
+{"kernel_name": "slit-hip", ".cu": 1}
+{"kernel_name": "slit-sycl", ".cpp": 1}
+{"kernel_name": "slu-cuda", ".h": 5, ".cpp": 4, ".bz2": 1, ".cu": 1}
+{"kernel_name": "slu-hip", ".cu": 1}
+{"kernel_name": "slu-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "slu-sycl", ".cpp": 1}
+{"kernel_name": "snake-cuda", ".gz": 1, ".h": 2, ".cu": 1}
+{"kernel_name": "snake-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "snake-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "snake-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "sobel-cuda", ".cu": 3, ".h": 1}
+{"kernel_name": "sobel-hip", ".hipcl": 1, ".cu": 3, ".h": 1}
+{"kernel_name": "sobel-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1}
+{"kernel_name": "sobel-sycl", ".gz": 1, ".cpp": 3}
+{"kernel_name": "sobol-cuda", ".cu": 4, ".h": 4}
+{"kernel_name": "sobol-hip", ".hipcl": 1, ".cu": 4, ".h": 4}
+{"kernel_name": "sobol-omp", ".aomp": 1, ".nvc": 1, ".cpp": 4, ".h": 4}
+{"kernel_name": "sobol-sycl", ".cpp": 4, ".h": 4}
+{"kernel_name": "softmax-cuda", ".cu": 1}
+{"kernel_name": "softmax-fused-cuda", ".cu": 1}
+{"kernel_name": "softmax-fused-hip", ".cu": 1}
+{"kernel_name": "softmax-fused-sycl", ".cpp": 1}
+{"kernel_name": "softmax-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "softmax-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "softmax-online-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "softmax-online-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "softmax-online-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "softmax-sycl", ".cpp": 1}
+{"kernel_name": "sort-cuda", ".cu": 1, ".h": 3}
+{"kernel_name": "sort-hip", ".hipcl": 1, ".cu": 1, ".h": 3}
+{"kernel_name": "sort-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 3}
+{"kernel_name": "sort-sycl", ".cpp": 1, ".sycl": 3}
+{"kernel_name": "sortKV-cuda", ".cu": 1}
+{"kernel_name": "sortKV-hip", ".cu": 1}
+{"kernel_name": "sortKV-sycl", ".cpp": 1}
+{"kernel_name": "sosfil-cuda", ".cu": 1}
+{"kernel_name": "sosfil-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "sosfil-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "sosfil-sycl", ".cpp": 1}
+{"kernel_name": "sparkler-cuda", ".cu": 1}
+{"kernel_name": "sparkler-hip", ".cu": 1}
+{"kernel_name": "sparkler-sycl", ".cpp": 1}
+{"kernel_name": "spaxpby-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "spaxpby-hip", ".cu": 1}
+{"kernel_name": "spd2s-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "spd2s-hip", ".cu": 1}
+{"kernel_name": "spgeam-cuda", ".cu": 1}
+{"kernel_name": "spgeam-hip", ".cu": 1}
+{"kernel_name": "spgeam-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "spgemm-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "spgemm-hip", ".cu": 1}
+{"kernel_name": "spgemm-sycl", ".cpp": 1}
+{"kernel_name": "sph-cuda", ".h": 1, ".cu": 3}
+{"kernel_name": "sph-hip", ".hipcl": 1, ".h": 1, ".cu": 3}
+{"kernel_name": "sph-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1}
+{"kernel_name": "sph-sycl", ".cpp": 3, ".gold": 1, ".h": 1}
+{"kernel_name": "split-cuda", ".cu": 2}
+{"kernel_name": "split-hip", ".hipcl": 1, ".cu": 2}
+{"kernel_name": "split-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "split-sycl", ".cpp": 2}
+{"kernel_name": "spm-cuda", ".cu": 1}
+{"kernel_name": "spm-hip", ".cu": 1}
+{"kernel_name": "spm-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "spm-sycl", ".cpp": 1}
+{"kernel_name": "spmm-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "spmm-hip", ".cu": 1}
+{"kernel_name": "spmv-cuda", ".cu": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "spmv-hip", ".cu": 1}
+{"kernel_name": "spmv-sycl", ".cpp": 1}
+{"kernel_name": "spnnz-cuda", ".cu": 1}
+{"kernel_name": "spnnz-hip", ".cu": 1}
+{"kernel_name": "sps2d-cuda", ".cu": 1}
+{"kernel_name": "sps2d-hip", ".cu": 1}
+{"kernel_name": "spsm-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "spsm-hip", ".cu": 1}
+{"kernel_name": "spsort-cuda", ".cu": 1}
+{"kernel_name": "spsort-hip", ".cu": 1}
+{"kernel_name": "spsort-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "sptrsv-cuda", ".cu": 1}
+{"kernel_name": "sptrsv-hip", ".cu": 1}
+{"kernel_name": "sptrsv-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "sptrsv-sycl", ".tgz": 1, ".cpp": 2, ".h": 4}
+{"kernel_name": "srad-cuda", ".cu": 7, ".c": 3, ".h": 2}
+{"kernel_name": "srad-hip", ".hipcl": 1, ".cu": 7, ".c": 3, ".h": 2}
+{"kernel_name": "srad-omp", ".aomp": 1, ".nvc": 1, ".c": 4, ".h": 4}
+{"kernel_name": "srad-sycl", ".sycl": 6, ".cpp": 1, ".h": 4, ".c": 3}
+{"kernel_name": "ss-cuda", ".h": 1, ".cu": 2}
+{"kernel_name": "ss-hip", ".hipcl": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "ss-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "ss-sycl", ".h": 1, ".gz": 1, ".cpp": 1}
+{"kernel_name": "ssim-cuda", ".cu": 1, ".h": 14, ".cpp": 1}
+{"kernel_name": "ssim-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "ssim-sycl", ".cpp": 1, ".h": 7}
+{"kernel_name": "sss-cuda", ".cpp": 6, ".md": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "sss-hip", ".cpp": 6, ".md": 1, ".h": 1, ".cu": 2}
+{"kernel_name": "sss-sycl", ".cpp": 8, ".md": 1, ".h": 1}
+{"kernel_name": "sssp-cuda", ".gz": 1, ".cu": 2, ".h": 4}
+{"kernel_name": "sssp-hip", ".cu": 2, ".h": 4}
+{"kernel_name": "sssp-sycl", ".cpp": 2, ".h": 5}
+{"kernel_name": "stddev-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "stddev-hip", ".cu": 1}
+{"kernel_name": "stddev-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "stddev-sycl", ".cpp": 1}
+{"kernel_name": "stencil1d-cuda", ".cu": 1}
+{"kernel_name": "stencil1d-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "stencil1d-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "stencil1d-sycl", ".cpp": 1}
+{"kernel_name": "stencil3d-cuda", ".cu": 1}
+{"kernel_name": "stencil3d-hip", ".cu": 1}
+{"kernel_name": "stencil3d-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "stencil3d-sycl", ".cpp": 1}
+{"kernel_name": "streamCreateCopyDestroy-cuda", ".cu": 1}
+{"kernel_name": "streamCreateCopyDestroy-hip", ".cu": 1}
+{"kernel_name": "streamCreateCopyDestroy-sycl", ".cpp": 2}
+{"kernel_name": "streamOrderedAllocation-cuda", ".cu": 1}
+{"kernel_name": "streamOrderedAllocation-hip", ".cu": 1}
+{"kernel_name": "streamPriority-cuda", ".cu": 1}
+{"kernel_name": "streamPriority-hip", ".cu": 1}
+{"kernel_name": "streamPriority-sycl", ".cpp": 1}
+{"kernel_name": "streamUM-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "streamUM-hip", ".cu": 1}
+{"kernel_name": "streamUM-sycl", ".cpp": 1}
+{"kernel_name": "streamcluster-cuda", ".h": 3, ".cu": 1}
+{"kernel_name": "streamcluster-hip", ".hipcl": 1, ".h": 3, ".cu": 1}
+{"kernel_name": "streamcluster-omp", ".aomp": 1, ".nvc": 1, ".h": 3, ".cpp": 1}
+{"kernel_name": "streamcluster-sycl", ".sycl": 1, ".cpp": 1, ".h": 2}
+{"kernel_name": "stsg-cuda", ".cu": 2, ".h": 1, ".txt": 1}
+{"kernel_name": "stsg-hip", ".txt": 1, ".cu": 1}
+{"kernel_name": "stsg-sycl", ".cpp": 2, ".h": 1, ".txt": 1}
+{"kernel_name": "su3-cuda", ".txt": 1, ".hpp": 3, ".h": 1, ".cu": 1}
+{"kernel_name": "su3-hip", ".hipcl": 1, ".hpp": 3, ".h": 1, ".cu": 1}
+{"kernel_name": "su3-omp", ".txt": 1, ".aomp": 1, ".nvc": 1, ".hpp": 3, ".h": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "su3-sycl", ".txt": 1, ".hpp": 3, ".h": 1, ".cpp": 1}
+{"kernel_name": "surfel-cuda", ".cu": 1}
+{"kernel_name": "surfel-hip", ".cu": 1}
+{"kernel_name": "surfel-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "surfel-sycl", ".cpp": 1}
+{"kernel_name": "svd3x3-cuda", ".cu": 2}
+{"kernel_name": "svd3x3-hip", ".cu": 2}
+{"kernel_name": "svd3x3-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2}
+{"kernel_name": "svd3x3-sycl", ".cpp": 2}
+{"kernel_name": "sw4ck-cuda", ".cu": 2, ".h": 2, ".cpp": 6, ".in": 1}
+{"kernel_name": "sw4ck-hip", ".cu": 2, ".h": 2, ".cpp": 6}
+{"kernel_name": "sw4ck-omp", ".aomp": 1, ".nvc": 1, ".cpp": 8, ".h": 2}
+{"kernel_name": "sw4ck-sycl", ".cpp": 8, ".h": 2}
+{"kernel_name": "swish-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "swish-hip", ".cu": 1}
+{"kernel_name": "swish-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "swish-sycl", ".cpp": 1}
+{"kernel_name": "tensorAccessor-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "tensorAccessor-hip", ".cu": 1}
+{"kernel_name": "tensorAccessor-sycl", ".cpp": 1}
+{"kernel_name": "tensorT-cuda", ".cu": 1}
+{"kernel_name": "tensorT-hip", ".cu": 1}
+{"kernel_name": "tensorT-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "tensorT-sycl", ".cpp": 1}
+{"kernel_name": "testSNAP-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "testSNAP-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "testSNAP-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".gz": 1, ".h": 1}
+{"kernel_name": "testSNAP-sycl", ".cpp": 2}
+{"kernel_name": "thomas-cuda", ".hpp": 2, ".cu": 2, ".h": 1}
+{"kernel_name": "thomas-hip", ".hipcl": 1, ".hpp": 2, ".cu": 2, ".h": 1}
+{"kernel_name": "thomas-omp", ".aomp": 1, ".nvc": 1, ".hpp": 2, ".cpp": 1}
+{"kernel_name": "thomas-sycl", ".hpp": 2, ".cpp": 1}
+{"kernel_name": "threadfence-cuda", ".cu": 1}
+{"kernel_name": "threadfence-hip", ".cu": 1}
+{"kernel_name": "threadfence-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "threadfence-sycl", ".cpp": 1}
+{"kernel_name": "tissue-cuda", ".cu": 1}
+{"kernel_name": "tissue-hip", ".cu": 1}
+{"kernel_name": "tissue-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "tissue-sycl", ".cpp": 1}
+{"kernel_name": "tonemapping-cuda", ".cu": 2}
+{"kernel_name": "tonemapping-hip", ".cu": 2}
+{"kernel_name": "tonemapping-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "tonemapping-sycl", ".gz": 1, ".cpp": 2}
+{"kernel_name": "tpacf-cuda", ".cu": 4, ".c": 2, ".h": 2}
+{"kernel_name": "tpacf-hip", ".cu": 3}
+{"kernel_name": "tpacf-sycl", ".cpp": 6, ".h": 1}
+{"kernel_name": "tqs-cuda", ".cpp": 1, ".cu": 2, ".h": 4, ".txt": 4}
+{"kernel_name": "tqs-hip", ".cpp": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "tqs-omp", ".aomp": 1, ".nvc": 1, ".cpp": 3, ".h": 1, ".o": 3}
+{"kernel_name": "tqs-sycl", ".cpp": 3, ".h": 1}
+{"kernel_name": "triad-cuda", ".cpp": 4, ".h": 5, ".cu": 1}
+{"kernel_name": "triad-hip", ".hipcl": 1, ".cpp": 4, ".h": 5, ".cu": 1}
+{"kernel_name": "triad-omp", ".aomp": 1, ".nvc": 1, ".cpp": 5, ".h": 5}
+{"kernel_name": "triad-sycl", ".cpp": 6, ".h": 5}
+{"kernel_name": "tridiagonal-cuda", ".cu": 6, ".h": 10}
+{"kernel_name": "tridiagonal-hip", ".hipcl": 1, ".cu": 6, ".h": 10}
+{"kernel_name": "tridiagonal-omp", ".aomp": 1, ".nvc": 1, ".cpp": 6, ".h": 10, ".o": 3}
+{"kernel_name": "tridiagonal-sycl", ".cpp": 6, ".h": 10}
+{"kernel_name": "tsa-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "tsa-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "tsa-omp", ".aomp": 1, ".nvc": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "tsa-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "tsne-cuda", ".cu": 12, ".h": 14, ".hpp": 1}
+{"kernel_name": "tsne-hip", ".cu": 12, ".h": 14, ".hpp": 1}
+{"kernel_name": "tsne-sycl", ".cpp": 12, ".h": 15, ".hpp": 1}
+{"kernel_name": "tsp-cuda", ".cu": 1}
+{"kernel_name": "tsp-hip", ".cu": 1}
+{"kernel_name": "tsp-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "tsp-sycl", ".cpp": 1}
+{"kernel_name": "unfold-cuda", ".cu": 1}
+{"kernel_name": "unfold-hip", ".cu": 1}
+{"kernel_name": "unfold-sycl", ".cpp": 1}
+{"kernel_name": "urng-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "urng-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "urng-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "urng-sycl", ".gz": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "vanGenuchten-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "vanGenuchten-hip", ".cu": 1}
+{"kernel_name": "vanGenuchten-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "vanGenuchten-sycl", ".cpp": 1}
+{"kernel_name": "vmc-cuda", ".cu": 2}
+{"kernel_name": "vmc-hip", ".hipcl": 1, ".cu": 2}
+{"kernel_name": "vmc-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "vmc-sycl", ".cpp": 2}
+{"kernel_name": "vol2col-cuda", ".cu": 1}
+{"kernel_name": "vol2col-hip", ".cu": 1}
+{"kernel_name": "vol2col-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "vol2col-sycl", ".cpp": 1}
+{"kernel_name": "vote-cuda", ".h": 2, ".cu": 1}
+{"kernel_name": "vote-hip", ".h": 1, ".cu": 1}
+{"kernel_name": "vote-sycl", ".h": 1, ".cpp": 1}
+{"kernel_name": "voxelization-cuda", ".md": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "voxelization-hip", ".md": 1, ".h": 1, ".cu": 1}
+{"kernel_name": "voxelization-sycl", ".md": 1, ".h": 1, ".cpp": 1}
+{"kernel_name": "warpexchange-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "warpexchange-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "warpexchange-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "warpsort-cuda", ".cpp": 1, ".cu": 1, ".cuh": 9}
+{"kernel_name": "warpsort-hip", ".cpp": 1, ".cu": 1, ".cuh": 9, ".h": 1}
+{"kernel_name": "warpsort-sycl", ".cpp": 2, ".hpp": 9}
+{"kernel_name": "wedford-cuda", ".cu": 1}
+{"kernel_name": "wedford-hip", ".cu": 1}
+{"kernel_name": "wedford-sycl", ".cpp": 1}
+{"kernel_name": "winograd-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "winograd-hip", ".hipcl": 1, ".cu": 2, ".h": 1}
+{"kernel_name": "winograd-omp", ".aomp": 1, ".nvc": 1, ".cpp": 2, ".h": 1}
+{"kernel_name": "winograd-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "wlcpow-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "wlcpow-hip", ".cu": 1}
+{"kernel_name": "wlcpow-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".h": 1}
+{"kernel_name": "wlcpow-sycl", ".cpp": 1, ".h": 1}
+{"kernel_name": "wmma-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "wmma-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "wmma-sycl", ".cpp": 1}
+{"kernel_name": "word2vec-cuda", ".cu": 2, ".h": 1}
+{"kernel_name": "word2vec-hip", ".cu": 2, ".h": 1}
+{"kernel_name": "word2vec-sycl", ".cpp": 2, ".h": 1}
+{"kernel_name": "wordcount-cuda", ".cu": 1}
+{"kernel_name": "wordcount-hip", ".cu": 1}
+{"kernel_name": "wordcount-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "wordcount-sycl", ".cpp": 2}
+{"kernel_name": "wsm5-cuda", ".h": 4, ".cu": 1}
+{"kernel_name": "wsm5-hip", ".cu": 1, ".h": 1}
+{"kernel_name": "wsm5-omp", ".aomp": 1, ".nvc": 1, ".h": 3, ".cpp": 1}
+{"kernel_name": "wsm5-sycl", ".h": 4, ".cpp": 1}
+{"kernel_name": "wyllie-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "wyllie-hip", ".cu": 1}
+{"kernel_name": "wyllie-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "wyllie-sycl", ".cpp": 1}
+{"kernel_name": "xlqc-cuda", ".md": 1, ".cc": 5, ".h": 8, ".txt": 1, ".cu": 3, ".gz": 1}
+{"kernel_name": "xlqc-hip", ".md": 1, ".cu": 3, ".h": 2, ".gz": 1}
+{"kernel_name": "xlqc-omp", ".aomp": 1, ".nvc": 1, ".md": 1, ".cpp": 3, ".gz": 1, ".h": 1}
+{"kernel_name": "xlqc-sycl", ".md": 1, ".cpp": 3, ".gz": 1, ".h": 1}
+{"kernel_name": "xsbench-cuda", ".cu": 6, ".h": 1}
+{"kernel_name": "xsbench-hip", ".hipcl": 1, ".cu": 1}
+{"kernel_name": "xsbench-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "xsbench-sycl", ".cpp": 1}
+{"kernel_name": "zerocopy-cuda", ".cu": 1}
+{"kernel_name": "zerocopy-hip", ".cu": 1}
+{"kernel_name": "zerocopy-sycl", ".cpp": 1}
+{"kernel_name": "zeropoint-cuda", ".cu": 1, ".h": 1}
+{"kernel_name": "zeropoint-hip", ".cu": 1}
+{"kernel_name": "zeropoint-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1, ".o": 1}
+{"kernel_name": "zeropoint-sycl", ".cpp": 1}
+{"kernel_name": "zmddft-cuda", ".cu": 1}
+{"kernel_name": "zmddft-hip", ".cu": 1}
+{"kernel_name": "zmddft-omp", ".aomp": 1, ".nvc": 1, ".cpp": 1}
+{"kernel_name": "zmddft-sycl", ".cpp": 1}
+{"kernel_name": "zoom-cuda", ".cu": 1}
+{"kernel_name": "zoom-hip", ".cu": 1}
+{"kernel_name": "zoom-sycl", ".cpp": 1}

@@ -1,0 +1,1264 @@
+{"ace_cuda_hip": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_cuda_omp": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_cuda_serial": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_cuda_sycl": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_hip_cuda": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_hip_omp": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_hip_serial": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_hip_sycl": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_omp_cuda": {"pred": ["calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "swapGridU", "initializationPhi", "initializationU", "allenCahnSimulation", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_omp_hip": {"pred": ["allenCahnKernel", "boundaryConditionsPhiKernel", "thermalEquationKernel", "boundaryConditionsUKernel", "swapGridKernel", "initializationPhiKernel", "initializationUKernel", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "calculateForce", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_omp_serial": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_omp_sycl": {"pred": ["calculateForce", "allenCahn", "swapGrid", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_serial_cuda": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_serial_hip": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_serial_omp": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_serial_sycl": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "allenCahn", "calculateForce", "thermalEquation", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_sycl_cuda": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_sycl_hip": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_sycl_omp": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"ace_sycl_serial": {"pred": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"], "truth": ["dFphi", "GradientX", "GradientY", "GradientZ", "Divergence", "Laplacian", "An", "Wn", "taun", "dFunc", "calculateForce", "allenCahn", "boundaryConditionsPhi", "thermalEquation", "boundaryConditionsU", "swapGrid", "initializationPhi", "initializationU", "main"]}}
+{"adam_cuda_hip": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_cuda_omp": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_cuda_serial": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_cuda_sycl": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_hip_cuda": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_hip_omp": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_hip_serial": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_hip_sycl": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_omp_cuda": {"pred": ["adam_kernel", "main"], "truth": ["adam", "main"]}}
+{"adam_omp_hip": {"pred": ["adam", "adam_kernel", "main"], "truth": ["adam", "main"]}}
+{"adam_omp_serial": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_omp_sycl": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_serial_cuda": {"pred": ["adamKernel", "main"], "truth": ["adam", "main"]}}
+{"adam_serial_hip": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_serial_omp": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_serial_sycl": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_sycl_cuda": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_sycl_hip": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_sycl_omp": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"adam_sycl_serial": {"pred": ["adam", "main"], "truth": ["adam", "main"]}}
+{"ans_cuda_hip": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_cuda_omp": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_cuda_serial": {"pred": [], "truth": ["run", "main"]}}
+{"ans_cuda_sycl": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_hip_cuda": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_hip_omp": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_hip_serial": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_hip_sycl": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_omp_cuda": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_omp_hip": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_omp_serial": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_omp_sycl": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_serial_cuda": {"pred": ["run", "main", "decode_kernel"], "truth": ["run", "main"]}}
+{"ans_serial_hip": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_serial_omp": {"pred": [], "truth": ["run", "main"]}}
+{"ans_serial_sycl": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_sycl_cuda": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_sycl_hip": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_sycl_omp": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"ans_sycl_serial": {"pred": ["run", "main"], "truth": ["run", "main"]}}
+{"aop_cuda_hip": {"pred": ["do_run", "black_scholes_merton_put", "black_scholes_merton_call", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_cuda_omp": {"pred": ["generate_paths_kernel", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_cuda_serial": {"pred": ["PayoffCall", "PayoffPut", "off_diag_norm", "swap", "svd_3x3", "prepare_svd", "compute_partial_beta", "compute_final_beta", "update_cashflow", "compute_partial_sums", "compute_final_sum", "do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_cuda_sycl": {"pred": ["do_run", "main"], "truth": ["PayoffCall", "PayoffPut", "generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_hip_cuda": {"pred": ["do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_hip_omp": {"pred": ["do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_hip_serial": {"pred": ["do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_hip_sycl": {"pred": ["do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"], "truth": ["PayoffCall", "PayoffPut", "generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_omp_cuda": {"pred": ["do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_omp_hip": {"pred": ["generate_paths_kernel", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_omp_serial": {"pred": ["main", "do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_omp_sycl": {"pred": ["main", "generate_paths_kernel"], "truth": ["PayoffCall", "PayoffPut", "generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_serial_cuda": {"pred": ["main", "generate_paths_kernel", "prepare_svd_kernel", "compute_beta_kernel", "compute_sums_kernel", "update_cashflow_kernel", "do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_serial_hip": {"pred": ["do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_serial_omp": {"pred": ["generate_paths_kernel", "prepare_svd_kernel", "compute_sums_kernel", "compute_beta_kernel", "update_cashflow_kernel"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_serial_sycl": {"pred": ["update_cashflow_kernel", "compute_sums_kernel", "prepare_svd_kernel", "compute_beta_kernel", "generate_paths_kernel", "do_run", "main"], "truth": ["PayoffCall", "PayoffPut", "generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_sycl_cuda": {"pred": ["do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_sycl_hip": {"pred": ["update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "main"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel", "do_run", "binomial_tree", "normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_sycl_omp": {"pred": ["prepare_svd_kernel", "compute_partial_beta_kernel", "compute_final_beta_kernel", "update_cashflow_kernel", "compute_partial_sums_kernel", "compute_final_sum_kernel"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"aop_sycl_serial": {"pred": ["do_run"], "truth": ["generate_paths_kernel", "assemble_R", "off_diag_norm", "swap", "svd_3x3", "prepare_svd_kernel", "compute_beta_kernel", "update_cashflow_kernel", "compute_sums_kernel", "do_run", "binomial_tree", "my_normcdf", "black_scholes_merton_put", "black_scholes_merton_call", "main"]}}
+{"asmooth_cuda_hip": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_cuda_omp": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_cuda_serial": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_cuda_sycl": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_hip_cuda": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_hip_omp": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_hip_serial": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_hip_sycl": {"pred": ["smoothingFilter", "normalizeFilter", "outFilter", "main"], "truth": ["main"]}}
+{"asmooth_omp_cuda": {"pred": ["kernel1", "kernel2", "kernel3", "main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_omp_hip": {"pred": ["main", "filter", "normalize", "output"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"asmooth_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"asmooth_serial_cuda": {"pred": ["compute_box", "normalize_image", "compute_output", "compute_norm", "main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_serial_hip": {"pred": ["box_filter", "normalize", "smooth_out", "main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"asmooth_serial_sycl": {"pred": ["main", "box_kernel", "norm_kernel", "out_kernel"], "truth": ["main"]}}
+{"asmooth_sycl_cuda": {"pred": ["main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_sycl_hip": {"pred": ["main"], "truth": ["smoothingFilter", "normalizeFilter", "outFilter", "main"]}}
+{"asmooth_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"asmooth_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"assert_cuda_hip": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"assert_cuda_sycl": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"assert_hip_cuda": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"assert_hip_sycl": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"assert_sycl_cuda": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"assert_sycl_hip": {"pred": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"], "truth": ["testKernel", "perfKernel", "perfKernel2", "main", "runTest", "runPerf"]}}
+{"atomicAggregate_cuda_hip": {"pred": [], "truth": ["atomicAggInc", "k", "main"]}}
+{"atomicAggregate_cuda_sycl": {"pred": ["atomicAggInc", "k", "main"], "truth": ["ffs", "atomicAggInc", "k", "main"]}}
+{"atomicAggregate_hip_cuda": {"pred": ["atomicAggInc", "k", "main"], "truth": ["atomicAggInc", "k", "main"]}}
+{"atomicAggregate_hip_sycl": {"pred": ["atomicAggInc", "k", "main"], "truth": ["ffs", "atomicAggInc", "k", "main"]}}
+{"atomicAggregate_sycl_cuda": {"pred": ["ffs", "atomicAggInc", "k", "main"], "truth": ["atomicAggInc", "k", "main"]}}
+{"atomicAggregate_sycl_hip": {"pred": ["ffs", "atomicAggInc", "k", "main"], "truth": ["atomicAggInc", "k", "main"]}}
+{"atomicPerf_cuda_hip": {"pred": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_cuda_omp": {"pred": ["atomicAdd", "CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_cuda_serial": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_cuda_sycl": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_hip_cuda": {"pred": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_hip_omp": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_hip_serial": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_hip_sycl": {"pred": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_omp_cuda": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_omp_hip": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_omp_serial": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_omp_sycl": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_serial_cuda": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_serial_hip": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_serial_omp": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_serial_sycl": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_sycl_cuda": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_sycl_hip": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["CheckError", "BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_sycl_omp": {"pred": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"atomicPerf_sycl_serial": {"pred": ["atomicPerf", "main"], "truth": ["BlockRangeAtomicOnGlobalMem", "WarpRangeAtomicOnGlobalMem", "SingleRangeAtomicOnGlobalMem", "BlockRangeAtomicOnSharedMem", "WarpRangeAtomicOnSharedMem", "SingleRangeAtomicOnSharedMem", "atomicPerf", "main"]}}
+{"backprop_cuda_hip": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_cuda_omp": {"pred": ["bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_cuda_serial": {"pred": ["get_time", "bpnn_train"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_cuda_sycl": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_hip_cuda": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_hip_omp": {"pred": ["bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_hip_serial": {"pred": ["kernel_layerforward_serial", "kernel_adjust_weights_serial", "bpnn_train_serial"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_hip_sycl": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_omp_cuda": {"pred": ["get_time", "main", "bpnn_train_kernel", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_omp_hip": {"pred": ["get_time", "bpnn_train_kernel", "bpnn_train_kernel2", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_omp_serial": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_omp_sycl": {"pred": ["get_time", "main", "bpnn_train_kernel", "ckMedian", "ckBackward"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_serial_cuda": {"pred": ["bpnn_train_kernel", "bpnn_train_kernel", "bpnn_train_kernel_2"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_serial_hip": {"pred": ["get_time", "main", "bpnn_train_kernel", "bpnn_train_kernel_2", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_serial_omp": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_serial_sycl": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_sycl_cuda": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_sycl_hip": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_sycl_omp": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"backprop_sycl_serial": {"pred": ["get_time", "main", "bpnn_train_kernel"], "truth": ["get_time", "main", "bpnn_train_kernel"]}}
+{"bicgstab_cuda_hip": {"pred": [], "truth": ["gpu_BiCGStab", "main"]}}
+{"bicgstab_hip_cuda": {"pred": ["main"], "truth": ["gpu_BiCGStab", "main"]}}
+{"bilateral_cuda_hip": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_cuda_omp": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_cuda_serial": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_cuda_sycl": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_hip_cuda": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_hip_omp": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_hip_serial": {"pred": ["bilateralFilterCPU", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_hip_sycl": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_omp_cuda": {"pred": ["bilateralFilterKernel", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_omp_hip": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_omp_serial": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_omp_sycl": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_serial_cuda": {"pred": ["bilateralFilterKernel", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_serial_hip": {"pred": ["bilateralFilterKernel", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_serial_omp": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_serial_sycl": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_sycl_cuda": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_sycl_hip": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_sycl_omp": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"bilateral_sycl_serial": {"pred": ["bilateralFilter", "main"], "truth": ["bilateralFilter", "main"]}}
+{"blas-gemmBatched_cuda_hip": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blas-gemmBatched_cuda_sycl": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blas-gemmBatched_hip_cuda": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blas-gemmBatched_hip_sycl": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blas-gemmBatched_sycl_cuda": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blas-gemmBatched_sycl_hip": {"pred": ["gemmBatched", "main"], "truth": ["gemmBatched", "main"]}}
+{"blockAccess_cuda_hip": {"pred": ["reference", "kernel", "main"], "truth": ["reference", "kernel", "main"]}}
+{"blockAccess_cuda_sycl": {"pred": ["kernel", "reference", "main"], "truth": ["reference", "kernel", "main"]}}
+{"blockAccess_hip_cuda": {"pred": ["reference", "kernel", "main"], "truth": ["reference", "kernel", "main"]}}
+{"blockAccess_hip_sycl": {"pred": ["reference", "kernel", "main"], "truth": ["reference", "kernel", "main"]}}
+{"blockAccess_sycl_cuda": {"pred": ["reference", "kernel", "main"], "truth": ["reference", "kernel", "main"]}}
+{"blockAccess_sycl_hip": {"pred": ["reference", "kernel", "main"], "truth": ["reference", "kernel", "main"]}}
+{"bm3d_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"bm3d_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"bm3d_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"bm3d_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"bm3d_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"bm3d_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"boxfilter_cuda_hip": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_cuda_omp": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_cuda_serial": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_cuda_sycl": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_hip_cuda": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_hip_omp": {"pred": ["rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_hip_serial": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_hip_sycl": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_omp_cuda": {"pred": ["DivUp", "BoxFilterGPU_row", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_omp_hip": {"pred": ["BoxFilterGPU", "row_kernel", "col_kernel", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_omp_serial": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_omp_sycl": {"pred": ["rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_serial_cuda": {"pred": ["rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "boxFilterRowKernel", "boxFilterColumnKernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_serial_hip": {"pred": ["rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterRowGPU", "BoxFilterColumnGPU", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_serial_omp": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_serial_sycl": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "BoxFilterRowKernel", "BoxFilterColKernel", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_sycl_cuda": {"pred": ["DivUp", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_sycl_hip": {"pred": ["DivUp", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "row_kernel", "col_kernel", "BoxFilterGPU", "main"]}}
+{"boxfilter_sycl_omp": {"pred": ["DivUp", "rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"boxfilter_sycl_serial": {"pred": ["rgbaUintToFloat4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"], "truth": ["DivUp", "rgbaUintToFloat4", "rgbaUintToUchar4", "rgbaFloat4ToUint", "BoxFilterGPU", "main"]}}
+{"bscan_cuda_hip": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bscan_cuda_sycl": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bscan_hip_cuda": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bscan_hip_sycl": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bscan_sycl_cuda": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bscan_sycl_hip": {"pred": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"], "truth": ["warp_scan", "lanemask_lt", "binary_warp_scan", "valid", "block_binary_prefix_sums", "binary_scan", "bscan", "main"]}}
+{"bspline-vgh_cuda_hip": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_cuda_omp": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_cuda_serial": {"pred": ["eval_abc", "bspline", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_cuda_sycl": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_hip_cuda": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_hip_omp": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_hip_serial": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_hip_sycl": {"pred": ["eval_abc", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_omp_cuda": {"pred": ["eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_omp_hip": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_omp_serial": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_omp_sycl": {"pred": ["main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_serial_cuda": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh_kernel", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_serial_hip": {"pred": ["eval_UBspline_3d_s_vgh_kernel", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_serial_omp": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_serial_sycl": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_sycl_cuda": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "vgh_spline", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_sycl_hip": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "main"]}}
+{"bspline-vgh_sycl_omp": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"bspline-vgh_sycl_serial": {"pred": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"], "truth": ["eval_abc", "eval_UBspline_3d_s_vgh", "main"]}}
+{"ccsd-trpdrv_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_cuda_serial": {"pred": ["ccsd_trpdrv", "main"], "truth": ["main"]}}
+{"ccsd-trpdrv_cuda_sycl": {"pred": [], "truth": ["main"]}}
+{"ccsd-trpdrv_hip_cuda": {"pred": ["ccsd_trpdrv_kernel", "ccsd_trpdrv"], "truth": ["main"]}}
+{"ccsd-trpdrv_hip_omp": {"pred": [], "truth": ["main"]}}
+{"ccsd-trpdrv_hip_serial": {"pred": ["make_array", "main"], "truth": ["main"]}}
+{"ccsd-trpdrv_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_omp_hip": {"pred": [], "truth": ["main"]}}
+{"ccsd-trpdrv_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_serial_cuda": {"pred": ["ccsd_trpdrv_kernel", "main"], "truth": ["main"]}}
+{"ccsd-trpdrv_serial_hip": {"pred": ["ccsd_trpdrv_kernel", "main"], "truth": ["main"]}}
+{"ccsd-trpdrv_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_serial_sycl": {"pred": ["main", "ccsd_trpdrv_sycl"], "truth": ["main"]}}
+{"ccsd-trpdrv_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"ccsd-trpdrv_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"ced_cuda_hip": {"pred": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"], "truth": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"]}}
+{"ced_cuda_sycl": {"pred": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"ced_hip_cuda": {"pred": [], "truth": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"]}}
+{"ced_hip_sycl": {"pred": ["read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"ced_sycl_cuda": {"pred": ["Params", "read_input", "main"], "truth": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"]}}
+{"ced_sycl_hip": {"pred": ["Params", "read_input", "main"], "truth": ["gaussian_kernel", "sobel_kernel", "non_max_supp_kernel", "hyst_kernel", "Params", "read_input", "main"]}}
+{"cfd_cuda_hip": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_cuda_omp": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_cuda_serial": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "dump", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_cuda_sycl": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_hip_cuda": {"pred": ["main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_hip_omp": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "get_time", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_hip_serial": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_hip_sycl": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_omp_cuda": {"pred": ["initialize_variables_kernel", "compute_step_factor_kernel", "compute_flux_kernel", "time_step_kernel", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_omp_hip": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "get_time", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "copy", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_omp_serial": {"pred": [], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_omp_sycl": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_serial_cuda": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_serial_hip": {"pred": ["hip_initialize_variables", "hip_compute_step_factor", "hip_compute_flux", "hip_time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_serial_omp": {"pred": [], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_serial_sycl": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_sycl_cuda": {"pred": ["main", "initialize_variables", "initialize_buffer", "compute_step_factor", "compute_flux", "time_step"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_sycl_hip": {"pred": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"]}}
+{"cfd_sycl_omp": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"cfd_sycl_serial": {"pred": ["compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "get_time", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "main"], "truth": ["get_time", "compute_velocity", "compute_speed_sqd", "compute_pressure", "compute_speed_of_sound", "compute_flux_contribution", "copy", "dump", "initialize_buffer", "initialize_variables", "compute_step_factor", "compute_flux", "time_step", "compute_flux_contribution", "main"]}}
+{"channelShuffle_cuda_hip": {"pred": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"channelShuffle_cuda_sycl": {"pred": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"channelShuffle_hip_cuda": {"pred": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"channelShuffle_hip_sycl": {"pred": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"channelShuffle_sycl_cuda": {"pred": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"channelShuffle_sycl_hip": {"pred": [], "truth": ["ChannelShuffleNCHWKernel", "ChannelShuffleNHWCKernel", "ChannelShuffleNCHW", "ChannelShuffleNHWC", "main"]}}
+{"chi2_cuda_hip": {"pred": [], "truth": ["kernel", "main"]}}
+{"chi2_cuda_omp": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_cuda_serial": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_cuda_sycl": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_hip_cuda": {"pred": ["kernel", "main"], "truth": ["kernel", "main"]}}
+{"chi2_hip_omp": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_hip_serial": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_hip_sycl": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"chi2_omp_cuda": {"pred": ["kernel", "main"], "truth": ["kernel", "main"]}}
+{"chi2_omp_hip": {"pred": ["chi_square_kernel", "main"], "truth": ["kernel", "main"]}}
+{"chi2_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"chi2_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"chi2_serial_cuda": {"pred": ["chi_square_kernel", "main"], "truth": ["kernel", "main"]}}
+{"chi2_serial_hip": {"pred": ["kernel", "main"], "truth": ["kernel", "main"]}}
+{"chi2_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"chi2_serial_sycl": {"pred": ["main", "kernel"], "truth": ["main"]}}
+{"chi2_sycl_cuda": {"pred": ["main", "chi_kernel"], "truth": ["kernel", "main"]}}
+{"chi2_sycl_hip": {"pred": ["main"], "truth": ["kernel", "main"]}}
+{"chi2_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"chi2_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"clenergy_cuda_hip": {"pred": ["cenergy", "copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_cuda_omp": {"pred": ["cenergy", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_cuda_serial": {"pred": ["cenergy", "cenergy_host", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_cuda_sycl": {"pred": ["cenergy", "copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_hip_cuda": {"pred": ["cenergy", "copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_hip_omp": {"pred": ["cenergy", "copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_hip_serial": {"pred": ["cenergy", "host_cenergy", "initatoms", "copyatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_hip_sycl": {"pred": ["cenergy", "copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_omp_cuda": {"pred": ["float4dot", "coulombicPotential", "copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_omp_hip": {"pred": [], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_omp_serial": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_omp_sycl": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_serial_cuda": {"pred": ["kernel", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_serial_hip": {"pred": ["coulombKernel", "copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_serial_omp": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_serial_sycl": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_sycl_cuda": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_sycl_hip": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["cenergy", "copyatoms", "initatoms", "main"]}}
+{"clenergy_sycl_omp": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"clenergy_sycl_serial": {"pred": ["copyatoms", "initatoms", "main"], "truth": ["copyatoms", "initatoms", "main"]}}
+{"cmp_cuda_hip": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_cuda_omp": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_cuda_serial": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_cuda_sycl": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_hip_cuda": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_hip_omp": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_hip_serial": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_hip_sycl": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_omp_cuda": {"pred": [], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_omp_hip": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_omp_serial": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_omp_sycl": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_serial_cuda": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_serial_hip": {"pred": ["compute_semblances", "redux_semblances", "compute_semblances_kernel", "redux_semblances_kernel", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_serial_omp": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_serial_sycl": {"pred": ["compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_sycl_cuda": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_sycl_hip": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"]}}
+{"cmp_sycl_omp": {"pred": [], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"cmp_sycl_serial": {"pred": ["init_c", "init_half", "compute_semblances", "redux_semblances", "main"], "truth": ["compute_semblances", "redux_semblances", "main"]}}
+{"columnarSolver_cuda_hip": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_cuda_omp": {"pred": ["extractBigrams", "verify", "candidateScore", "decode", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_cuda_serial": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_cuda_sycl": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_hip_cuda": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_hip_omp": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_hip_serial": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_hip_sycl": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_omp_cuda": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_omp_hip": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_omp_serial": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_omp_sycl": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_serial_cuda": {"pred": ["extractBigrams", "verify", "candidateScore", "decodeKernel", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_serial_hip": {"pred": ["decodeKernel", "extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_serial_omp": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_serial_sycl": {"pred": ["extractBigrams", "verify", "candidateScore", "decodeKernel", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_sycl_cuda": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_sycl_hip": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_sycl_omp": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"columnarSolver_sycl_serial": {"pred": ["extractBigrams", "verify", "candidateScore", "main"], "truth": ["extractBigrams", "verify", "candidateScore", "main"]}}
+{"compute-score_cuda_hip": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_cuda_omp": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_cuda_serial": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "setupData", "mulfp", "compute", "getCurrentTimestamp", "runOnCPU", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_cuda_sycl": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_hip_cuda": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_hip_omp": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "mulfp", "compute", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_hip_serial": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "mulfp", "compute", "reduction", "setupData", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_hip_sycl": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_omp_cuda": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp_kernel", "compute_profileScore_kernel", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_omp_hip": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "docsim_kernel", "docsim_kernel2", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_omp_serial": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_omp_sycl": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_serial_cuda": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "kernel", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_serial_hip": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main", "kernel", "kernel2"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_serial_omp": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_serial_sycl": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_sycl_cuda": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_sycl_hip": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "compute", "reduction", "main"]}}
+{"compute-score_sycl_omp": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"compute-score_sycl_serial": {"pred": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "mulfp", "main"], "truth": ["rand_desh", "sampleNormal", "get_doc_length", "getCurrentTimestamp", "setupData", "runOnCPU", "mulfp", "main"]}}
+{"conversion_cuda_hip": {"pred": ["void", "convert", "main"], "truth": ["void", "convert", "main"]}}
+{"conversion_cuda_sycl": {"pred": ["cvt", "convert", "main"], "truth": ["convert", "main"]}}
+{"conversion_hip_cuda": {"pred": ["void", "convert", "main"], "truth": ["void", "convert", "main"]}}
+{"conversion_hip_sycl": {"pred": ["cvt", "convert", "main"], "truth": ["convert", "main"]}}
+{"conversion_sycl_cuda": {"pred": ["convert", "convertKernel", "main"], "truth": ["void", "convert", "main"]}}
+{"conversion_sycl_hip": {"pred": ["convert", "convert_kernel", "main"], "truth": ["void", "convert", "main"]}}
+{"convolutionSeparable_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_hip_serial": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_omp_cuda": {"pred": ["main", "convolutionRowsGPU", "convolutionColumnsGPU"], "truth": ["main"]}}
+{"convolutionSeparable_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_serial_cuda": {"pred": ["convolutionRowsGPU", "convolutionColumnsGPU", "main"], "truth": ["main"]}}
+{"convolutionSeparable_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_serial_omp": {"pred": ["main", "convolutionRowsGPU", "convolutionColumnsGPU"], "truth": ["main"]}}
+{"convolutionSeparable_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"convolutionSeparable_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"copy_cuda_hip": {"pred": ["vectorAddGPU", "eval_direct_copy", "eval_zero_copy", "eval_managed_copy", "main"], "truth": ["vectorAddGPU", "eval_direct_copy", "eval_zero_copy", "eval_managed_copy", "main"]}}
+{"copy_hip_cuda": {"pred": ["vectorAddGPU", "eval_direct_copy", "eval_zero_copy", "eval_managed_copy", "main"], "truth": ["vectorAddGPU", "eval_direct_copy", "eval_zero_copy", "eval_managed_copy", "main"]}}
+{"crossEntropy_cuda_hip": {"pred": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"], "truth": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"]}}
+{"crossEntropy_cuda_sycl": {"pred": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"], "truth": ["loss_bwd_kernel", "loss_bwd_cpu", "verify", "LossNLL_BWD", "main"]}}
+{"crossEntropy_hip_cuda": {"pred": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"], "truth": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"]}}
+{"crossEntropy_hip_sycl": {"pred": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"], "truth": ["loss_bwd_kernel", "loss_bwd_cpu", "verify", "LossNLL_BWD", "main"]}}
+{"crossEntropy_sycl_cuda": {"pred": ["loss_bwd_kernel", "loss_bwd_cpu", "verify", "LossNLL_BWD", "main"], "truth": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"]}}
+{"crossEntropy_sycl_hip": {"pred": ["loss_bwd_kernel", "loss_bwd_kernel_kernel", "loss_bwd_cpu", "verify", "LossNLL_BWD", "main"], "truth": ["exponent", "exponent", "loss_bwd", "loss_bwd_kernel", "LossNLL_BWD", "main"]}}
+{"cross_cuda_hip": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_cuda_omp": {"pred": ["cross_kernel", "cross_kernel_omp", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_cuda_serial": {"pred": ["cross_host", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_cuda_sycl": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_hip_cuda": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_hip_omp": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_hip_serial": {"pred": ["eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_hip_sycl": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_omp_cuda": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_omp_hip": {"pred": ["cross_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_omp_serial": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_omp_sycl": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_serial_cuda": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_serial_hip": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_serial_omp": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_serial_sycl": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_sycl_cuda": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_sycl_hip": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_sycl_omp": {"pred": ["cross_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"cross_sycl_serial": {"pred": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"], "truth": ["cross_kernel", "cross2_kernel", "cross3_kernel", "eval", "main"]}}
+{"debayer_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_cuda_omp": {"pred": [], "truth": ["main"]}}
+{"debayer_cuda_serial": {"pred": ["main", "malvar_he_cutler_demosaic_serial"], "truth": ["main"]}}
+{"debayer_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_hip_serial": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_serial_cuda": {"pred": ["malvar_he_cutler_demosaic_kernel", "main"], "truth": ["main"]}}
+{"debayer_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"debayer_sycl_serial": {"pred": ["malvar_he_cutler_demosaic", "main"], "truth": ["main"]}}
+{"deredundancy_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_hip_omp": {"pred": [], "truth": ["main"]}}
+{"deredundancy_hip_serial": {"pred": ["readFile", "checkOption", "createIndex", "createCutoff", "sortIndex", "mergeIndex", "clusterReads", "main"], "truth": ["main"]}}
+{"deredundancy_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_serial_cuda": {"pred": [], "truth": ["main"]}}
+{"deredundancy_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_serial_sycl": {"pred": [], "truth": ["main"]}}
+{"deredundancy_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"deredundancy_sycl_omp": {"pred": [], "truth": ["main"]}}
+{"deredundancy_sycl_serial": {"pred": ["updateRepresentative", "main", "checkOption", "readFile", "copyData", "createIndex", "createCutoff", "sortIndex", "mergeIndex", "makeTable", "magicFilter", "wordFilter", "alignData", "cleanTable", "updateRepresentative"], "truth": ["main"]}}
+{"dp_cuda_hip": {"pred": ["dot_product", "dot", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_cuda_omp": {"pred": ["dot_product", "dot", "main"], "truth": ["dot", "main"]}}
+{"dp_cuda_serial": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_cuda_sycl": {"pred": ["dot_product", "dot", "main"], "truth": ["dot", "main"]}}
+{"dp_hip_cuda": {"pred": ["dot_product", "dot", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_hip_omp": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_hip_serial": {"pred": ["dot_product", "dot", "main"], "truth": ["dot", "main"]}}
+{"dp_hip_sycl": {"pred": ["dot_product", "dot", "main"], "truth": ["dot", "main"]}}
+{"dp_omp_cuda": {"pred": ["void", "dot", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_omp_hip": {"pred": ["dot", "dot", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_omp_serial": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_omp_sycl": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_serial_cuda": {"pred": ["dot_kernel", "dot", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_serial_hip": {"pred": ["dot", "dot_kernel", "dot_kernel", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_serial_omp": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_serial_sycl": {"pred": ["dot", "dot_product_kernel", "main"], "truth": ["dot", "main"]}}
+{"dp_sycl_cuda": {"pred": ["dot", "dotKernel", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_sycl_hip": {"pred": ["dot", "dot_kernel", "main"], "truth": ["dot_product", "dot", "main"]}}
+{"dp_sycl_omp": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"dp_sycl_serial": {"pred": ["dot", "main"], "truth": ["dot", "main"]}}
+{"easyWave_cuda_hip": {"pred": [], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_cuda_omp": {"pred": [], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_cuda_serial": {"pred": ["Node"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_cuda_sycl": {"pred": ["kernel", "kernel2", "kernel3", "kernel4"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_hip_cuda": {"pred": ["commandLineHelp", "main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_hip_omp": {"pred": ["kernel", "kernel2", "kernel3", "kernel4", "kernel2", "kernel3", "kernel4"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_hip_serial": {"pred": ["Node"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_hip_sycl": {"pred": ["final_kernel", "final_kernel"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_omp_cuda": {"pred": ["diff", "main", "sea_floor_topography", "moment_conservation"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_omp_hip": {"pred": [], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_omp_serial": {"pred": [], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_omp_sycl": {"pred": ["diff", "main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_serial_cuda": {"pred": ["kernel", "main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_serial_hip": {"pred": ["main", "easywave_kernel", "easywave_propagation_kernel"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_serial_omp": {"pred": ["main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_serial_sycl": {"pred": ["diff"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_sycl_cuda": {"pred": ["mass_conservation", "moment_conservation", "update_bound", "update_bound2"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_sycl_hip": {"pred": [], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_sycl_omp": {"pred": ["main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"easyWave_sycl_serial": {"pred": ["main"], "truth": ["diff", "main", "Node", "commandLineHelp"]}}
+{"egs_cuda_hip": {"pred": ["read_step_counts", "main"], "truth": ["read_step_counts", "main"]}}
+{"egs_hip_cuda": {"pred": ["read_step_counts", "main"], "truth": ["read_step_counts", "main"]}}
+{"entropy_cuda_hip": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_cuda_omp": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_cuda_serial": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_cuda_sycl": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["main"]}}
+{"entropy_hip_cuda": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_hip_omp": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_hip_serial": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_hip_sycl": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["main"]}}
+{"entropy_omp_cuda": {"pred": ["entropy_kernel", "entropy_opt_kernel", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_omp_hip": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_omp_serial": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_omp_sycl": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["main"]}}
+{"entropy_serial_cuda": {"pred": ["entropy_kernel", "entropy_opt_kernel", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_serial_hip": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_serial_omp": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_serial_sycl": {"pred": ["entropy", "entropy_opt", "main"], "truth": ["main"]}}
+{"entropy_sycl_cuda": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_sycl_hip": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_sycl_omp": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"entropy_sycl_serial": {"pred": ["main"], "truth": ["entropy", "entropy_opt", "main"]}}
+{"f16max_cuda_hip": {"pred": ["half_max", "half_max", "hmax", "generateInput", "main"], "truth": ["half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"f16max_cuda_sycl": {"pred": ["hmax", "generateInput", "main"], "truth": ["__byte_perm", "half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"f16max_hip_cuda": {"pred": ["half_max", "half_max", "hmax", "generateInput", "main"], "truth": ["half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"f16max_hip_sycl": {"pred": ["max", "max", "max", "hmax", "generateInput", "main"], "truth": ["__byte_perm", "half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"f16max_sycl_cuda": {"pred": ["__byte_perm", "half_max", "half_max", "hmax", "hmax2", "generateInput", "main"], "truth": ["half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"f16max_sycl_hip": {"pred": ["__byte_perm", "half_max", "half_max", "hmax", "generateInput", "main"], "truth": ["half_max", "half_max", "hmax", "generateInput", "main"]}}
+{"feynman-kac_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_hip_serial": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_omp_hip": {"pred": ["feynman_kac_kernel", "main"], "truth": ["main"]}}
+{"feynman-kac_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_serial_cuda": {"pred": ["feynmanKacKernel", "main"], "truth": ["main"]}}
+{"feynman-kac_serial_hip": {"pred": ["kernel", "main"], "truth": ["main"]}}
+{"feynman-kac_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_serial_sycl": {"pred": ["main", "feynman_kac_kernel"], "truth": ["main"]}}
+{"feynman-kac_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"feynman-kac_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"filter_cuda_hip": {"pred": ["filter_shared", "check", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_cuda_omp": {"pred": ["check", "main"], "truth": ["main"]}}
+{"filter_cuda_serial": {"pred": ["check", "main"], "truth": ["main"]}}
+{"filter_cuda_sycl": {"pred": ["check", "main"], "truth": ["check", "filter_shared", "main"]}}
+{"filter_hip_cuda": {"pred": ["filter_shared", "check", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_hip_omp": {"pred": ["check", "filter_shared", "main"], "truth": ["main"]}}
+{"filter_hip_serial": {"pred": ["main"], "truth": ["main"]}}
+{"filter_hip_sycl": {"pred": ["filter_shared", "check", "main"], "truth": ["check", "filter_shared", "main"]}}
+{"filter_omp_cuda": {"pred": ["filter_kernel", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_omp_hip": {"pred": ["main", "filter_kernel"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"filter_omp_sycl": {"pred": ["main", "filter_kernel"], "truth": ["check", "filter_shared", "main"]}}
+{"filter_serial_cuda": {"pred": ["filter_kernel", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_serial_hip": {"pred": ["filter", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"filter_serial_sycl": {"pred": ["main"], "truth": ["check", "filter_shared", "main"]}}
+{"filter_sycl_cuda": {"pred": ["check", "filter_shared", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_sycl_hip": {"pred": ["check", "filter_shared", "main"], "truth": ["filter_shared", "check", "main"]}}
+{"filter_sycl_omp": {"pred": ["check", "filter_shared", "main"], "truth": ["main"]}}
+{"filter_sycl_serial": {"pred": ["check", "filter_shared", "main"], "truth": ["main"]}}
+{"flip_cuda_hip": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_cuda_omp": {"pred": ["property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_cuda_serial": {"pred": ["property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_cuda_sycl": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "print_property", "flip", "main"]}}
+{"flip_hip_cuda": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_hip_omp": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_hip_serial": {"pred": ["property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_hip_sycl": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "print_property", "flip", "main"]}}
+{"flip_omp_cuda": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_omp_hip": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_omp_serial": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_omp_sycl": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "print_property", "flip", "main"]}}
+{"flip_serial_cuda": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_serial_hip": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_serial_omp": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_serial_sycl": {"pred": ["flip_kernel", "property", "flip", "main"], "truth": ["flip_kernel", "print_property", "flip", "main"]}}
+{"flip_sycl_cuda": {"pred": ["flip_kernel", "print_property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_sycl_hip": {"pred": ["flip_kernel", "print_property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_sycl_omp": {"pred": ["flip_kernel", "print_property", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"flip_sycl_serial": {"pred": ["print_property", "flip_kernel", "flip", "main"], "truth": ["flip_kernel", "property", "flip", "main"]}}
+{"fwt_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_hip_serial": {"pred": ["main", "fwtCPU", "slowWTcpu"], "truth": ["main"]}}
+{"fwt_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_serial_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"fwt_sycl_serial": {"pred": ["main", "fwtCPU", "slowWTcpu", "dyadicConvolutionCPU", "modulate"], "truth": ["main"]}}
+{"ga_cuda_hip": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_cuda_omp": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_cuda_serial": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_cuda_sycl": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_hip_cuda": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_hip_omp": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_hip_serial": {"pred": ["ga", "ga_cpu", "main"], "truth": ["ga", "main"]}}
+{"ga_hip_sycl": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_omp_cuda": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_omp_hip": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_omp_serial": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_omp_sycl": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_serial_cuda": {"pred": ["ga_kernel", "main"], "truth": ["ga", "main"]}}
+{"ga_serial_hip": {"pred": ["ga_kernel", "main"], "truth": ["ga", "main"]}}
+{"ga_serial_omp": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_serial_sycl": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_sycl_cuda": {"pred": ["ga", "ga_kernel", "main"], "truth": ["ga", "main"]}}
+{"ga_sycl_hip": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_sycl_omp": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ga_sycl_serial": {"pred": ["ga", "main"], "truth": ["ga", "main"]}}
+{"ge-spmm_cuda_hip": {"pred": ["spmmWrapper", "main"], "truth": ["spmmWrapper", "main"]}}
+{"ge-spmm_cuda_sycl": {"pred": ["spmmWrapper", "main"], "truth": ["spmmWrapper", "main"]}}
+{"ge-spmm_hip_cuda": {"pred": ["spmmWrapper", "main"], "truth": ["spmmWrapper", "main"]}}
+{"ge-spmm_hip_sycl": {"pred": ["spmmWrapper", "main"], "truth": ["spmmWrapper", "main"]}}
+{"ge-spmm_sycl_cuda": {"pred": ["spmmWrapper", "main"], "truth": ["spmmWrapper", "main"]}}
+{"ge-spmm_sycl_hip": {"pred": ["spmmWrapper", "main", "spmm_kernel"], "truth": ["spmmWrapper", "main"]}}
+{"henry_cuda_hip": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_cuda_omp": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_cuda_serial": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_cuda_sycl": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_hip_cuda": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_hip_omp": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_hip_serial": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_hip_sycl": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_omp_cuda": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_omp_hip": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_omp_serial": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_omp_sycl": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_serial_cuda": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_serial_hip": {"pred": ["LCG_random_double", "computeKernel", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_serial_omp": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_serial_sycl": {"pred": ["LCG_random_double", "compute", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_sycl_cuda": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_sycl_hip": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "insertions", "main"]}}
+{"henry_sycl_omp": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"henry_sycl_serial": {"pred": ["LCG_random_double", "compute", "insertions", "main"], "truth": ["LCG_random_double", "compute", "main"]}}
+{"hogbom_cuda_hip": {"pred": [], "truth": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"]}}
+{"hogbom_cuda_omp": {"pred": ["main"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_cuda_serial": {"pred": ["main"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_cuda_sycl": {"pred": ["main"], "truth": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"]}}
+{"hogbom_hip_cuda": {"pred": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"], "truth": ["main"]}}
+{"hogbom_hip_omp": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF", "HogbomTest"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_hip_serial": {"pred": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF", "HogbomTest"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_hip_sycl": {"pred": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"]}}
+{"hogbom_omp_cuda": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF", "HogbomTest"], "truth": ["main"]}}
+{"hogbom_omp_hip": {"pred": ["Position", "idxToPos", "posToIdx", "findPeakKernel", "findPeak", "subtractPSFKernel"], "truth": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"]}}
+{"hogbom_omp_serial": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_omp_sycl": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"]}}
+{"hogbom_serial_cuda": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"], "truth": ["main"]}}
+{"hogbom_serial_hip": {"pred": [], "truth": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"]}}
+{"hogbom_serial_omp": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_serial_sycl": {"pred": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"]}}
+{"hogbom_sycl_cuda": {"pred": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"], "truth": ["main"]}}
+{"hogbom_sycl_hip": {"pred": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"], "truth": ["idxToPos", "posToIdx", "k_findPeak", "findPeak", "k_subtractPSF", "subtractPSF"]}}
+{"hogbom_sycl_omp": {"pred": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"hogbom_sycl_serial": {"pred": ["Position", "idxToPos", "posToIdx", "findPeak", "subtractPSF", "HogbomTest"], "truth": ["Position", "idxToPos", "posToIdx", "k_findPeak", "findPeak", "subtractPSF"]}}
+{"idivide_cuda_hip": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_cuda_omp": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_cuda_serial": {"pred": ["NOW", "test", "throughput_test", "throughput_test_fastdiv", "latency_test", "latency_test_fastdiv", "main"], "truth": ["test", "main"]}}
+{"idivide_cuda_sycl": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_hip_cuda": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_hip_omp": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_hip_serial": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_hip_sycl": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_omp_cuda": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_omp_hip": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_omp_serial": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_omp_sycl": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_serial_cuda": {"pred": ["test", "throughput_test_gpu", "throughput_test_gpu_fastdiv", "latency_test_gpu", "latency_test_gpu_fastdiv", "main"], "truth": ["test", "main"]}}
+{"idivide_serial_hip": {"pred": ["test", "main", "throughput_test_kernel", "throughput_test_kernel_fastdiv", "throughput_test", "throughput_test_fastdiv", "latency_test_kernel_fastdiv", "latency_test", "latency_test_fastdiv", "fastdiv"], "truth": ["test", "main"]}}
+{"idivide_serial_omp": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_serial_sycl": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_sycl_cuda": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_sycl_hip": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_sycl_omp": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"idivide_sycl_serial": {"pred": ["test", "main"], "truth": ["test", "main"]}}
+{"jaccard_cuda_hip": {"pred": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"], "truth": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"jaccard_cuda_sycl": {"pred": ["printMatrix", "printVector", "main"], "truth": ["atomicAdd", "parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill_weights", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"jaccard_hip_cuda": {"pred": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"], "truth": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"jaccard_hip_sycl": {"pred": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"], "truth": ["atomicAdd", "parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill_weights", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"jaccard_sycl_cuda": {"pred": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill_weights", "jaccard_weight", "printMatrix", "printVector", "main"], "truth": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"jaccard_sycl_hip": {"pred": ["atomicAdd", "parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill_weights", "jaccard_weight", "printMatrix", "printVector", "main"], "truth": ["parallel_prefix_sum", "jaccard_row_sum", "jaccard_is", "jaccard_jw", "fill", "jaccard_weight", "printMatrix", "printVector", "main"]}}
+{"lebesgue_cuda_hip": {"pred": ["test01"], "truth": ["kernel", "lebesgue_function"]}}
+{"lebesgue_cuda_omp": {"pred": ["main"], "truth": ["lebesgue_function"]}}
+{"lebesgue_cuda_serial": {"pred": ["main"], "truth": ["lebesgue_function"]}}
+{"lebesgue_cuda_sycl": {"pred": ["test01", "main", "test01"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_hip_cuda": {"pred": ["kernel", "lebesgue_function"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_hip_omp": {"pred": ["atomicMax", "kernel", "lebesgue_function"], "truth": ["lebesgue_function"]}}
+{"lebesgue_hip_serial": {"pred": ["lebesgue_function"], "truth": ["lebesgue_function"]}}
+{"lebesgue_hip_sycl": {"pred": ["kernel", "lebesgue_function"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_omp_cuda": {"pred": ["lebesgue_function", "lebesgue_kernel"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_omp_hip": {"pred": ["lebesgue_kernel", "lebesgue_function"], "truth": ["kernel", "lebesgue_function"]}}
+{"lebesgue_omp_serial": {"pred": ["lebesgue_function"], "truth": ["lebesgue_function"]}}
+{"lebesgue_omp_sycl": {"pred": ["lebesgue_function", "lebesgue"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_serial_cuda": {"pred": ["lebesgue_kernel", "lebesgue_function"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_serial_hip": {"pred": ["lebesgue_kernel", "lebesgue_function"], "truth": ["kernel", "lebesgue_function"]}}
+{"lebesgue_serial_omp": {"pred": ["lebesgue_function", "lebesgue_function"], "truth": ["lebesgue_function"]}}
+{"lebesgue_serial_sycl": {"pred": ["lebesgue_function", "ck_lebesgue_function"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_sycl_cuda": {"pred": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"], "truth": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"]}}
+{"lebesgue_sycl_hip": {"pred": ["main"], "truth": ["kernel", "lebesgue_function"]}}
+{"lebesgue_sycl_omp": {"pred": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"], "truth": ["lebesgue_function"]}}
+{"lebesgue_sycl_serial": {"pred": ["test01", "test02", "test03", "test04", "test05", "test06", "test07", "test08", "test09", "main"], "truth": ["lebesgue_function"]}}
+{"leukocyte_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_cuda_omp": {"pred": [], "truth": ["main"]}}
+{"leukocyte_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_cuda_sycl": {"pred": [], "truth": ["main"]}}
+{"leukocyte_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_hip_serial": {"pred": [], "truth": ["main"]}}
+{"leukocyte_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_serial_cuda": {"pred": ["main", "kernel_GICOV", "kernel_dilated"], "truth": ["main"]}}
+{"leukocyte_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_serial_omp": {"pred": [], "truth": ["main"]}}
+{"leukocyte_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_sycl_hip": {"pred": ["main", "gicov_kernel", "dilated_kernel"], "truth": ["main"]}}
+{"leukocyte_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"leukocyte_sycl_serial": {"pred": [], "truth": ["main"]}}
+{"lif_cuda_hip": {"pred": ["reference", "void", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_cuda_omp": {"pred": ["reference", "lif", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_cuda_serial": {"pred": ["reference", "lif", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_cuda_sycl": {"pred": ["reference", "lif", "main"], "truth": ["reference", "lif", "main"]}}
+{"lif_hip_cuda": {"pred": ["reference", "void", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_hip_omp": {"pred": ["reference", "lif", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_hip_serial": {"pred": ["reference", "lif", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_hip_sycl": {"pred": ["reference", "lif", "main"], "truth": ["reference", "lif", "main"]}}
+{"lif_omp_cuda": {"pred": ["test", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_omp_hip": {"pred": ["test", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_omp_serial": {"pred": ["reference", "test", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_omp_sycl": {"pred": ["reference", "test", "main"], "truth": ["reference", "lif", "main"]}}
+{"lif_serial_cuda": {"pred": ["test_kernel", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_serial_hip": {"pred": ["test_kernel", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_serial_omp": {"pred": ["reference", "test", "main"], "truth": ["reference", "test", "main"]}}
+{"lif_serial_sycl": {"pred": ["reference", "test_kernel", "main"], "truth": ["reference", "lif", "main"]}}
+{"lif_sycl_cuda": {"pred": ["reference", "void", "main"], "truth": ["reference", "void", "main"]}}
+{"lif_sycl_hip": {"pred": ["main", "lif"], "truth": ["reference", "void", "main"]}}
+{"lif_sycl_omp": {"pred": ["main"], "truth": ["reference", "test", "main"]}}
+{"lif_sycl_serial": {"pred": ["reference", "lif", "main"], "truth": ["reference", "test", "main"]}}
+{"md_cuda_hip": {"pred": ["void", "main"], "truth": ["void", "main"]}}
+{"md_cuda_omp": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_cuda_serial": {"pred": ["calculateDistance", "calculateForce", "md", "main"], "truth": ["md", "main"]}}
+{"md_cuda_sycl": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_hip_cuda": {"pred": ["void", "main"], "truth": ["void", "main"]}}
+{"md_hip_omp": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_hip_serial": {"pred": ["buildNeighborList", "md", "main"], "truth": ["md", "main"]}}
+{"md_hip_sycl": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_omp_cuda": {"pred": ["mdKernel", "main"], "truth": ["void", "main"]}}
+{"md_omp_hip": {"pred": ["md", "md_kernel", "main"], "truth": ["void", "main"]}}
+{"md_omp_serial": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_omp_sycl": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_serial_cuda": {"pred": ["void", "main"], "truth": ["void", "main"]}}
+{"md_serial_hip": {"pred": ["md_kernel", "main"], "truth": ["void", "main"]}}
+{"md_serial_omp": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_serial_sycl": {"pred": ["md", "md_kernel", "main"], "truth": ["md", "main"]}}
+{"md_sycl_cuda": {"pred": ["md", "mdKernel", "main"], "truth": ["void", "main"]}}
+{"md_sycl_hip": {"pred": ["void", "main"], "truth": ["void", "main"]}}
+{"md_sycl_omp": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"md_sycl_serial": {"pred": ["md", "main"], "truth": ["md", "main"]}}
+{"mdh_cuda_hip": {"pred": ["gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_cuda_omp": {"pred": ["gendata", "print_total", "mdh_ref", "mdh2_ref", "mdh3_ref", "run_cpu_kernel", "run_gpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_cuda_serial": {"pred": ["gendata", "print_total", "mdh", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_cuda_sycl": {"pred": ["gendata", "print_total", "mdh", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_hip_cuda": {"pred": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_hip_omp": {"pred": ["mdh", "mdh2", "mdh3"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_hip_serial": {"pred": ["gendata", "print_total", "mdh", "mdh2", "mdh3", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_hip_sycl": {"pred": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "mdh", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_omp_cuda": {"pred": ["gendata", "print_total", "run_gpu_kernel", "mhd_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_omp_hip": {"pred": ["gendata", "print_total", "mdh_kernel", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_omp_serial": {"pred": [], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_omp_sycl": {"pred": ["main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_serial_cuda": {"pred": ["run_gpu_kernel", "gendata", "print_total", "run_gpu_kernel_wrapper", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_serial_hip": {"pred": ["kernel", "run_gpu_kernel"], "truth": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_serial_omp": {"pred": ["run_gpu_kernel", "run_cpu_kernel", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_serial_sycl": {"pred": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_sycl_cuda": {"pred": ["run_cpu_kernel", "mdh_v4", "mdh2_v4", "mdh3_v4", "gendata", "print_total", "usage", "getargs", "run_gpu_kernel", "main"], "truth": ["gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_sycl_hip": {"pred": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["sqrtf", "fast_sqrtf", "expf", "fast_expf", "gendata", "print_total", "void", "mdh2", "mdh3", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_sycl_omp": {"pred": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"mdh_sycl_serial": {"pred": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"], "truth": ["gendata", "print_total", "run_gpu_kernel", "run_cpu_kernel", "usage", "getargs", "main"]}}
+{"merkle_cuda_hip": {"pred": [], "truth": []}}
+{"merkle_cuda_sycl": {"pred": [], "truth": []}}
+{"merkle_hip_cuda": {"pred": [], "truth": []}}
+{"merkle_hip_sycl": {"pred": [], "truth": []}}
+{"merkle_sycl_cuda": {"pred": ["benchmark_merklize_approach_1", "merklize_approach_1_kernel"], "truth": []}}
+{"merkle_sycl_hip": {"pred": [], "truth": []}}
+{"metropolis_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_cuda_serial": {"pred": ["init_lattice", "free_lattice", "init_array", "free_array", "init_array_index", "free_array_index", "metropolis_step", "parallel_tempering_step", "main"], "truth": ["main"]}}
+{"metropolis_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_hip_serial": {"pred": ["printarrayfrag", "printindexarrayfrag", "reset_array", "rebuild_temps", "rebuild_indices", "insert_temps", "fgoleft", "fgetleft", "rtclock", "main"], "truth": ["main"]}}
+{"metropolis_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_omp_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_omp_hip": {"pred": ["kernel_gpupcg_setup", "kernel_metropolis", "kernel_redenergy", "main"], "truth": ["main"]}}
+{"metropolis_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_serial_cuda": {"pred": ["kernel_metropolis", "kernel_redenergy", "kernel_reset_random_gpupcg", "main"], "truth": ["main"]}}
+{"metropolis_serial_hip": {"pred": ["kernel_metropolis", "kernel_redenergy", "main"], "truth": ["main"]}}
+{"metropolis_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"metropolis_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"mf-sgd_cuda_hip": {"pred": ["is_numerical", "parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"mf-sgd_cuda_sycl": {"pred": ["parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"mf-sgd_hip_cuda": {"pred": ["is_numerical", "parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"mf-sgd_hip_sycl": {"pred": ["is_numerical", "parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"mf-sgd_sycl_cuda": {"pred": ["is_numerical", "parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"mf-sgd_sycl_hip": {"pred": ["is_numerical", "parse_argument", "save_model", "main"], "truth": ["is_numerical", "parse_argument", "save_model", "main"]}}
+{"nonzero_cuda_hip": {"pred": ["write_indices", "nonzero", "main"], "truth": ["write_indices", "nonzero", "main"]}}
+{"nonzero_cuda_sycl": {"pred": ["write_indices", "nonzero", "main"], "truth": ["flagged", "write_indices", "nonzero", "main"]}}
+{"nonzero_hip_cuda": {"pred": ["write_indices", "nonzero", "main"], "truth": ["write_indices", "nonzero", "main"]}}
+{"nonzero_hip_sycl": {"pred": ["write_indices", "nonzero", "main"], "truth": ["flagged", "write_indices", "nonzero", "main"]}}
+{"nonzero_sycl_cuda": {"pred": ["non_zero_count", "non_zero_indices", "write_indices", "nonzero", "main"], "truth": ["write_indices", "nonzero", "main"]}}
+{"nonzero_sycl_hip": {"pred": ["flagged", "write_indices", "nonzero", "main"], "truth": ["write_indices", "nonzero", "main"]}}
+{"nw_cuda_hip": {"pred": ["main"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_cuda_omp": {"pred": ["usage", "maximum", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_cuda_serial": {"pred": ["usage", "maximum", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_cuda_sycl": {"pred": ["maximum", "usage", "main", "kernel1", "kernel2"], "truth": ["max3", "usage", "main"]}}
+{"nw_hip_cuda": {"pred": ["maximum", "usage", "kernel1", "kernel2", "main"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_hip_omp": {"pred": ["maximum", "usage", "main", "maximum", "kernel1", "kernel2"], "truth": ["maximum", "usage", "main"]}}
+{"nw_hip_serial": {"pred": ["maximum", "calculate_score", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_hip_sycl": {"pred": ["maximum", "usage", "kernel1", "kernel2", "main"], "truth": ["max3", "usage", "main"]}}
+{"nw_omp_cuda": {"pred": ["maximum", "nw_host", "main", "kernel"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_omp_hip": {"pred": ["maximum", "usage", "main", "kernel_lower_right"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_omp_serial": {"pred": ["maximum", "usage", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_omp_sycl": {"pred": ["maximum", "usage", "main"], "truth": ["max3", "usage", "main"]}}
+{"nw_serial_cuda": {"pred": ["maximum", "usage", "main", "kernel"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_serial_hip": {"pred": ["nw_kernel", "usage", "main"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_serial_omp": {"pred": ["maximum", "usage", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_serial_sycl": {"pred": ["maximum", "usage", "main"], "truth": ["max3", "usage", "main"]}}
+{"nw_sycl_cuda": {"pred": ["max3", "usage", "main"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_sycl_hip": {"pred": ["max3", "usage", "main"], "truth": ["maximum", "usage", "kernel1", "kernel2", "main"]}}
+{"nw_sycl_omp": {"pred": ["max3", "usage", "main"], "truth": ["maximum", "usage", "main"]}}
+{"nw_sycl_serial": {"pred": ["max3", "usage", "main"], "truth": ["maximum", "usage", "main"]}}
+{"p2p_cuda_hip": {"pred": ["SimpleKernel", "IsAppBuiltAs64", "main"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"p2p_cuda_sycl": {"pred": ["main", "SimpleKernel"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"p2p_hip_cuda": {"pred": ["SimpleKernel", "IsAppBuiltAs64", "main"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"p2p_hip_sycl": {"pred": ["SimpleKernel", "IsAppBuiltAs64", "main"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"p2p_sycl_cuda": {"pred": ["SimpleKernel", "IsAppBuiltAs64", "main"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"p2p_sycl_hip": {"pred": ["SimpleKernel", "IsAppBuiltAs64", "main"], "truth": ["SimpleKernel", "IsAppBuiltAs64", "main"]}}
+{"qrg_cuda_hip": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_cuda_omp": {"pred": ["shrRoundUp", "MoroInvCND", "qrng", "icnd", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_cuda_serial": {"pred": ["shrRoundUp", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_cuda_sycl": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "main", "qrng", "icnd"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "main"]}}
+{"qrg_hip_cuda": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_hip_omp": {"pred": ["shrRoundUp", "MoroInvCND", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_hip_serial": {"pred": ["shrRoundUp", "MoroInvCNDcpu", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_hip_sycl": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "main"]}}
+{"qrg_omp_cuda": {"pred": ["MoroInvCNDgpu", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_omp_hip": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_omp_serial": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_omp_sycl": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "main"]}}
+{"qrg_serial_cuda": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_serial_hip": {"pred": ["QuasirandomGeneratorGPUKernel", "QuasirandomGeneratorGPU", "InverseCNDGPUKernel", "InverseCNDGPU", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_serial_omp": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_serial_sycl": {"pred": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "main"]}}
+{"qrg_sycl_cuda": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_sycl_hip": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "main"], "truth": ["shrRoundUp", "MoroInvCNDgpu", "qrng", "icnd", "main"]}}
+{"qrg_sycl_omp": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qrg_sycl_serial": {"pred": ["shrRoundUp", "MoroInvCNDgpu", "main"], "truth": ["MoroInvCNDgpu", "QuasirandomGeneratorGPU", "InverseCNDGPU", "main"]}}
+{"qtclustering_cuda_hip": {"pred": [], "truth": ["main"]}}
+{"qtclustering_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_hip_cuda": {"pred": [], "truth": ["main"]}}
+{"qtclustering_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_hip_serial": {"pred": [], "truth": ["main"]}}
+{"qtclustering_hip_sycl": {"pred": ["main", "RunBenchmark"], "truth": ["main"]}}
+{"qtclustering_omp_cuda": {"pred": ["main", "RunBenchmarkKernel", "RunBenchmark"], "truth": ["main"]}}
+{"qtclustering_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_omp_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_serial_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_serial_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"qtclustering_sycl_omp": {"pred": ["main", "main"], "truth": ["main"]}}
+{"qtclustering_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"rainflow_cuda_hip": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_cuda_omp": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_cuda_serial": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_cuda_sycl": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_hip_cuda": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_hip_omp": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_hip_serial": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_hip_sycl": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_omp_cuda": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_omp_hip": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_omp_serial": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_omp_sycl": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_serial_cuda": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_serial_hip": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_serial_omp": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_serial_sycl": {"pred": ["Extrema", "Execute", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_sycl_cuda": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_sycl_hip": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "rainflow_count", "main"]}}
+{"rainflow_sycl_omp": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rainflow_sycl_serial": {"pred": ["Extrema", "Execute", "rainflow_count", "main"], "truth": ["Extrema", "Execute", "main"]}}
+{"rayleighBenardConvection_cuda_sycl": {"pred": ["ElementMultOmega", "ElementMultT", "ElementMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"], "truth": ["ElemMultOmega", "ElemMultT", "ElemMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"]}}
+{"rayleighBenardConvection_hip_cuda": {"pred": ["main"], "truth": ["ElemMultOmega", "ElemMultT", "ElemMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"]}}
+{"rayleighBenardConvection_sycl_cuda": {"pred": ["ElementMultOmega", "ElementMultT", "ElementMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"], "truth": ["ElemMultOmega", "ElemMultT", "ElemMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"]}}
+{"rayleighBenardConvection_sycl_hip": {"pred": [], "truth": ["ElemMultOmega", "ElemMultT", "ElemMultNu", "SubOne", "AddOne", "AddX", "Updatedt", "NusseltCompute", "Dz", "Dzz", "Dx", "Dxx", "G", "main"]}}
+{"reverse2D_cuda_hip": {"pred": ["eval_case", "eval", "main"], "truth": ["eval_case", "eval", "main"]}}
+{"reverse2D_cuda_sycl": {"pred": ["eval_case", "eval", "main", "reverse", "reverse_kernel"], "truth": ["eval_case", "eval", "main"]}}
+{"reverse2D_hip_cuda": {"pred": ["eval_case", "eval", "main"], "truth": ["eval_case", "eval", "main"]}}
+{"reverse2D_hip_sycl": {"pred": ["eval_case", "eval", "main"], "truth": ["eval_case", "eval", "main"]}}
+{"reverse2D_sycl_cuda": {"pred": ["eval_case", "eval", "main"], "truth": ["eval_case", "eval", "main"]}}
+{"reverse2D_sycl_hip": {"pred": ["eval_case", "eval", "main"], "truth": ["eval_case", "eval", "main"]}}
+{"rle_cuda_hip": {"pred": ["Dispatch", "Initialize", "Solve", "Test", "TestPointer", "TestIterator", "Test", "TestDispatch", "TestSize", "main"], "truth": ["Dispatch", "Initialize", "Solve", "Test", "TestPointer", "TestIterator", "Test", "TestDispatch", "TestSize", "main"]}}
+{"rle_hip_cuda": {"pred": ["Dispatch", "Initialize", "Solve", "Test", "TestPointer", "TestIterator", "Test", "TestDispatch", "TestSize", "main"], "truth": ["Dispatch", "Initialize", "Solve", "Test", "TestPointer", "TestIterator", "Test", "TestDispatch", "TestSize", "main"]}}
+{"s8n_cuda_hip": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_cuda_omp": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_cuda_serial": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_cuda_sycl": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["cube_select", "cube_select_two", "cube_select_four", "main"]}}
+{"s8n_hip_cuda": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_hip_omp": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_hip_serial": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_hip_sycl": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["cube_select", "cube_select_two", "cube_select_four", "main"]}}
+{"s8n_omp_cuda": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_omp_hip": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_omp_serial": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_omp_sycl": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["cube_select", "cube_select_two", "cube_select_four", "main"]}}
+{"s8n_serial_cuda": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_serial_hip": {"pred": ["k_cube_select_kernel", "k_cube_select_two_kernel", "k_cube_select_four_kernel", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_serial_omp": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_serial_sycl": {"pred": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "select_kernel_one", "select_kernel_two", "select_kernel_four", "main"], "truth": ["cube_select", "cube_select_two", "cube_select_four", "main"]}}
+{"s8n_sycl_cuda": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "cube_select_kernel", "cube_select_two_kernel", "cube_select_four_kernel", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_sycl_hip": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "cube_select_kernel", "cube_select_two_kernel", "cube_select_four_kernel", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_sycl_omp": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"s8n_sycl_serial": {"pred": ["cube_select", "cube_select_two", "cube_select_four", "main"], "truth": ["k_cube_select", "k_cube_select_two", "k_cube_select_four", "main"]}}
+{"sc_cuda_hip": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"sc_cuda_sycl": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"sc_hip_cuda": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"sc_hip_sycl": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"sc_sycl_cuda": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"sc_sycl_hip": {"pred": ["Params", "read_input", "main"], "truth": ["Params", "read_input", "main"]}}
+{"scan3_cuda_hip": {"pred": ["scanLargeArraysCPUReference", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"scan3_cuda_sycl": {"pred": ["scanLargeArraysCPUReference", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"scan3_hip_cuda": {"pred": ["scanLargeArraysCPUReference", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"scan3_hip_sycl": {"pred": ["scanLargeArraysCPUReference", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"scan3_sycl_cuda": {"pred": ["scanLargeArraysCPUReference", "exclusiveScanKernel", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"scan3_sycl_hip": {"pred": ["scanLargeArraysCPUReference", "main"], "truth": ["scanLargeArraysCPUReference", "main"]}}
+{"sddmm-batch_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"sddmm-batch_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"segment-reduce_cuda_hip": {"pred": ["segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segment-reduce_cuda_sycl": {"pred": ["segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segment-reduce_hip_cuda": {"pred": ["segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segment-reduce_hip_sycl": {"pred": ["segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segment-reduce_sycl_cuda": {"pred": ["segreduce_kernel", "segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segment-reduce_sycl_hip": {"pred": ["segreduce", "main"], "truth": ["segreduce", "main"]}}
+{"segsort_cuda_hip": {"pred": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"segsort_cuda_sycl": {"pred": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "segsort", "segsort_keys", "segsort_pairs", "main"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"segsort_hip_cuda": {"pred": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"segsort_hip_sycl": {"pred": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"segsort_sycl_cuda": {"pred": ["segsort"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"segsort_sycl_hip": {"pred": ["show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"], "truth": ["gold_segsort", "gold_segsort", "sort_vals_of_same_key", "show_mem_usage", "segsort", "segsort_keys", "segsort_pairs", "main"]}}
+{"shmembench_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_cuda_omp": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_cuda_serial": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_hip_cuda": {"pred": ["main", "main"], "truth": ["main"]}}
+{"shmembench_hip_omp": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_hip_serial": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_omp_cuda": {"pred": ["shmembenchGPU", "main"], "truth": ["main"]}}
+{"shmembench_omp_hip": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_omp_serial": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_omp_sycl": {"pred": ["main", "shmembenchGPU", "shmemGPU", "shmemGPU"], "truth": ["main"]}}
+{"shmembench_serial_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_serial_hip": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_serial_omp": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_serial_sycl": {"pred": ["main", "shmembench"], "truth": ["main"]}}
+{"shmembench_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_sycl_hip": {"pred": ["main", "shmembenchGPU", "shmem_kernel"], "truth": ["main"]}}
+{"shmembench_sycl_omp": {"pred": ["main"], "truth": ["main"]}}
+{"shmembench_sycl_serial": {"pred": ["main"], "truth": ["main"]}}
+{"si_cuda_hip": {"pred": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"si_cuda_sycl": {"pred": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"si_hip_cuda": {"pred": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"si_hip_sycl": {"pred": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"si_sycl_cuda": {"pred": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"si_sycl_hip": {"pred": [], "truth": ["main", "populateBinaryMatrix", "populateBinaryTransposeMatrix"]}}
+{"simplemoc_cuda_hip": {"pred": ["main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_cuda_omp": {"pred": [], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_cuda_serial": {"pred": ["allocate_simd_vectors", "attenuate_segment", "main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_cuda_sycl": {"pred": ["attenuate_segment", "att", "main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_hip_cuda": {"pred": ["main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_hip_omp": {"pred": ["main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_hip_serial": {"pred": ["attenuate_segment", "allocate_simd_vectors", "main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_hip_sycl": {"pred": ["att", "main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_omp_cuda": {"pred": ["attenuate_segment", "main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_omp_hip": {"pred": ["main", "attenuate_segment_kernel"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_omp_serial": {"pred": ["main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_omp_sycl": {"pred": ["main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_serial_cuda": {"pred": ["attenuate_segment", "main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_serial_hip": {"pred": ["attenuate_segment_kernel", "main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_serial_omp": {"pred": ["main"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_serial_sycl": {"pred": ["attenuate_segment", "main", "ckMedian"], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_sycl_cuda": {"pred": ["attenuate_segment", "main", "attenuate_segment_kernel"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_sycl_hip": {"pred": ["attenuate_segment", "main"], "truth": ["attenuate_segment", "void", "main"]}}
+{"simplemoc_sycl_omp": {"pred": [], "truth": ["attenuate_segment", "main"]}}
+{"simplemoc_sycl_serial": {"pred": ["main"], "truth": ["attenuate_segment", "main"]}}
+{"sparkler_cuda_hip": {"pred": ["assert_", "get_time", "perform_gemm", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"sparkler_cuda_sycl": {"pred": ["assert_", "get_time", "perform_gemm", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"sparkler_hip_cuda": {"pred": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"sparkler_hip_sycl": {"pred": ["assert_", "get_time", "perform_gemm", "gcd", "lcm", "nonzero_stride", "set_input_matrix", "elt_hash", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"sparkler_sycl_cuda": {"pred": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"sparkler_sycl_hip": {"pred": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"], "truth": ["assert_", "get_time", "Matrix", "gcd", "lcm", "nonzero_stride", "set_input_matrix_kernel", "set_input_matrix", "elt_hash", "perform_gemm", "perform_run", "main"]}}
+{"spgeam_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"spgeam_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"spgeam_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"spgeam_hip_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"spgeam_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"spgeam_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"sph_cuda_hip": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_cuda_omp": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "updatePressures", "initParams", "constructBoundaryBox", "computeAcceleration", "main"], "truth": []}}
+{"sph_cuda_serial": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "finalizeParticles", "main"], "truth": []}}
+{"sph_cuda_sycl": {"pred": ["main"], "truth": []}}
+{"sph_hip_cuda": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_hip_omp": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "finalizeParticles", "initParams", "main"], "truth": []}}
+{"sph_hip_serial": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "computeAcceleration", "computeBoundaryAcceleration", "main"], "truth": []}}
+{"sph_hip_sycl": {"pred": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"], "truth": []}}
+{"sph_omp_cuda": {"pred": ["main"], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_omp_hip": {"pred": ["constructBoundaryBoxGPU", "eulerStartGPU", "initParticlesGPU", "initParamsGPU", "finalizeParticlesGPU", "writeFileGPU", "writeBoundaryFileGPU", "main"], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_omp_serial": {"pred": [], "truth": []}}
+{"sph_omp_sycl": {"pred": [], "truth": []}}
+{"sph_serial_cuda": {"pred": ["eulerStartKernel", "initParticlesKernel", "initParamsKernel", "finalizeParticlesKernel", "writeFileKernel", "writeBoundaryFileKernel", "eulerStart", "initParticles", "initParams", "finalizeParticles", "writeFile", "writeBoundaryFile"], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_serial_hip": {"pred": [], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_serial_omp": {"pred": [], "truth": []}}
+{"sph_serial_sycl": {"pred": ["constructBoundaryBox"], "truth": []}}
+{"sph_sycl_cuda": {"pred": [], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_sycl_hip": {"pred": [], "truth": ["W", "del_W", "boundaryGamma", "computeDensity", "computePressure", "updatePressures", "computeBoundaryAcceleration", "computeAcceleration", "updateAccelerationsFP", "updateAccelerationsBP", "updatePositions", "eulerStart", "initParticles", "initParams", "finalizeParticles", "main"]}}
+{"sph_sycl_omp": {"pred": [], "truth": []}}
+{"sph_sycl_serial": {"pred": [], "truth": []}}
+{"sps2d_cuda_hip": {"pred": ["main"], "truth": ["main"]}}
+{"sps2d_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"ss_cuda_hip": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"ss_cuda_omp": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_cuda_serial": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_cuda_sycl": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_hip_cuda": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"ss_hip_omp": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_hip_serial": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_hip_sycl": {"pred": ["verify", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_omp_cuda": {"pred": ["verify", "compare", "main", "StringSearch"], "truth": ["verify", "main"]}}
+{"ss_omp_hip": {"pred": ["naiveKernel", "loadBalanceKernel"], "truth": ["verify", "main"]}}
+{"ss_omp_serial": {"pred": ["verify", "compare", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_omp_sycl": {"pred": ["verify", "compare", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_serial_cuda": {"pred": ["TOLOWER", "COMPARE", "StringSearchNaiveKernel", "StringSearchKernel", "verify", "main"], "truth": ["verify", "main"]}}
+{"ss_serial_hip": {"pred": ["StringSearchKernel", "verify", "compare", "main"], "truth": ["verify", "main"]}}
+{"ss_serial_omp": {"pred": [], "truth": ["verify", "compare", "main"]}}
+{"ss_serial_sycl": {"pred": ["verify", "compare", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_sycl_cuda": {"pred": ["verify", "compare", "main"], "truth": ["verify", "main"]}}
+{"ss_sycl_hip": {"pred": ["verify", "compare", "main"], "truth": ["verify", "main"]}}
+{"ss_sycl_omp": {"pred": ["verify", "compare", "main"], "truth": ["verify", "compare", "main"]}}
+{"ss_sycl_serial": {"pred": ["verify", "compare", "main"], "truth": ["verify", "compare", "main"]}}
+{"sss_cuda_hip": {"pred": [], "truth": ["main"]}}
+{"sss_cuda_sycl": {"pred": ["main"], "truth": ["main"]}}
+{"sss_hip_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"sss_hip_sycl": {"pred": [], "truth": ["main"]}}
+{"sss_sycl_cuda": {"pred": ["main"], "truth": ["main"]}}
+{"sss_sycl_hip": {"pred": ["main"], "truth": ["main"]}}
+{"streamCreateCopyDestroy_cuda_hip": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamCreateCopyDestroy_cuda_sycl": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamCreateCopyDestroy_hip_cuda": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamCreateCopyDestroy_hip_sycl": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamCreateCopyDestroy_sycl_cuda": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamCreateCopyDestroy_sycl_hip": {"pred": ["PerfStreamCreateCopyDestroy", "main"], "truth": ["PerfStreamCreateCopyDestroy", "main"]}}
+{"streamOrderedAllocation_cuda_hip": {"pred": ["__checkHipErrors", "vectorAddGPU", "basicAllocation", "basicStreamOrderedAllocation", "streamOrderedAllocationPostSync", "main"], "truth": ["__checkHipErrors", "vectorAddGPU", "basicAllocation", "basicStreamOrderedAllocation", "streamOrderedAllocationPostSync", "main"]}}
+{"streamOrderedAllocation_hip_cuda": {"pred": ["__checkCudaErrors", "vectorAddGPU", "basicAllocation", "basicStreamOrderedAllocation", "streamOrderedAllocationPostSync", "main"], "truth": ["__checkCudaErrors", "vectorAddGPU", "basicAllocation", "basicStreamOrderedAllocation", "streamOrderedAllocationPostSync", "main"]}}
+{"streamUM_cuda_hip": {"pred": ["checkHipErrors", "checkRocblasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"], "truth": ["checkHipErrors", "checkHipblasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"streamUM_cuda_sycl": {"pred": ["Task", "execute", "main"], "truth": ["srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"streamUM_hip_cuda": {"pred": ["checkCudaErrors", "checkCublasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"], "truth": ["checkCudaErrors", "checkCublasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"streamUM_hip_sycl": {"pred": ["Task", "execute", "initialise_tasks", "main"], "truth": ["srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"streamUM_sycl_cuda": {"pred": ["srand48", "drand48", "Task", "execute", "initialise_tasks", "main"], "truth": ["checkCudaErrors", "checkCublasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"streamUM_sycl_hip": {"pred": ["Task", "execute", "initialise_tasks", "main"], "truth": ["checkHipErrors", "checkHipblasErrors", "srand48", "drand48", "Task", "execute", "initialise_tasks", "main"]}}
+{"tensorT_cuda_hip": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_cuda_omp": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "main"]}}
+{"tensorT_cuda_serial": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "main"]}}
+{"tensorT_cuda_sycl": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "main"]}}
+{"tensorT_hip_cuda": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_hip_omp": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "main"]}}
+{"tensorT_hip_serial": {"pred": ["tensor_transpose", "verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_hip_sycl": {"pred": ["verify", "tensor_transpose", "main"], "truth": ["verify", "main"]}}
+{"tensorT_omp_cuda": {"pred": ["verify", "kernel", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_omp_hip": {"pred": ["permute", "verify", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_omp_serial": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_omp_sycl": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_serial_cuda": {"pred": ["TransposeKernel", "verify", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_serial_hip": {"pred": ["transpose", "verify", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_serial_omp": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_serial_sycl": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_sycl_cuda": {"pred": ["verify", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_sycl_hip": {"pred": ["verify", "transpose", "main"], "truth": ["verify", "tensor_transpose", "main"]}}
+{"tensorT_sycl_omp": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tensorT_sycl_serial": {"pred": ["verify", "main"], "truth": ["verify", "main"]}}
+{"tpacf_cuda_hip": {"pred": [], "truth": ["writeBoundaries", "tileComputeSymm", "tileCompute", "doComputeGPU", "compileHistograms"]}}
+{"tpacf_cuda_sycl": {"pred": ["main"], "truth": ["main", "calculatejkSizes", "write_results"]}}
+{"tpacf_hip_cuda": {"pred": ["writeBoundaries", "tileComputeSymm", "tileCompute", "doComputeGPU", "compileHistograms"], "truth": ["main", "calculatejkSizes", "write_results"]}}
+{"tpacf_hip_sycl": {"pred": ["writeBoundaries", "tileComputeSymm", "tileCompute", "doComputeGPU", "compileHistograms"], "truth": ["main", "calculatejkSizes", "write_results"]}}
+{"tpacf_sycl_cuda": {"pred": ["main", "calculatejkSizes", "write_results"], "truth": ["main", "calculatejkSizes", "write_results"]}}
+{"tpacf_sycl_hip": {"pred": [], "truth": ["writeBoundaries", "tileComputeSymm", "tileCompute", "doComputeGPU", "compileHistograms"]}}
+{"tsa_cuda_hip": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_cuda_omp": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_cuda_serial": {"pred": ["init_p", "kernel", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_cuda_sycl": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_hip_cuda": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_hip_omp": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_hip_serial": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_hip_sycl": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_omp_cuda": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_omp_hip": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_omp_serial": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_omp_sycl": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_serial_cuda": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_serial_hip": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_serial_omp": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_serial_sycl": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_sycl_cuda": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_sycl_hip": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_sycl_omp": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsa_sycl_serial": {"pred": ["init_p", "tsa", "main"], "truth": ["init_p", "tsa", "main"]}}
+{"tsp_cuda_hip": {"pred": ["TwoOpt", "best_thread_count", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_cuda_omp": {"pred": ["LCG_random", "TwoOpt", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_cuda_serial": {"pred": ["LCG_random", "TwoOpt", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_cuda_sycl": {"pred": ["LCG_random", "TwoOpt", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "atomicAdd", "atomicMin", "main"]}}
+{"tsp_hip_cuda": {"pred": ["LCG_random", "TwoOpt", "best_thread_count", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_hip_omp": {"pred": ["TwoOpt", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_hip_serial": {"pred": ["LCG_random", "TwoOpt", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_hip_sycl": {"pred": ["main", "TwoOpt"], "truth": ["LCG_random", "best_thread_count", "atomicAdd", "atomicMin", "main"]}}
+{"tsp_omp_cuda": {"pred": ["tsp_kernel", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_omp_hip": {"pred": ["LCG_random", "LCG_random_host", "best_thread_count", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_omp_serial": {"pred": ["LCG_random", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_omp_sycl": {"pred": ["LCG_random", "best_thread_count", "main", "tsp_kernel"], "truth": ["LCG_random", "best_thread_count", "atomicAdd", "atomicMin", "main"]}}
+{"tsp_serial_cuda": {"pred": ["tsp_gpu", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_serial_hip": {"pred": ["tsp_kernel", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_serial_omp": {"pred": ["LCG_random", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_serial_sycl": {"pred": ["LCG_random", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "atomicAdd", "atomicMin", "main"]}}
+{"tsp_sycl_cuda": {"pred": ["LCG_random", "best_thread_count", "k", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_sycl_hip": {"pred": ["LCG_random", "best_thread_count", "atomicAdd", "k", "main"], "truth": ["LCG_random", "TwoOpt", "best_thread_count", "main"]}}
+{"tsp_sycl_omp": {"pred": ["LCG_random", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"tsp_sycl_serial": {"pred": ["LCG_random", "best_thread_count", "main"], "truth": ["LCG_random", "best_thread_count", "main"]}}
+{"unfold_cuda_hip": {"pred": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"unfold_cuda_sycl": {"pred": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"unfold_hip_cuda": {"pred": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"unfold_hip_sycl": {"pred": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"unfold_sycl_cuda": {"pred": ["unfold_backward_elementwise_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"unfold_sycl_hip": {"pred": ["unfold_backward_elementwise_kernel", "unfold_backward_internal_kernel", "main"], "truth": ["unfold_backward_elementwise_kernel", "launch_unfold_backward_kernel", "unfold_backward_internal_kernel", "main"]}}
+{"vmc_cuda_hip": {"pred": ["main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_cuda_omp": {"pred": ["EXP", "SQRT", "wave_function", "compute_distances", "initialize", "zero_stats", "propagate", "sum_stats", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_cuda_serial": {"pred": ["compute_distances", "wave_function", "sum_stats", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_cuda_sycl": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"], "truth": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate", "main"]}}
+{"vmc_hip_cuda": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_hip_omp": {"pred": ["rand", "rand", "EXP", "EXP", "SQRT", "SQRT", "initran", "zero_stats", "initialize", "compute_distances", "wave_function", "propagate", "sum_stats", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_hip_serial": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "compute_distances", "wave_function", "sum_stats", "initialize", "propagate", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_hip_sycl": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"], "truth": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate", "main"]}}
+{"vmc_omp_cuda": {"pred": ["zero_stats", "zero_stats", "SumWithinBlocks", "sum_within_blocks", "SumWithinBlocks2", "sum_within_blocks2", "initialize", "initialize", "propagate", "propagate", "LCG_random", "compute_distances", "wave_function", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_omp_hip": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_omp_serial": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_omp_sycl": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"], "truth": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate", "main"]}}
+{"vmc_serial_cuda": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "propagate", "compute_distances", "wave_function", "SumWithinBlocks", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_serial_hip": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "SumWithinBlocks", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_serial_omp": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_serial_sycl": {"pred": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "SumWithinBlocks", "main"], "truth": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate", "main"]}}
+{"vmc_sycl_cuda": {"pred": ["rand", "EXP", "SQRT", "SumWithinBlocks", "zero_stats", "compute_distances", "wave_function", "propagate", "initran", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_sycl_hip": {"pred": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "SumWithinBlocks", "sum_stats", "compute_distances", "wave_function", "initran", "zero_stats", "initialize", "propagate", "main"]}}
+{"vmc_sycl_omp": {"pred": ["rand", "EXP", "SQRT", "SumWithinBlocks", "compute_distances", "wave_function", "zero_stats", "propagate"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"vmc_sycl_serial": {"pred": ["rand", "EXP", "SQRT", "SumWithinBlocks", "zero_stats", "propagate", "wave_function", "compute_distances", "main"], "truth": ["EXP", "EXP", "SQRT", "SQRT", "LCG_random", "LCG_random_init", "compute_distances", "wave_function", "propagate", "initran", "initialize", "zero_stats", "SumWithinBlocks", "main"]}}
+{"wlcpow_cuda_hip": {"pred": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_cuda_omp": {"pred": [], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_cuda_serial": {"pred": ["main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_cuda_sycl": {"pred": ["bond_wlcpowallvisc", "bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_hip_cuda": {"pred": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_hip_omp": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_hip_serial": {"pred": [], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_hip_sycl": {"pred": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_omp_cuda": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_omp_hip": {"pred": ["bond_wlcpowallvisc_kernel", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_omp_serial": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_omp_sycl": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_serial_cuda": {"pred": ["bond_wlcpowallvisc_kernel", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_serial_hip": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_serial_omp": {"pred": ["bond_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_serial_sycl": {"pred": ["bond_wlcpowallvisc", "bond_wlcpowallvisc_kernel", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_sycl_cuda": {"pred": ["bond_wlcpowallvisc", "kernel_wlcpowallvisc", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_sycl_hip": {"pred": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"]}}
+{"wlcpow_sycl_omp": {"pred": ["bond_wlcpowallvisc", "upload", "reset", "download", "main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"wlcpow_sycl_serial": {"pred": ["bond_wlcpowallvisc", "gaussian_TEA_fast", "main"], "truth": ["bond_wlcpowallvisc", "main"]}}
+{"word2vec_cuda_hip": {"pred": ["main", "TrainModel", "TrainGPU"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"word2vec_cuda_sycl": {"pred": ["main"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"word2vec_hip_cuda": {"pred": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"word2vec_hip_sycl": {"pred": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"word2vec_sycl_cuda": {"pred": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"word2vec_sycl_hip": {"pred": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"], "truth": ["InitUnigramTable", "ReadWord", "GetWordHash", "SearchVocab", "ReadWordIndex", "AddWordToVocab", "VocabCompare", "SortVocab", "ReduceVocab", "CreateBinaryTree", "LearnVocabFromTrainFile", "SaveVocab", "ReadVocab", "InitNet", "TrainModel", "ArgPos", "main"]}}
+{"zeropoint_cuda_hip": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_cuda_omp": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_cuda_serial": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_cuda_sycl": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_hip_cuda": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_hip_omp": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_hip_serial": {"pred": ["zeroPoint", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_hip_sycl": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_omp_cuda": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_omp_hip": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_omp_serial": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_omp_sycl": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_serial_cuda": {"pred": ["zero_point_kernel", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_serial_hip": {"pred": ["zero_point_kernel", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_serial_omp": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_serial_sycl": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_sycl_cuda": {"pred": ["zero_point_kernel", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_sycl_hip": {"pred": ["zero_point", "main", "zero_point_kernel"], "truth": ["zero_point", "main"]}}
+{"zeropoint_sycl_omp": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}
+{"zeropoint_sycl_serial": {"pred": ["zero_point", "main"], "truth": ["zero_point", "main"]}}

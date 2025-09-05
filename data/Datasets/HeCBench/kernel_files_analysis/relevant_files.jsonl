@@ -1,0 +1,1497 @@
+{"kernel_name": "accuracy-cuda", "files": ["HeCBench/src/accuracy-cuda/main.cu"]}
+{"kernel_name": "accuracy-hip", "files": ["HeCBench/src/accuracy-hip/main.cu"]}
+{"kernel_name": "accuracy-omp", "files": ["HeCBench/src/accuracy-omp/main.cpp"]}
+{"kernel_name": "accuracy-sycl", "files": ["HeCBench/src/accuracy-sycl/main.cpp"]}
+{"kernel_name": "ace-cuda", "files": ["HeCBench/src/ace-cuda/main.cu"]}
+{"kernel_name": "ace-hip", "files": ["HeCBench/src/ace-hip/main.cu"]}
+{"kernel_name": "ace-omp", "files": ["HeCBench/src/ace-omp/main.cpp"]}
+{"kernel_name": "ace-sycl", "files": ["HeCBench/src/ace-sycl/main.cpp"]}
+{"kernel_name": "adam-cuda", "files": ["HeCBench/src/adam-cuda/main.cu"]}
+{"kernel_name": "adam-hip", "files": ["HeCBench/src/adam-hip/main.cu"]}
+{"kernel_name": "adam-omp", "files": ["HeCBench/src/adam-omp/main.cpp"]}
+{"kernel_name": "adam-sycl", "files": ["HeCBench/src/adam-sycl/main.cpp"]}
+{"kernel_name": "addBiasResidualLayerNorm-cuda", "files": ["HeCBench/src/addBiasResidualLayerNorm-cuda/main.cu"]}
+{"kernel_name": "addBiasResidualLayerNorm-hip", "files": ["HeCBench/src/addBiasResidualLayerNorm-hip/main.cu"]}
+{"kernel_name": "addBiasResidualLayerNorm-sycl", "files": ["HeCBench/src/addBiasResidualLayerNorm-sycl/main.cpp"]}
+{"kernel_name": "adv-cuda", "files": ["HeCBench/src/adv-cuda/adv.cu", "HeCBench/src/adv-cuda/main.cu"]}
+{"kernel_name": "adv-hip", "files": ["HeCBench/src/adv-hip/adv.cu", "HeCBench/src/adv-hip/main.cu"]}
+{"kernel_name": "adv-omp", "files": ["HeCBench/src/adv-omp/main.cpp"]}
+{"kernel_name": "adv-sycl", "files": ["HeCBench/src/adv-sycl/main.cpp"]}
+{"kernel_name": "aes-cuda", "files": ["HeCBench/src/aes-cuda/main.cu", "HeCBench/src/aes-cuda/kernels.cu"]}
+{"kernel_name": "aes-hip", "files": ["HeCBench/src/aes-hip/main.cu", "HeCBench/src/aes-hip/kernels.cu"]}
+{"kernel_name": "aes-omp", "files": ["HeCBench/src/aes-omp/main.cpp", "HeCBench/src/aes-omp/kernels.cpp"]}
+{"kernel_name": "aes-sycl", "files": ["HeCBench/src/aes-sycl/main.cpp", "HeCBench/src/aes-sycl/kernels.cpp"]}
+{"kernel_name": "affine-cuda", "files": ["HeCBench/src/affine-cuda/main.cu"]}
+{"kernel_name": "affine-hip", "files": ["HeCBench/src/affine-hip/main.cu"]}
+{"kernel_name": "affine-omp", "files": ["HeCBench/src/affine-omp/main.cpp"]}
+{"kernel_name": "affine-sycl", "files": ["HeCBench/src/affine-sycl/Makefile.hipsycl", "HeCBench/src/affine-sycl/main.cpp"]}
+{"kernel_name": "aidw-cuda", "files": ["HeCBench/src/aidw-cuda/main.cu"]}
+{"kernel_name": "aidw-hip", "files": ["HeCBench/src/aidw-hip/main.cu"]}
+{"kernel_name": "aidw-omp", "files": ["HeCBench/src/aidw-omp/main.cpp"]}
+{"kernel_name": "aidw-sycl", "files": ["HeCBench/src/aidw-sycl/main.cpp"]}
+{"kernel_name": "aligned-types-cuda", "files": ["HeCBench/src/aligned-types-cuda/main.cu"]}
+{"kernel_name": "aligned-types-hip", "files": ["HeCBench/src/aligned-types-hip/main.cu"]}
+{"kernel_name": "aligned-types-omp", "files": ["HeCBench/src/aligned-types-omp/main.cpp"]}
+{"kernel_name": "aligned-types-sycl", "files": ["HeCBench/src/aligned-types-sycl/main.cpp"]}
+{"kernel_name": "all-pairs-distance-cuda", "files": ["HeCBench/src/all-pairs-distance-cuda/main.cu"]}
+{"kernel_name": "all-pairs-distance-hip", "files": ["HeCBench/src/all-pairs-distance-hip/main.cu"]}
+{"kernel_name": "all-pairs-distance-omp", "files": ["HeCBench/src/all-pairs-distance-omp/main.cpp"]}
+{"kernel_name": "all-pairs-distance-sycl", "files": ["HeCBench/src/all-pairs-distance-sycl/main.cpp"]}
+{"kernel_name": "aobench-cuda", "files": ["HeCBench/src/aobench-cuda/ao.cu"]}
+{"kernel_name": "aobench-hip", "files": ["HeCBench/src/aobench-hip/ao.cu"]}
+{"kernel_name": "aobench-omp", "files": ["HeCBench/src/aobench-omp/ao.cpp"]}
+{"kernel_name": "aobench-sycl", "files": ["HeCBench/src/aobench-sycl/Makefile.hipsycl", "HeCBench/src/aobench-sycl/ao.cpp"]}
+{"kernel_name": "aop-cuda", "files": ["HeCBench/src/aop-cuda/main.cu"]}
+{"kernel_name": "aop-hip", "files": ["HeCBench/src/aop-hip/main.cu"]}
+{"kernel_name": "aop-omp", "files": ["HeCBench/src/aop-omp/main.cpp"]}
+{"kernel_name": "aop-sycl", "files": ["HeCBench/src/aop-sycl/main.cpp"]}
+{"kernel_name": "asmooth-cuda", "files": ["HeCBench/src/asmooth-cuda/main.cu"]}
+{"kernel_name": "asmooth-hip", "files": ["HeCBench/src/asmooth-hip/main.cu"]}
+{"kernel_name": "asmooth-omp", "files": ["HeCBench/src/asmooth-omp/main.cpp"]}
+{"kernel_name": "asmooth-sycl", "files": ["HeCBench/src/asmooth-sycl/main.cpp"]}
+{"kernel_name": "assert-cuda", "files": ["HeCBench/src/assert-cuda/main.cu"]}
+{"kernel_name": "assert-hip", "files": ["HeCBench/src/assert-hip/main.cu"]}
+{"kernel_name": "assert-sycl", "files": ["HeCBench/src/assert-sycl/main.cpp"]}
+{"kernel_name": "asta-cuda", "files": ["HeCBench/src/asta-cuda/main.cu"]}
+{"kernel_name": "asta-hip", "files": ["HeCBench/src/asta-hip/main.cu"]}
+{"kernel_name": "asta-omp", "files": ["HeCBench/src/asta-omp/main.cpp"]}
+{"kernel_name": "asta-sycl", "files": ["HeCBench/src/asta-sycl/Makefile.hipsycl", "HeCBench/src/asta-sycl/main.cpp"]}
+{"kernel_name": "atan2-cuda", "files": ["HeCBench/src/atan2-cuda/main.cu"]}
+{"kernel_name": "atan2-hip", "files": ["HeCBench/src/atan2-hip/main.cu"]}
+{"kernel_name": "atan2-omp", "files": ["HeCBench/src/atan2-omp/main.cpp"]}
+{"kernel_name": "atan2-sycl", "files": ["HeCBench/src/atan2-sycl/main.cpp"]}
+{"kernel_name": "atomicAggregate-cuda", "files": ["HeCBench/src/atomicAggregate-cuda/main.cu"]}
+{"kernel_name": "atomicAggregate-hip", "files": ["HeCBench/src/atomicAggregate-hip/main.cu"]}
+{"kernel_name": "atomicAggregate-sycl", "files": ["HeCBench/src/atomicAggregate-sycl/main.cpp"]}
+{"kernel_name": "atomicCAS-cuda", "files": ["HeCBench/src/atomicCAS-cuda/main.cu"]}
+{"kernel_name": "atomicCAS-hip", "files": ["HeCBench/src/atomicCAS-hip/main.cu"]}
+{"kernel_name": "atomicCAS-sycl", "files": ["HeCBench/src/atomicCAS-sycl/main.cpp"]}
+{"kernel_name": "atomicCost-cuda", "files": ["HeCBench/src/atomicCost-cuda/main.cu"]}
+{"kernel_name": "atomicCost-hip", "files": ["HeCBench/src/atomicCost-hip/main.cu"]}
+{"kernel_name": "atomicCost-omp", "files": ["HeCBench/src/atomicCost-omp/main.cpp"]}
+{"kernel_name": "atomicCost-sycl", "files": ["HeCBench/src/atomicCost-sycl/main.cpp"]}
+{"kernel_name": "atomicIntrinsics-cuda", "files": ["HeCBench/src/atomicIntrinsics-cuda/main-um.cu", "HeCBench/src/atomicIntrinsics-cuda/main.cu"]}
+{"kernel_name": "atomicIntrinsics-hip", "files": ["HeCBench/src/atomicIntrinsics-hip/main-um.cu", "HeCBench/src/atomicIntrinsics-hip/main.cu"]}
+{"kernel_name": "atomicIntrinsics-omp", "files": ["HeCBench/src/atomicIntrinsics-omp/main.cpp"]}
+{"kernel_name": "atomicPerf-cuda", "files": ["HeCBench/src/atomicPerf-cuda/main.cu"]}
+{"kernel_name": "atomicPerf-hip", "files": ["HeCBench/src/atomicPerf-hip/main.cu"]}
+{"kernel_name": "atomicPerf-omp", "files": ["HeCBench/src/atomicPerf-omp/main.cpp"]}
+{"kernel_name": "atomicPerf-sycl", "files": ["HeCBench/src/atomicPerf-sycl/main.cpp"]}
+{"kernel_name": "atomicReduction-cuda", "files": ["HeCBench/src/atomicReduction-cuda/reduction.cu"]}
+{"kernel_name": "atomicReduction-hip", "files": ["HeCBench/src/atomicReduction-hip/reduction.cu"]}
+{"kernel_name": "atomicReduction-omp", "files": ["HeCBench/src/atomicReduction-omp/reduction.cpp"]}
+{"kernel_name": "atomicReduction-sycl", "files": ["HeCBench/src/atomicReduction-sycl/Makefile.hipsycl", "HeCBench/src/atomicReduction-sycl/reduction.cpp"]}
+{"kernel_name": "atomicSystemWide-cuda", "files": ["HeCBench/src/atomicSystemWide-cuda/main.cu"]}
+{"kernel_name": "atomicSystemWide-hip", "files": ["HeCBench/src/atomicSystemWide-hip/main.cu"]}
+{"kernel_name": "atomicSystemWide-sycl", "files": ["HeCBench/src/atomicSystemWide-sycl/main.cpp"]}
+{"kernel_name": "attention-cuda", "files": ["HeCBench/src/attention-cuda/main.cu"]}
+{"kernel_name": "attention-hip", "files": ["HeCBench/src/attention-hip/main.cu"]}
+{"kernel_name": "attention-omp", "files": ["HeCBench/src/attention-omp/main.cpp"]}
+{"kernel_name": "attention-sycl", "files": ["HeCBench/src/attention-sycl/main.cpp"]}
+{"kernel_name": "attentionMultiHead-cuda", "files": ["HeCBench/src/attentionMultiHead-cuda/main.cu"]}
+{"kernel_name": "attentionMultiHead-hip", "files": ["HeCBench/src/attentionMultiHead-hip/main.cu"]}
+{"kernel_name": "attentionMultiHead-sycl", "files": ["HeCBench/src/attentionMultiHead-sycl/main.cpp"]}
+{"kernel_name": "b+tree-omp", "files": ["HeCBench/src/b+tree-omp/main.c", "HeCBench/src/b+tree-omp/kernel/kernel2_wrapper.c", "HeCBench/src/b+tree-omp/kernel/kernel_wrapper.c"]}
+{"kernel_name": "babelstream-cuda", "files": ["HeCBench/src/babelstream-cuda/main.cu"]}
+{"kernel_name": "babelstream-hip", "files": ["HeCBench/src/babelstream-hip/main.cu"]}
+{"kernel_name": "babelstream-omp", "files": ["HeCBench/src/babelstream-omp/main.cpp"]}
+{"kernel_name": "babelstream-sycl", "files": ["HeCBench/src/babelstream-sycl/main.cpp"]}
+{"kernel_name": "background-subtract-cuda", "files": ["HeCBench/src/background-subtract-cuda/main.cu"]}
+{"kernel_name": "background-subtract-hip", "files": ["HeCBench/src/background-subtract-hip/main.cu"]}
+{"kernel_name": "background-subtract-omp", "files": ["HeCBench/src/background-subtract-omp/main.cpp"]}
+{"kernel_name": "background-subtract-sycl", "files": ["HeCBench/src/background-subtract-sycl/main.cpp"]}
+{"kernel_name": "bezier-surface-cuda", "files": ["HeCBench/src/bezier-surface-cuda/main.cu"]}
+{"kernel_name": "bezier-surface-hip", "files": ["HeCBench/src/bezier-surface-hip/main.cu"]}
+{"kernel_name": "bezier-surface-omp", "files": ["HeCBench/src/bezier-surface-omp/main.cpp"]}
+{"kernel_name": "bezier-surface-sycl", "files": ["HeCBench/src/bezier-surface-sycl/main.cpp"]}
+{"kernel_name": "bfs-cuda", "files": ["HeCBench/src/bfs-cuda/bfs.cu"]}
+{"kernel_name": "bfs-hip", "files": ["HeCBench/src/bfs-hip/bfs.cu"]}
+{"kernel_name": "bfs-omp", "files": ["HeCBench/src/bfs-omp/bfs.cpp"]}
+{"kernel_name": "bfs-sycl", "files": ["HeCBench/src/bfs-sycl/bfs.cpp"]}
+{"kernel_name": "bh-cuda", "files": ["HeCBench/src/bh-cuda/main.cu"]}
+{"kernel_name": "bh-hip", "files": ["HeCBench/src/bh-hip/main.cu"]}
+{"kernel_name": "bh-sycl", "files": ["HeCBench/src/bh-sycl/main.cpp"]}
+{"kernel_name": "bicgstab-cuda", "files": ["HeCBench/src/bicgstab-cuda/main.cu"]}
+{"kernel_name": "bicgstab-hip", "files": ["HeCBench/src/bicgstab-hip/main.cu"]}
+{"kernel_name": "bilateral-cuda", "files": ["HeCBench/src/bilateral-cuda/main.cu"]}
+{"kernel_name": "bilateral-hip", "files": ["HeCBench/src/bilateral-hip/main.cu"]}
+{"kernel_name": "bilateral-omp", "files": ["HeCBench/src/bilateral-omp/main.cpp"]}
+{"kernel_name": "bilateral-sycl", "files": ["HeCBench/src/bilateral-sycl/main.cpp"]}
+{"kernel_name": "bincount-cuda", "files": ["HeCBench/src/bincount-cuda/main.cu"]}
+{"kernel_name": "bincount-hip", "files": ["HeCBench/src/bincount-hip/main.cu"]}
+{"kernel_name": "bincount-sycl", "files": ["HeCBench/src/bincount-sycl/main.cpp"]}
+{"kernel_name": "binomial-cuda", "files": ["HeCBench/src/binomial-cuda/main.cu", "HeCBench/src/binomial-cuda/kernel.cu"]}
+{"kernel_name": "binomial-hip", "files": ["HeCBench/src/binomial-hip/main.cu", "HeCBench/src/binomial-hip/kernel.cu"]}
+{"kernel_name": "binomial-omp", "files": ["HeCBench/src/binomial-omp/main.cpp", "HeCBench/src/binomial-omp/kernel.cpp"]}
+{"kernel_name": "binomial-sycl", "files": ["HeCBench/src/binomial-sycl/main.cpp", "HeCBench/src/binomial-sycl/kernel.cpp"]}
+{"kernel_name": "bitonic-sort-cuda", "files": ["HeCBench/src/bitonic-sort-cuda/main.cu"]}
+{"kernel_name": "bitonic-sort-hip", "files": ["HeCBench/src/bitonic-sort-hip/main.cu"]}
+{"kernel_name": "bitonic-sort-omp", "files": ["HeCBench/src/bitonic-sort-omp/main.cpp"]}
+{"kernel_name": "bitonic-sort-sycl", "files": ["HeCBench/src/bitonic-sort-sycl/main.cpp"]}
+{"kernel_name": "bitpacking-cuda", "files": ["HeCBench/src/bitpacking-cuda/main.cu", "HeCBench/src/bitpacking-cuda/kernels.cu"]}
+{"kernel_name": "bitpacking-hip", "files": ["HeCBench/src/bitpacking-hip/main.cu", "HeCBench/src/bitpacking-hip/kernels.cu"]}
+{"kernel_name": "bitpacking-sycl", "files": ["HeCBench/src/bitpacking-sycl/main.cpp", "HeCBench/src/bitpacking-sycl/kernels.cpp"]}
+{"kernel_name": "bitpermute-cuda", "files": ["HeCBench/src/bitpermute-cuda/main.cu"]}
+{"kernel_name": "bitpermute-hip", "files": ["HeCBench/src/bitpermute-hip/main.cu"]}
+{"kernel_name": "bitpermute-sycl", "files": ["HeCBench/src/bitpermute-sycl/main.cpp"]}
+{"kernel_name": "blas-dot-cuda", "files": ["HeCBench/src/blas-dot-cuda/main.cu"]}
+{"kernel_name": "blas-dot-hip", "files": ["HeCBench/src/blas-dot-hip/main.cu"]}
+{"kernel_name": "blas-dot-sycl", "files": ["HeCBench/src/blas-dot-sycl/main.cpp"]}
+{"kernel_name": "blas-fp8gemm-cuda", "files": ["HeCBench/src/blas-fp8gemm-cuda/main.cu"]}
+{"kernel_name": "blas-fp8gemm-hip", "files": ["HeCBench/src/blas-fp8gemm-hip/main.cu"]}
+{"kernel_name": "blas-gemm-cuda", "files": ["HeCBench/src/blas-gemm-cuda/main.cu"]}
+{"kernel_name": "blas-gemm-hip", "files": ["HeCBench/src/blas-gemm-hip/main.cu"]}
+{"kernel_name": "blas-gemm-omp", "files": ["HeCBench/src/blas-gemm-omp/main.cpp"]}
+{"kernel_name": "blas-gemm-sycl", "files": ["HeCBench/src/blas-gemm-sycl/main.cpp"]}
+{"kernel_name": "blas-gemmBatched-cuda", "files": ["HeCBench/src/blas-gemmBatched-cuda/main.cu"]}
+{"kernel_name": "blas-gemmBatched-hip", "files": ["HeCBench/src/blas-gemmBatched-hip/main.cu"]}
+{"kernel_name": "blas-gemmBatched-sycl", "files": ["HeCBench/src/blas-gemmBatched-sycl/main.cpp"]}
+{"kernel_name": "blas-gemmEx-cuda", "files": ["HeCBench/src/blas-gemmEx-cuda/main.cu"]}
+{"kernel_name": "blas-gemmEx-hip", "files": ["HeCBench/src/blas-gemmEx-hip/main.cu"]}
+{"kernel_name": "blas-gemmEx-sycl", "files": ["HeCBench/src/blas-gemmEx-sycl/main.cpp"]}
+{"kernel_name": "blas-gemmEx2-cuda", "files": ["HeCBench/src/blas-gemmEx2-cuda/main.cu"]}
+{"kernel_name": "blas-gemmEx2-hip", "files": ["HeCBench/src/blas-gemmEx2-hip/main.cu"]}
+{"kernel_name": "blas-gemmEx2-sycl", "files": ["HeCBench/src/blas-gemmEx2-sycl/main.cpp"]}
+{"kernel_name": "blas-gemmStridedBatched-cuda", "files": ["HeCBench/src/blas-gemmStridedBatched-cuda/main.cu"]}
+{"kernel_name": "blas-gemmStridedBatched-hip", "files": ["HeCBench/src/blas-gemmStridedBatched-hip/main.cu"]}
+{"kernel_name": "blas-gemmStridedBatched-sycl", "files": ["HeCBench/src/blas-gemmStridedBatched-sycl/main.cpp"]}
+{"kernel_name": "blockAccess-cuda", "files": ["HeCBench/src/blockAccess-cuda/main.cu"]}
+{"kernel_name": "blockAccess-hip", "files": ["HeCBench/src/blockAccess-hip/main.cu"]}
+{"kernel_name": "blockAccess-sycl", "files": ["HeCBench/src/blockAccess-sycl/main.cpp"]}
+{"kernel_name": "blockexchange-cuda", "files": ["HeCBench/src/blockexchange-cuda/main.cu"]}
+{"kernel_name": "blockexchange-hip", "files": ["HeCBench/src/blockexchange-hip/main.cu"]}
+{"kernel_name": "blockexchange-sycl", "files": ["HeCBench/src/blockexchange-sycl/main.cpp"]}
+{"kernel_name": "bmf-cuda", "files": ["HeCBench/src/bmf-cuda/src/main.cu"]}
+{"kernel_name": "bmf-hip", "files": ["HeCBench/src/bmf-hip/src/main.cu"]}
+{"kernel_name": "bmf-sycl", "files": ["HeCBench/src/bmf-sycl/src/main.cpp"]}
+{"kernel_name": "bn-cuda", "files": ["HeCBench/src/bn-cuda/main.cu", "HeCBench/src/bn-cuda/kernels.cu"]}
+{"kernel_name": "bn-hip", "files": ["HeCBench/src/bn-hip/main.cu", "HeCBench/src/bn-hip/kernels.cu"]}
+{"kernel_name": "bn-omp", "files": ["HeCBench/src/bn-omp/main.cpp", "HeCBench/src/bn-omp/kernels.cpp"]}
+{"kernel_name": "bn-sycl", "files": ["HeCBench/src/bn-sycl/main.cpp", "HeCBench/src/bn-sycl/kernels.cpp"]}
+{"kernel_name": "bonds-hip", "files": ["HeCBench/src/bonds-hip/bondsEngine.cu", "HeCBench/src/bonds-hip/bondsKernelsGpu.cu"]}
+{"kernel_name": "bonds-omp", "files": ["HeCBench/src/bonds-omp/bondsEngine.cpp", "HeCBench/src/bonds-omp/bondsKernelsGpu.cpp"]}
+{"kernel_name": "boxfilter-cuda", "files": ["HeCBench/src/boxfilter-cuda/main.cu"]}
+{"kernel_name": "boxfilter-hip", "files": ["HeCBench/src/boxfilter-hip/main.cu"]}
+{"kernel_name": "boxfilter-omp", "files": ["HeCBench/src/boxfilter-omp/main.cpp"]}
+{"kernel_name": "bscan-cuda", "files": ["HeCBench/src/bscan-cuda/main.cu"]}
+{"kernel_name": "bscan-hip", "files": ["HeCBench/src/bscan-hip/main.cu"]}
+{"kernel_name": "bscan-sycl", "files": ["HeCBench/src/bscan-sycl/main-wave64.cpp", "HeCBench/src/bscan-sycl/main.cpp"]}
+{"kernel_name": "bsearch-cuda", "files": ["HeCBench/src/bsearch-cuda/main.cu"]}
+{"kernel_name": "bsearch-hip", "files": ["HeCBench/src/bsearch-hip/main.cu"]}
+{"kernel_name": "bsearch-omp", "files": ["HeCBench/src/bsearch-omp/main.cpp"]}
+{"kernel_name": "bsearch-sycl", "files": ["HeCBench/src/bsearch-sycl/main.cpp"]}
+{"kernel_name": "bspline-vgh-cuda", "files": ["HeCBench/src/bspline-vgh-cuda/main.cu"]}
+{"kernel_name": "bspline-vgh-hip", "files": ["HeCBench/src/bspline-vgh-hip/main.cu"]}
+{"kernel_name": "bspline-vgh-omp", "files": ["HeCBench/src/bspline-vgh-omp/main.cpp"]}
+{"kernel_name": "bspline-vgh-sycl", "files": ["HeCBench/src/bspline-vgh-sycl/main.cpp"]}
+{"kernel_name": "bsw-cuda", "files": ["HeCBench/src/bsw-cuda/driver.cu", "HeCBench/src/bsw-cuda/main.cu", "HeCBench/src/bsw-cuda/kernel.cu"]}
+{"kernel_name": "bsw-hip", "files": ["HeCBench/src/bsw-hip/driver.cu", "HeCBench/src/bsw-hip/main.cu", "HeCBench/src/bsw-hip/kernel.cu"]}
+{"kernel_name": "bsw-sycl", "files": ["HeCBench/src/bsw-sycl/driver.cpp", "HeCBench/src/bsw-sycl/main.cpp", "HeCBench/src/bsw-sycl/kernel.cpp"]}
+{"kernel_name": "btree-cuda", "files": ["HeCBench/src/btree-cuda/main.cu", "HeCBench/src/btree-cuda/map/host.cu", "HeCBench/src/btree-cuda/map/kernels/map_kernels.cu", "HeCBench/src/btree-cuda/map/kernels/map_warps.cu"]}
+{"kernel_name": "btree-sycl", "files": ["HeCBench/src/btree-sycl/host.cpp", "HeCBench/src/btree-sycl/main.cpp"]}
+{"kernel_name": "burger-cuda", "files": ["HeCBench/src/burger-cuda/main.cu"]}
+{"kernel_name": "burger-hip", "files": ["HeCBench/src/burger-hip/main.cu"]}
+{"kernel_name": "burger-omp", "files": ["HeCBench/src/burger-omp/main.cpp"]}
+{"kernel_name": "burger-sycl", "files": ["HeCBench/src/burger-sycl/main.cpp"]}
+{"kernel_name": "bwt-cuda", "files": ["HeCBench/src/bwt-cuda/bwt.cu", "HeCBench/src/bwt-cuda/main.cpp"]}
+{"kernel_name": "bwt-hip", "files": ["HeCBench/src/bwt-hip/bwt.cu"]}
+{"kernel_name": "bwt-omp", "files": ["HeCBench/src/bwt-omp/bwt.cpp"]}
+{"kernel_name": "bwt-sycl", "files": ["HeCBench/src/bwt-sycl/bwt.cpp"]}
+{"kernel_name": "car-cuda", "files": ["HeCBench/src/car-cuda/main.cu"]}
+{"kernel_name": "car-hip", "files": ["HeCBench/src/car-hip/main.cu"]}
+{"kernel_name": "car-omp", "files": ["HeCBench/src/car-omp/main.cpp"]}
+{"kernel_name": "car-sycl", "files": ["HeCBench/src/car-sycl/main.cpp"]}
+{"kernel_name": "cbsfil-cuda", "files": ["HeCBench/src/cbsfil-cuda/main.cu"]}
+{"kernel_name": "cbsfil-hip", "files": ["HeCBench/src/cbsfil-hip/main.cu"]}
+{"kernel_name": "cbsfil-omp", "files": ["HeCBench/src/cbsfil-omp/main.cpp"]}
+{"kernel_name": "cbsfil-sycl", "files": ["HeCBench/src/cbsfil-sycl/main.cpp"]}
+{"kernel_name": "cc-cuda", "files": ["HeCBench/src/cc-cuda/main.cu"]}
+{"kernel_name": "cc-hip", "files": ["HeCBench/src/cc-hip/main.cu"]}
+{"kernel_name": "cc-sycl", "files": ["HeCBench/src/cc-sycl/main.cpp"]}
+{"kernel_name": "ccl-cuda", "files": ["HeCBench/src/ccl-cuda/main.cu"]}
+{"kernel_name": "ccl-hip", "files": ["HeCBench/src/ccl-hip/main.cu"]}
+{"kernel_name": "ccl-sycl", "files": ["HeCBench/src/ccl-sycl/main.cpp"]}
+{"kernel_name": "ccs-hip", "files": ["HeCBench/src/ccs-hip/main.cu"]}
+{"kernel_name": "ccs-omp", "files": ["HeCBench/src/ccs-omp/main.cpp"]}
+{"kernel_name": "ccs-sycl", "files": ["HeCBench/src/ccs-sycl/main.cpp"]}
+{"kernel_name": "ced-cuda", "files": ["HeCBench/src/ced-cuda/main.cpp", "HeCBench/src/ced-cuda/main.cu"]}
+{"kernel_name": "ced-hip", "files": ["HeCBench/src/ced-hip/main.cu"]}
+{"kernel_name": "ced-sycl", "files": ["HeCBench/src/ced-sycl/main.cpp"]}
+{"kernel_name": "cfd-cuda", "files": ["HeCBench/src/cfd-cuda/euler3d.cu"]}
+{"kernel_name": "cfd-hip", "files": ["HeCBench/src/cfd-hip/euler3d.cu"]}
+{"kernel_name": "cfd-omp", "files": ["HeCBench/src/cfd-omp/euler3d.cpp"]}
+{"kernel_name": "chacha20-cuda", "files": ["HeCBench/src/chacha20-cuda/main.cu"]}
+{"kernel_name": "chacha20-hip", "files": ["HeCBench/src/chacha20-hip/main.cu"]}
+{"kernel_name": "chacha20-omp", "files": ["HeCBench/src/chacha20-omp/main.cpp"]}
+{"kernel_name": "chacha20-sycl", "files": ["HeCBench/src/chacha20-sycl/main.cpp"]}
+{"kernel_name": "channelShuffle-cuda", "files": ["HeCBench/src/channelShuffle-cuda/main.cu"]}
+{"kernel_name": "channelShuffle-hip", "files": ["HeCBench/src/channelShuffle-hip/main.cu"]}
+{"kernel_name": "channelShuffle-omp", "files": ["HeCBench/src/channelShuffle-omp/main.cpp"]}
+{"kernel_name": "channelShuffle-sycl", "files": ["HeCBench/src/channelShuffle-sycl/main.cpp"]}
+{"kernel_name": "channelSum-cuda", "files": ["HeCBench/src/channelSum-cuda/main.cu"]}
+{"kernel_name": "channelSum-hip", "files": ["HeCBench/src/channelSum-hip/main.cu"]}
+{"kernel_name": "channelSum-omp", "files": ["HeCBench/src/channelSum-omp/main.cpp"]}
+{"kernel_name": "channelSum-sycl", "files": ["HeCBench/src/channelSum-sycl/main.cpp"]}
+{"kernel_name": "che-cuda", "files": ["HeCBench/src/che-cuda/main.cu"]}
+{"kernel_name": "che-hip", "files": ["HeCBench/src/che-hip/main.cu"]}
+{"kernel_name": "che-omp", "files": ["HeCBench/src/che-omp/main.cpp"]}
+{"kernel_name": "che-sycl", "files": ["HeCBench/src/che-sycl/main.cpp"]}
+{"kernel_name": "chemv-cuda", "files": ["HeCBench/src/chemv-cuda/main.cu", "HeCBench/src/chemv-cuda/kernel.cu"]}
+{"kernel_name": "chemv-hip", "files": ["HeCBench/src/chemv-hip/main.cu", "HeCBench/src/chemv-hip/kernel.cu"]}
+{"kernel_name": "chemv-omp", "files": ["HeCBench/src/chemv-omp/main.cpp", "HeCBench/src/chemv-omp/kernel.cpp"]}
+{"kernel_name": "chemv-sycl", "files": ["HeCBench/src/chemv-sycl/main.cpp", "HeCBench/src/chemv-sycl/kernel.cpp"]}
+{"kernel_name": "chi2-cuda", "files": ["HeCBench/src/chi2-cuda/chi2.cu"]}
+{"kernel_name": "chi2-hip", "files": ["HeCBench/src/chi2-hip/chi2.cu"]}
+{"kernel_name": "chi2-omp", "files": ["HeCBench/src/chi2-omp/chi2.cpp"]}
+{"kernel_name": "chi2-sycl", "files": ["HeCBench/src/chi2-sycl/chi2.cpp"]}
+{"kernel_name": "clenergy-cuda", "files": ["HeCBench/src/clenergy-cuda/WKFUtils.cu", "HeCBench/src/clenergy-cuda/clenergy.cu"]}
+{"kernel_name": "clenergy-hip", "files": ["HeCBench/src/clenergy-hip/WKFUtils.cu", "HeCBench/src/clenergy-hip/clenergy.cu"]}
+{"kernel_name": "clenergy-omp", "files": ["HeCBench/src/clenergy-omp/WKFUtils.cpp", "HeCBench/src/clenergy-omp/clenergy.cpp"]}
+{"kernel_name": "clenergy-sycl", "files": ["HeCBench/src/clenergy-sycl/WKFUtils.cpp", "HeCBench/src/clenergy-sycl/clenergy.cpp"]}
+{"kernel_name": "clink-cuda", "files": ["HeCBench/src/clink-cuda/main.cu"]}
+{"kernel_name": "clink-hip", "files": ["HeCBench/src/clink-hip/main.cu"]}
+{"kernel_name": "clink-omp", "files": ["HeCBench/src/clink-omp/main.cpp"]}
+{"kernel_name": "clink-sycl", "files": ["HeCBench/src/clink-sycl/main.cpp"]}
+{"kernel_name": "clock-cuda", "files": ["HeCBench/src/clock-cuda/main.cu"]}
+{"kernel_name": "clock-hip", "files": ["HeCBench/src/clock-hip/main.cu"]}
+{"kernel_name": "cm-hip", "files": ["HeCBench/src/cm-hip/process.cu"]}
+{"kernel_name": "cm-omp", "files": ["HeCBench/src/cm-omp/process.cpp"]}
+{"kernel_name": "cm-sycl", "files": ["HeCBench/src/cm-sycl/main.cpp", "HeCBench/src/cm-sycl/process.cpp"]}
+{"kernel_name": "cmembench-cuda", "files": ["HeCBench/src/cmembench-cuda/main.cu"]}
+{"kernel_name": "cmembench-hip", "files": ["HeCBench/src/cmembench-hip/main.cu"]}
+{"kernel_name": "cmp-hip", "files": ["HeCBench/src/cmp-hip/main.cu"]}
+{"kernel_name": "cmp-omp", "files": ["HeCBench/src/cmp-omp/main.cpp"]}
+{"kernel_name": "cmp-sycl", "files": ["HeCBench/src/cmp-sycl/main.cpp"]}
+{"kernel_name": "cobahh-cuda", "files": ["HeCBench/src/cobahh-cuda/main.cu"]}
+{"kernel_name": "cobahh-hip", "files": ["HeCBench/src/cobahh-hip/main.cu"]}
+{"kernel_name": "cobahh-omp", "files": ["HeCBench/src/cobahh-omp/main.cpp"]}
+{"kernel_name": "cobahh-sycl", "files": ["HeCBench/src/cobahh-sycl/main.cpp"]}
+{"kernel_name": "collision-cuda", "files": ["HeCBench/src/collision-cuda/main.cu"]}
+{"kernel_name": "collision-hip", "files": ["HeCBench/src/collision-hip/main.cu"]}
+{"kernel_name": "collision-sycl", "files": ["HeCBench/src/collision-sycl/main.cpp"]}
+{"kernel_name": "colorwheel-cuda", "files": ["HeCBench/src/colorwheel-cuda/main.cu"]}
+{"kernel_name": "colorwheel-hip", "files": ["HeCBench/src/colorwheel-hip/main.cu"]}
+{"kernel_name": "colorwheel-omp", "files": ["HeCBench/src/colorwheel-omp/main.cpp"]}
+{"kernel_name": "colorwheel-sycl", "files": ["HeCBench/src/colorwheel-sycl/main.cpp"]}
+{"kernel_name": "columnarSolver-cuda", "files": ["HeCBench/src/columnarSolver-cuda/main.cu", "HeCBench/src/columnarSolver-cuda/kernels.cu"]}
+{"kernel_name": "columnarSolver-hip", "files": ["HeCBench/src/columnarSolver-hip/main.cu", "HeCBench/src/columnarSolver-hip/kernels.cu"]}
+{"kernel_name": "columnarSolver-omp", "files": ["HeCBench/src/columnarSolver-omp/main.cpp", "HeCBench/src/columnarSolver-omp/kernels.cpp"]}
+{"kernel_name": "columnarSolver-sycl", "files": ["HeCBench/src/columnarSolver-sycl/main.cpp", "HeCBench/src/columnarSolver-sycl/kernels.cpp"]}
+{"kernel_name": "complex-cuda", "files": ["HeCBench/src/complex-cuda/main.cu"]}
+{"kernel_name": "complex-hip", "files": ["HeCBench/src/complex-hip/main.cu"]}
+{"kernel_name": "complex-omp", "files": ["HeCBench/src/complex-omp/main.cpp"]}
+{"kernel_name": "complex-sycl", "files": ["HeCBench/src/complex-sycl/main.cpp"]}
+{"kernel_name": "compute-score-cuda", "files": ["HeCBench/src/compute-score-cuda/main.cu", "HeCBench/src/compute-score-cuda/options.cu"]}
+{"kernel_name": "compute-score-hip", "files": ["HeCBench/src/compute-score-hip/main.cu", "HeCBench/src/compute-score-hip/options.cu"]}
+{"kernel_name": "compute-score-omp", "files": ["HeCBench/src/compute-score-omp/main.cpp", "HeCBench/src/compute-score-omp/options.cpp"]}
+{"kernel_name": "compute-score-sycl", "files": ["HeCBench/src/compute-score-sycl/main.cpp", "HeCBench/src/compute-score-sycl/options.cpp"]}
+{"kernel_name": "concat-cuda", "files": ["HeCBench/src/concat-cuda/main.cu"]}
+{"kernel_name": "concat-hip", "files": ["HeCBench/src/concat-hip/main.cu"]}
+{"kernel_name": "concat-omp", "files": ["HeCBench/src/concat-omp/main.cpp"]}
+{"kernel_name": "concat-sycl", "files": ["HeCBench/src/concat-sycl/main.cpp"]}
+{"kernel_name": "concurrentKernels-cuda", "files": ["HeCBench/src/concurrentKernels-cuda/main.cu"]}
+{"kernel_name": "concurrentKernels-hip", "files": ["HeCBench/src/concurrentKernels-hip/main.cu"]}
+{"kernel_name": "concurrentKernels-sycl", "files": ["HeCBench/src/concurrentKernels-sycl/main.cpp"]}
+{"kernel_name": "contract-cuda", "files": ["HeCBench/src/contract-cuda/main.cu"]}
+{"kernel_name": "contract-hip", "files": ["HeCBench/src/contract-hip/main.cu"]}
+{"kernel_name": "contract-omp", "files": ["HeCBench/src/contract-omp/main.cpp"]}
+{"kernel_name": "contract-sycl", "files": ["HeCBench/src/contract-sycl/main.cpp"]}
+{"kernel_name": "conversion-cuda", "files": ["HeCBench/src/conversion-cuda/main.cu"]}
+{"kernel_name": "conversion-hip", "files": ["HeCBench/src/conversion-hip/main.cu"]}
+{"kernel_name": "conversion-omp", "files": ["HeCBench/src/conversion-omp/main.cpp"]}
+{"kernel_name": "conversion-sycl", "files": ["HeCBench/src/conversion-sycl/main.cpp"]}
+{"kernel_name": "convolution1D-cuda", "files": ["HeCBench/src/convolution1D-cuda/main.cu"]}
+{"kernel_name": "convolution1D-hip", "files": ["HeCBench/src/convolution1D-hip/main.cu"]}
+{"kernel_name": "convolution1D-omp", "files": ["HeCBench/src/convolution1D-omp/main.cpp"]}
+{"kernel_name": "convolution1D-sycl", "files": ["HeCBench/src/convolution1D-sycl/main.cpp"]}
+{"kernel_name": "convolution3D-cuda", "files": ["HeCBench/src/convolution3D-cuda/conv3d_s4.cu", "HeCBench/src/convolution3D-cuda/main.cu"]}
+{"kernel_name": "convolution3D-hip", "files": ["HeCBench/src/convolution3D-hip/conv3d_s4.cu", "HeCBench/src/convolution3D-hip/main.cu"]}
+{"kernel_name": "convolution3D-omp", "files": ["HeCBench/src/convolution3D-omp/main.cpp"]}
+{"kernel_name": "convolution3D-sycl", "files": ["HeCBench/src/convolution3D-sycl/conv3d_s4.cpp", "HeCBench/src/convolution3D-sycl/main.cpp"]}
+{"kernel_name": "convolutionDeformable-hip", "files": ["HeCBench/src/convolutionDeformable-hip/src/vision_hip.cpp"]}
+{"kernel_name": "cooling-cuda", "files": ["HeCBench/src/cooling-cuda/main.cu"]}
+{"kernel_name": "cooling-hip", "files": ["HeCBench/src/cooling-hip/main.cu"]}
+{"kernel_name": "cooling-omp", "files": ["HeCBench/src/cooling-omp/main.cpp"]}
+{"kernel_name": "cooling-sycl", "files": ["HeCBench/src/cooling-sycl/main.cpp"]}
+{"kernel_name": "coordinates-cuda", "files": ["HeCBench/src/coordinates-cuda/main.cu"]}
+{"kernel_name": "coordinates-hip", "files": ["HeCBench/src/coordinates-hip/main.cu"]}
+{"kernel_name": "coordinates-sycl", "files": ["HeCBench/src/coordinates-sycl/main.cpp"]}
+{"kernel_name": "copy-cuda", "files": ["HeCBench/src/copy-cuda/main.cu"]}
+{"kernel_name": "copy-hip", "files": ["HeCBench/src/copy-hip/main.cu"]}
+{"kernel_name": "crc64-cuda", "files": ["HeCBench/src/crc64-cuda/CRC64.cu", "HeCBench/src/crc64-cuda/CRC64Test.cu"]}
+{"kernel_name": "crc64-hip", "files": ["HeCBench/src/crc64-hip/CRC64.cu", "HeCBench/src/crc64-hip/CRC64Test.cu"]}
+{"kernel_name": "crc64-omp", "files": ["HeCBench/src/crc64-omp/CRC64.cpp", "HeCBench/src/crc64-omp/CRC64Test.cpp"]}
+{"kernel_name": "crc64-sycl", "files": ["HeCBench/src/crc64-sycl/CRC64.cpp", "HeCBench/src/crc64-sycl/CRC64Test.cpp"]}
+{"kernel_name": "cross-cuda", "files": ["HeCBench/src/cross-cuda/main.cu"]}
+{"kernel_name": "cross-hip", "files": ["HeCBench/src/cross-hip/main.cu"]}
+{"kernel_name": "cross-omp", "files": ["HeCBench/src/cross-omp/main.cpp"]}
+{"kernel_name": "cross-sycl", "files": ["HeCBench/src/cross-sycl/main.cpp"]}
+{"kernel_name": "crossEntropy-cuda", "files": ["HeCBench/src/crossEntropy-cuda/main.cu"]}
+{"kernel_name": "crossEntropy-hip", "files": ["HeCBench/src/crossEntropy-hip/main.cu"]}
+{"kernel_name": "crossEntropy-sycl", "files": ["HeCBench/src/crossEntropy-sycl/main.cpp"]}
+{"kernel_name": "crs-hip", "files": ["HeCBench/src/crs-hip/main.cu", "HeCBench/src/crs-hip/kernels.cu"]}
+{"kernel_name": "crs-omp", "files": ["HeCBench/src/crs-omp/main.cpp", "HeCBench/src/crs-omp/kernels.cpp"]}
+{"kernel_name": "d2q9-bgk-cuda", "files": ["HeCBench/src/d2q9-bgk-cuda/main.cu"]}
+{"kernel_name": "d2q9-bgk-hip", "files": ["HeCBench/src/d2q9-bgk-hip/main.cu"]}
+{"kernel_name": "d2q9-bgk-omp", "files": ["HeCBench/src/d2q9-bgk-omp/main.cpp"]}
+{"kernel_name": "d2q9-bgk-sycl", "files": ["HeCBench/src/d2q9-bgk-sycl/main.cpp"]}
+{"kernel_name": "d3q19-bgk-cuda", "files": ["HeCBench/src/d3q19-bgk-cuda/main.cu"]}
+{"kernel_name": "d3q19-bgk-hip", "files": ["HeCBench/src/d3q19-bgk-hip/main.cu"]}
+{"kernel_name": "d3q19-bgk-sycl", "files": ["HeCBench/src/d3q19-bgk-sycl/main.cpp"]}
+{"kernel_name": "damage-cuda", "files": ["HeCBench/src/damage-cuda/main.cu"]}
+{"kernel_name": "damage-hip", "files": ["HeCBench/src/damage-hip/main.cu"]}
+{"kernel_name": "damage-omp", "files": ["HeCBench/src/damage-omp/main.cpp"]}
+{"kernel_name": "damage-sycl", "files": ["HeCBench/src/damage-sycl/main.cpp"]}
+{"kernel_name": "daphne-cuda", "files": ["HeCBench/src/daphne-cuda/src/common/main.cpp", "HeCBench/src/daphne-cuda/src/points2image/kernel.cu"]}
+{"kernel_name": "daphne-hip", "files": ["HeCBench/src/daphne-hip/src/points2image/kernel.cu"]}
+{"kernel_name": "daphne-sycl", "files": ["HeCBench/src/daphne-sycl/src/common/main.cpp", "HeCBench/src/daphne-sycl/src/points2image/kernel.cpp"]}
+{"kernel_name": "dct8x8-cuda", "files": ["HeCBench/src/dct8x8-cuda/DCT8x8_gold.cu", "HeCBench/src/dct8x8-cuda/main.cu", "HeCBench/src/dct8x8-cuda/kernels.cu"]}
+{"kernel_name": "dct8x8-hip", "files": ["HeCBench/src/dct8x8-hip/DCT8x8_gold.cu", "HeCBench/src/dct8x8-hip/main.cu", "HeCBench/src/dct8x8-hip/kernels.cu"]}
+{"kernel_name": "dct8x8-omp", "files": ["HeCBench/src/dct8x8-omp/DCT8x8_gold.cpp", "HeCBench/src/dct8x8-omp/main.cpp", "HeCBench/src/dct8x8-omp/kernels.cpp"]}
+{"kernel_name": "dct8x8-sycl", "files": ["HeCBench/src/dct8x8-sycl/DCT8x8_gold.cpp", "HeCBench/src/dct8x8-sycl/main.cpp", "HeCBench/src/dct8x8-sycl/kernels.cpp"]}
+{"kernel_name": "ddbp-cuda", "files": ["HeCBench/src/ddbp-cuda/main.cu"]}
+{"kernel_name": "ddbp-hip", "files": ["HeCBench/src/ddbp-hip/main.cu"]}
+{"kernel_name": "ddbp-omp", "files": ["HeCBench/src/ddbp-omp/main.cpp"]}
+{"kernel_name": "ddbp-sycl", "files": ["HeCBench/src/ddbp-sycl/main.cpp"]}
+{"kernel_name": "debayer-cuda", "files": ["HeCBench/src/debayer-cuda/main.cu"]}
+{"kernel_name": "debayer-hip", "files": ["HeCBench/src/debayer-hip/main.cu"]}
+{"kernel_name": "debayer-omp", "files": ["HeCBench/src/debayer-omp/main.cpp"]}
+{"kernel_name": "debayer-sycl", "files": ["HeCBench/src/debayer-sycl/main.cpp"]}
+{"kernel_name": "degrid-cuda", "files": ["HeCBench/src/degrid-cuda/main.cu", "HeCBench/src/degrid-cuda/kernels.cu"]}
+{"kernel_name": "degrid-hip", "files": ["HeCBench/src/degrid-hip/main.cu", "HeCBench/src/degrid-hip/kernels.cu"]}
+{"kernel_name": "degrid-omp", "files": ["HeCBench/src/degrid-omp/main.cpp", "HeCBench/src/degrid-omp/kernels.cpp"]}
+{"kernel_name": "degrid-sycl", "files": ["HeCBench/src/degrid-sycl/main.cpp", "HeCBench/src/degrid-sycl/kernels.cpp"]}
+{"kernel_name": "dense-embedding-cuda", "files": ["HeCBench/src/dense-embedding-cuda/main.cu"]}
+{"kernel_name": "dense-embedding-hip", "files": ["HeCBench/src/dense-embedding-hip/main.cu"]}
+{"kernel_name": "dense-embedding-omp", "files": ["HeCBench/src/dense-embedding-omp/main.cpp"]}
+{"kernel_name": "dense-embedding-sycl", "files": ["HeCBench/src/dense-embedding-sycl/main.cpp"]}
+{"kernel_name": "depixel-cuda", "files": ["HeCBench/src/depixel-cuda/main.cu"]}
+{"kernel_name": "depixel-hip", "files": ["HeCBench/src/depixel-hip/main.cu"]}
+{"kernel_name": "depixel-omp", "files": ["HeCBench/src/depixel-omp/main.cpp"]}
+{"kernel_name": "depixel-sycl", "files": ["HeCBench/src/depixel-sycl/main.cpp"]}
+{"kernel_name": "deredundancy-cuda", "files": ["HeCBench/src/deredundancy-cuda/main.cu", "HeCBench/src/deredundancy-cuda/kernels.cu"]}
+{"kernel_name": "deredundancy-hip", "files": ["HeCBench/src/deredundancy-hip/main.cu", "HeCBench/src/deredundancy-hip/kernels.cu"]}
+{"kernel_name": "deredundancy-omp", "files": ["HeCBench/src/deredundancy-omp/main.cpp", "HeCBench/src/deredundancy-omp/kernels.cpp"]}
+{"kernel_name": "deredundancy-sycl", "files": ["HeCBench/src/deredundancy-sycl/main.cpp", "HeCBench/src/deredundancy-sycl/kernels.cpp"]}
+{"kernel_name": "determinant-cuda", "files": ["HeCBench/src/determinant-cuda/main.cu"]}
+{"kernel_name": "determinant-hip", "files": ["HeCBench/src/determinant-hip/main.cu"]}
+{"kernel_name": "determinant-sycl", "files": ["HeCBench/src/determinant-sycl/main.cpp"]}
+{"kernel_name": "diamond-cuda", "files": ["HeCBench/src/diamond-cuda/masking.cu"]}
+{"kernel_name": "diamond-hip", "files": ["HeCBench/src/diamond-hip/masking.cu"]}
+{"kernel_name": "diamond-omp", "files": ["HeCBench/src/diamond-omp/masking.cpp"]}
+{"kernel_name": "dispatch-cuda", "files": ["HeCBench/src/dispatch-cuda/main.cu"]}
+{"kernel_name": "dispatch-hip", "files": ["HeCBench/src/dispatch-hip/main.cu"]}
+{"kernel_name": "dispatch-sycl", "files": ["HeCBench/src/dispatch-sycl/main.cpp"]}
+{"kernel_name": "distort-cuda", "files": ["HeCBench/src/distort-cuda/distort.cu", "HeCBench/src/distort-cuda/main.cu"]}
+{"kernel_name": "distort-hip", "files": ["HeCBench/src/distort-hip/distort.cu", "HeCBench/src/distort-hip/main.cu"]}
+{"kernel_name": "distort-omp", "files": ["HeCBench/src/distort-omp/distort.cpp", "HeCBench/src/distort-omp/main.cpp"]}
+{"kernel_name": "distort-sycl", "files": ["HeCBench/src/distort-sycl/distort.cpp", "HeCBench/src/distort-sycl/main.cpp"]}
+{"kernel_name": "divergence-cuda", "files": ["HeCBench/src/divergence-cuda/divergence.cu", "HeCBench/src/divergence-cuda/timer/timer.cpp"]}
+{"kernel_name": "divergence-hip", "files": ["HeCBench/src/divergence-hip/divergence.cu", "HeCBench/src/divergence-hip/timer/timer.cpp"]}
+{"kernel_name": "divergence-omp", "files": ["HeCBench/src/divergence-omp/divergence.cpp", "HeCBench/src/divergence-omp/timer/timer.cpp"]}
+{"kernel_name": "divergence-sycl", "files": ["HeCBench/src/divergence-sycl/divergence.cpp", "HeCBench/src/divergence-sycl/timer/timer.cpp"]}
+{"kernel_name": "doh-cuda", "files": ["HeCBench/src/doh-cuda/main.cu"]}
+{"kernel_name": "doh-hip", "files": ["HeCBench/src/doh-hip/main.cu"]}
+{"kernel_name": "doh-omp", "files": ["HeCBench/src/doh-omp/main.cpp"]}
+{"kernel_name": "doh-sycl", "files": ["HeCBench/src/doh-sycl/main.cpp"]}
+{"kernel_name": "dp-cuda", "files": ["HeCBench/src/dp-cuda/main.cu", "HeCBench/src/dp-cuda/shrUtils.cu"]}
+{"kernel_name": "dp-hip", "files": ["HeCBench/src/dp-hip/main.cu", "HeCBench/src/dp-hip/shrUtils.cu"]}
+{"kernel_name": "dp-omp", "files": ["HeCBench/src/dp-omp/main.cpp", "HeCBench/src/dp-omp/shrUtils.cpp"]}
+{"kernel_name": "dp-sycl", "files": ["HeCBench/src/dp-sycl/main.cpp", "HeCBench/src/dp-sycl/shrUtils.cpp"]}
+{"kernel_name": "dpid-cuda", "files": ["HeCBench/src/dpid-cuda/main.cu", "HeCBench/src/dpid-cuda/kernels.cu"]}
+{"kernel_name": "dpid-hip", "files": ["HeCBench/src/dpid-hip/main.cu", "HeCBench/src/dpid-hip/kernels.cu"]}
+{"kernel_name": "dpid-sycl", "files": ["HeCBench/src/dpid-sycl/main.cpp", "HeCBench/src/dpid-sycl/kernels.cpp"]}
+{"kernel_name": "dropout-cuda", "files": ["HeCBench/src/dropout-cuda/main.cu"]}
+{"kernel_name": "dropout-hip", "files": ["HeCBench/src/dropout-hip/main.cu"]}
+{"kernel_name": "dropout-sycl", "files": ["HeCBench/src/dropout-sycl/main.cpp"]}
+{"kernel_name": "dslash-cuda", "files": ["HeCBench/src/dslash-cuda/dslash.cu", "HeCBench/src/dslash-cuda/main.cu", "HeCBench/src/dslash-cuda/kernels.cu"]}
+{"kernel_name": "dslash-hip", "files": ["HeCBench/src/dslash-hip/dslash.cu", "HeCBench/src/dslash-hip/main.cu", "HeCBench/src/dslash-hip/kernels.cu"]}
+{"kernel_name": "dslash-omp", "files": ["HeCBench/src/dslash-omp/dslash.cpp", "HeCBench/src/dslash-omp/main.cpp", "HeCBench/src/dslash-omp/kernels.cpp"]}
+{"kernel_name": "dslash-sycl", "files": ["HeCBench/src/dslash-sycl/dslash.cpp", "HeCBench/src/dslash-sycl/main.cpp", "HeCBench/src/dslash-sycl/kernels.cpp"]}
+{"kernel_name": "dwconv-cuda", "files": ["HeCBench/src/dwconv-cuda/main.cu"]}
+{"kernel_name": "dwconv-hip", "files": ["HeCBench/src/dwconv-hip/main.cu"]}
+{"kernel_name": "dwconv-sycl", "files": ["HeCBench/src/dwconv-sycl/main.cpp"]}
+{"kernel_name": "dwconv1d-cuda", "files": ["HeCBench/src/dwconv1d-cuda/src/timex.cu", "HeCBench/src/dwconv1d-cuda/src/timex_op.cpp"]}
+{"kernel_name": "dwconv1d-hip", "files": ["HeCBench/src/dwconv1d-hip/src/timex.cu", "HeCBench/src/dwconv1d-hip/src/timex_op.cpp"]}
+{"kernel_name": "dwconv1d-sycl", "files": ["HeCBench/src/dwconv1d-sycl/src/timex.cpp", "HeCBench/src/dwconv1d-sycl/src/timex_op.cpp"]}
+{"kernel_name": "dxtc2-cuda", "files": ["HeCBench/src/dxtc2-cuda/main.cu", "HeCBench/src/dxtc2-cuda/shrUtils.cu"]}
+{"kernel_name": "dxtc2-hip", "files": ["HeCBench/src/dxtc2-hip/main.cu", "HeCBench/src/dxtc2-hip/shrUtils.cu"]}
+{"kernel_name": "ecdh-cuda", "files": ["HeCBench/src/ecdh-cuda/main.cu"]}
+{"kernel_name": "ecdh-hip", "files": ["HeCBench/src/ecdh-hip/main.cu"]}
+{"kernel_name": "ecdh-omp", "files": ["HeCBench/src/ecdh-omp/main.cpp"]}
+{"kernel_name": "ecdh-sycl", "files": ["HeCBench/src/ecdh-sycl/main.cpp"]}
+{"kernel_name": "eigenvalue-cuda", "files": ["HeCBench/src/eigenvalue-cuda/main.cu", "HeCBench/src/eigenvalue-cuda/kernels.cu"]}
+{"kernel_name": "eigenvalue-hip", "files": ["HeCBench/src/eigenvalue-hip/main.cu", "HeCBench/src/eigenvalue-hip/kernels.cu"]}
+{"kernel_name": "eigenvalue-omp", "files": ["HeCBench/src/eigenvalue-omp/main.cpp", "HeCBench/src/eigenvalue-omp/kernels.cpp"]}
+{"kernel_name": "eigenvalue-sycl", "files": ["HeCBench/src/eigenvalue-sycl/main.cpp", "HeCBench/src/eigenvalue-sycl/kernels.cpp"]}
+{"kernel_name": "eikonal-hip", "files": ["HeCBench/src/eikonal-hip/StructuredEikonal.cu", "HeCBench/src/eikonal-hip/fim.cu", "HeCBench/src/eikonal-hip/kernel.cu"]}
+{"kernel_name": "entropy-cuda", "files": ["HeCBench/src/entropy-cuda/main.cu"]}
+{"kernel_name": "entropy-hip", "files": ["HeCBench/src/entropy-hip/main.cu"]}
+{"kernel_name": "entropy-omp", "files": ["HeCBench/src/entropy-omp/main.cpp"]}
+{"kernel_name": "entropy-sycl", "files": ["HeCBench/src/entropy-sycl/main.cpp"]}
+{"kernel_name": "epistasis-cuda", "files": ["HeCBench/src/epistasis-cuda/main.cu"]}
+{"kernel_name": "epistasis-hip", "files": ["HeCBench/src/epistasis-hip/main.cu"]}
+{"kernel_name": "epistasis-omp", "files": ["HeCBench/src/epistasis-omp/main.cpp"]}
+{"kernel_name": "epistasis-sycl", "files": ["HeCBench/src/epistasis-sycl/main.cpp"]}
+{"kernel_name": "ert-cuda", "files": ["HeCBench/src/ert-cuda/main.cu"]}
+{"kernel_name": "ert-hip", "files": ["HeCBench/src/ert-hip/main.cu"]}
+{"kernel_name": "ert-sycl", "files": ["HeCBench/src/ert-sycl/main.cpp"]}
+{"kernel_name": "expdist-cuda", "files": ["HeCBench/src/expdist-cuda/main.cu"]}
+{"kernel_name": "expdist-hip", "files": ["HeCBench/src/expdist-hip/main.cu"]}
+{"kernel_name": "expdist-omp", "files": ["HeCBench/src/expdist-omp/main.cpp"]}
+{"kernel_name": "expdist-sycl", "files": ["HeCBench/src/expdist-sycl/main.cpp"]}
+{"kernel_name": "extend2-cuda", "files": ["HeCBench/src/extend2-cuda/main.cu"]}
+{"kernel_name": "extend2-hip", "files": ["HeCBench/src/extend2-hip/main.cu"]}
+{"kernel_name": "extend2-omp", "files": ["HeCBench/src/extend2-omp/main.cpp"]}
+{"kernel_name": "extend2-sycl", "files": ["HeCBench/src/extend2-sycl/main.cpp", "HeCBench/src/extend2-sycl/read_data.cpp"]}
+{"kernel_name": "extrema-cuda", "files": ["HeCBench/src/extrema-cuda/main.cu"]}
+{"kernel_name": "extrema-hip", "files": ["HeCBench/src/extrema-hip/main.cu"]}
+{"kernel_name": "extrema-omp", "files": ["HeCBench/src/extrema-omp/main.cpp"]}
+{"kernel_name": "extrema-sycl", "files": ["HeCBench/src/extrema-sycl/main.cpp"]}
+{"kernel_name": "f16max-cuda", "files": ["HeCBench/src/f16max-cuda/main.cu"]}
+{"kernel_name": "f16max-hip", "files": ["HeCBench/src/f16max-hip/main.cu"]}
+{"kernel_name": "f16max-sycl", "files": ["HeCBench/src/f16max-sycl/main.cpp"]}
+{"kernel_name": "f16sp-cuda", "files": ["HeCBench/src/f16sp-cuda/main.cu"]}
+{"kernel_name": "f16sp-hip", "files": ["HeCBench/src/f16sp-hip/main.cu"]}
+{"kernel_name": "f16sp-sycl", "files": ["HeCBench/src/f16sp-sycl/main.cpp"]}
+{"kernel_name": "face-hip", "files": ["HeCBench/src/face-hip/haar.cu"]}
+{"kernel_name": "face-omp", "files": ["HeCBench/src/face-omp/haar.cpp"]}
+{"kernel_name": "feynman-kac-cuda", "files": ["HeCBench/src/feynman-kac-cuda/main.cu"]}
+{"kernel_name": "feynman-kac-hip", "files": ["HeCBench/src/feynman-kac-hip/main.cu"]}
+{"kernel_name": "feynman-kac-omp", "files": ["HeCBench/src/feynman-kac-omp/main.cpp"]}
+{"kernel_name": "feynman-kac-sycl", "files": ["HeCBench/src/feynman-kac-sycl/main.cpp"]}
+{"kernel_name": "fft-cuda", "files": ["HeCBench/src/fft-cuda/main.cu"]}
+{"kernel_name": "fft-hip", "files": ["HeCBench/src/fft-hip/main.cu"]}
+{"kernel_name": "fft-omp", "files": ["HeCBench/src/fft-omp/main.cpp"]}
+{"kernel_name": "fhd-cuda", "files": ["HeCBench/src/fhd-cuda/main.cu"]}
+{"kernel_name": "fhd-hip", "files": ["HeCBench/src/fhd-hip/main.cu"]}
+{"kernel_name": "fhd-omp", "files": ["HeCBench/src/fhd-omp/main.cpp"]}
+{"kernel_name": "fhd-sycl", "files": ["HeCBench/src/fhd-sycl/main.cpp"]}
+{"kernel_name": "filter-cuda", "files": ["HeCBench/src/filter-cuda/main.cu"]}
+{"kernel_name": "filter-hip", "files": ["HeCBench/src/filter-hip/main.cu"]}
+{"kernel_name": "filter-omp", "files": ["HeCBench/src/filter-omp/main.cpp"]}
+{"kernel_name": "filter-sycl", "files": ["HeCBench/src/filter-sycl/main.cpp"]}
+{"kernel_name": "flame-cuda", "files": ["HeCBench/src/flame-cuda/iteration.cu", "HeCBench/src/flame-cuda/main.cu", "HeCBench/src/flame-cuda/kernels.cu"]}
+{"kernel_name": "flame-hip", "files": ["HeCBench/src/flame-hip/iteration.cu", "HeCBench/src/flame-hip/main.cu", "HeCBench/src/flame-hip/kernels.cu"]}
+{"kernel_name": "flame-sycl", "files": ["HeCBench/src/flame-sycl/iteration.cpp", "HeCBench/src/flame-sycl/main.cpp", "HeCBench/src/flame-sycl/kernels.cpp"]}
+{"kernel_name": "flip-cuda", "files": ["HeCBench/src/flip-cuda/main.cu"]}
+{"kernel_name": "flip-hip", "files": ["HeCBench/src/flip-hip/main.cu"]}
+{"kernel_name": "flip-omp", "files": ["HeCBench/src/flip-omp/main.cpp"]}
+{"kernel_name": "flip-sycl", "files": ["HeCBench/src/flip-sycl/main.cpp"]}
+{"kernel_name": "floydwarshall-cuda", "files": ["HeCBench/src/floydwarshall-cuda/main.cu"]}
+{"kernel_name": "floydwarshall-hip", "files": ["HeCBench/src/floydwarshall-hip/main.cu"]}
+{"kernel_name": "floydwarshall-omp", "files": ["HeCBench/src/floydwarshall-omp/main.cpp"]}
+{"kernel_name": "floydwarshall-sycl", "files": ["HeCBench/src/floydwarshall-sycl/main.cpp"]}
+{"kernel_name": "floydwarshall2-cuda", "files": ["HeCBench/src/floydwarshall2-cuda/main.cu"]}
+{"kernel_name": "floydwarshall2-hip", "files": ["HeCBench/src/floydwarshall2-hip/main.cu"]}
+{"kernel_name": "floydwarshall2-sycl", "files": ["HeCBench/src/floydwarshall2-sycl/main.cpp"]}
+{"kernel_name": "fluidSim-cuda", "files": ["HeCBench/src/fluidSim-cuda/main.cpp", "HeCBench/src/fluidSim-cuda/kernels.cu"]}
+{"kernel_name": "fluidSim-hip", "files": ["HeCBench/src/fluidSim-hip/kernels.cu"]}
+{"kernel_name": "fluidSim-omp", "files": ["HeCBench/src/fluidSim-omp/kernels.cpp"]}
+{"kernel_name": "fluidSim-sycl", "files": ["HeCBench/src/fluidSim-sycl/main.cpp", "HeCBench/src/fluidSim-sycl/kernels.cpp"]}
+{"kernel_name": "fpc-cuda", "files": ["HeCBench/src/fpc-cuda/main.cu"]}
+{"kernel_name": "fpc-hip", "files": ["HeCBench/src/fpc-hip/main.cu"]}
+{"kernel_name": "fpc-omp", "files": ["HeCBench/src/fpc-omp/main.cpp"]}
+{"kernel_name": "fpc-sycl", "files": ["HeCBench/src/fpc-sycl/main.cpp"]}
+{"kernel_name": "fpdc-cuda", "files": ["HeCBench/src/fpdc-cuda/main.cu"]}
+{"kernel_name": "fpdc-hip", "files": ["HeCBench/src/fpdc-hip/main.cu"]}
+{"kernel_name": "fpdc-omp", "files": ["HeCBench/src/fpdc-omp/main.cpp"]}
+{"kernel_name": "fpdc-sycl", "files": ["HeCBench/src/fpdc-sycl/main.cpp"]}
+{"kernel_name": "frechet-cuda", "files": ["HeCBench/src/frechet-cuda/main.cpp", "HeCBench/src/frechet-cuda/main.cu"]}
+{"kernel_name": "frechet-hip", "files": ["HeCBench/src/frechet-hip/main.cu"]}
+{"kernel_name": "frechet-omp", "files": ["HeCBench/src/frechet-omp/main.cpp"]}
+{"kernel_name": "frechet-sycl", "files": ["HeCBench/src/frechet-sycl/main.cpp"]}
+{"kernel_name": "frna-hip", "files": ["HeCBench/src/frna-hip/frna.cu"]}
+{"kernel_name": "fsm-cuda", "files": ["HeCBench/src/fsm-cuda/main.cu"]}
+{"kernel_name": "fsm-hip", "files": ["HeCBench/src/fsm-hip/main.cu"]}
+{"kernel_name": "fsm-omp", "files": ["HeCBench/src/fsm-omp/main.cpp"]}
+{"kernel_name": "fsm-sycl", "files": ["HeCBench/src/fsm-sycl/main.cpp"]}
+{"kernel_name": "fwt-cuda", "files": ["HeCBench/src/fwt-cuda/main.cu", "HeCBench/src/fwt-cuda/kernels.cu"]}
+{"kernel_name": "fwt-hip", "files": ["HeCBench/src/fwt-hip/main.cu", "HeCBench/src/fwt-hip/kernels.cu"]}
+{"kernel_name": "fwt-omp", "files": ["HeCBench/src/fwt-omp/main.cpp", "HeCBench/src/fwt-omp/main2.cpp", "HeCBench/src/fwt-omp/kernels.cpp"]}
+{"kernel_name": "fwt-sycl", "files": ["HeCBench/src/fwt-sycl/main.cpp", "HeCBench/src/fwt-sycl/kernels.cpp"]}
+{"kernel_name": "ga-cuda", "files": ["HeCBench/src/ga-cuda/main.cu"]}
+{"kernel_name": "ga-hip", "files": ["HeCBench/src/ga-hip/main.cu"]}
+{"kernel_name": "ga-omp", "files": ["HeCBench/src/ga-omp/main.cpp"]}
+{"kernel_name": "ga-sycl", "files": ["HeCBench/src/ga-sycl/main.cpp"]}
+{"kernel_name": "gabor-cuda", "files": ["HeCBench/src/gabor-cuda/main.cu"]}
+{"kernel_name": "gabor-hip", "files": ["HeCBench/src/gabor-hip/main.cu"]}
+{"kernel_name": "gabor-omp", "files": ["HeCBench/src/gabor-omp/main.cpp"]}
+{"kernel_name": "gabor-sycl", "files": ["HeCBench/src/gabor-sycl/main.cpp"]}
+{"kernel_name": "gamma-correction-cuda", "files": ["HeCBench/src/gamma-correction-cuda/main.cpp", "HeCBench/src/gamma-correction-cuda/main.cu"]}
+{"kernel_name": "gamma-correction-hip", "files": ["HeCBench/src/gamma-correction-hip/main.cu"]}
+{"kernel_name": "gamma-correction-omp", "files": ["HeCBench/src/gamma-correction-omp/main.cpp"]}
+{"kernel_name": "gamma-correction-sycl", "files": ["HeCBench/src/gamma-correction-sycl/main.cpp"]}
+{"kernel_name": "gaussian-cuda", "files": ["HeCBench/src/gaussian-cuda/gaussianElim.cu"]}
+{"kernel_name": "gaussian-hip", "files": ["HeCBench/src/gaussian-hip/gaussianElim.cu"]}
+{"kernel_name": "gaussian-omp", "files": ["HeCBench/src/gaussian-omp/gaussianElim.cpp"]}
+{"kernel_name": "gaussian-sycl", "files": ["HeCBench/src/gaussian-sycl/gaussianElim.cpp"]}
+{"kernel_name": "gc-cuda", "files": ["HeCBench/src/gc-cuda/main.cu"]}
+{"kernel_name": "gc-hip", "files": ["HeCBench/src/gc-hip/main.cu"]}
+{"kernel_name": "gc-omp", "files": ["HeCBench/src/gc-omp/main.cpp"]}
+{"kernel_name": "gc-sycl", "files": ["HeCBench/src/gc-sycl/main.cpp"]}
+{"kernel_name": "gd-cuda", "files": ["HeCBench/src/gd-cuda/main.cu"]}
+{"kernel_name": "gd-hip", "files": ["HeCBench/src/gd-hip/main.cu"]}
+{"kernel_name": "gd-omp", "files": ["HeCBench/src/gd-omp/main.cpp"]}
+{"kernel_name": "gd-sycl", "files": ["HeCBench/src/gd-sycl/main.cpp"]}
+{"kernel_name": "ge-spmm-cuda", "files": ["HeCBench/src/ge-spmm-cuda/main.cu", "HeCBench/src/ge-spmm-cuda/data/conv.c"]}
+{"kernel_name": "ge-spmm-hip", "files": ["HeCBench/src/ge-spmm-hip/main.cu"]}
+{"kernel_name": "ge-spmm-sycl", "files": ["HeCBench/src/ge-spmm-sycl/main.cpp"]}
+{"kernel_name": "geam-cuda", "files": ["HeCBench/src/geam-cuda/main.cu"]}
+{"kernel_name": "geam-hip", "files": ["HeCBench/src/geam-hip/main.cu"]}
+{"kernel_name": "geam-sycl", "files": ["HeCBench/src/geam-sycl/main.cpp"]}
+{"kernel_name": "gels-cuda", "files": ["HeCBench/src/gels-cuda/main.cu"]}
+{"kernel_name": "gels-hip", "files": ["HeCBench/src/gels-hip/main.cu"]}
+{"kernel_name": "gels-sycl", "files": ["HeCBench/src/gels-sycl/main.cpp"]}
+{"kernel_name": "gelu-cuda", "files": ["HeCBench/src/gelu-cuda/main.cu"]}
+{"kernel_name": "gelu-hip", "files": ["HeCBench/src/gelu-hip/main.cu"]}
+{"kernel_name": "gelu-sycl", "files": ["HeCBench/src/gelu-sycl/main.cpp"]}
+{"kernel_name": "gemv-cuda", "files": ["HeCBench/src/gemv-cuda/gemv.cu", "HeCBench/src/gemv-cuda/main.cu"]}
+{"kernel_name": "gemv-hip", "files": ["HeCBench/src/gemv-hip/gemv.cu", "HeCBench/src/gemv-hip/main.cu"]}
+{"kernel_name": "gemv-sycl", "files": ["HeCBench/src/gemv-sycl/gemv.cpp", "HeCBench/src/gemv-sycl/main.cpp"]}
+{"kernel_name": "geodesic-cuda", "files": ["HeCBench/src/geodesic-cuda/main.cu"]}
+{"kernel_name": "geodesic-hip", "files": ["HeCBench/src/geodesic-hip/main.cu"]}
+{"kernel_name": "geodesic-omp", "files": ["HeCBench/src/geodesic-omp/main.cpp"]}
+{"kernel_name": "geodesic-sycl", "files": ["HeCBench/src/geodesic-sycl/main.cpp"]}
+{"kernel_name": "gibbs-cuda", "files": ["HeCBench/src/gibbs-cuda/main.cu"]}
+{"kernel_name": "gibbs-hip", "files": ["HeCBench/src/gibbs-hip/main.cu"]}
+{"kernel_name": "gibbs-sycl", "files": ["HeCBench/src/gibbs-sycl/main.cpp"]}
+{"kernel_name": "glu-cuda", "files": ["HeCBench/src/glu-cuda/main.cu"]}
+{"kernel_name": "glu-hip", "files": ["HeCBench/src/glu-hip/main.cu"]}
+{"kernel_name": "glu-omp", "files": ["HeCBench/src/glu-omp/main.cpp"]}
+{"kernel_name": "glu-sycl", "files": ["HeCBench/src/glu-sycl/main.cpp"]}
+{"kernel_name": "goulash-cuda", "files": ["HeCBench/src/goulash-cuda/main.cu"]}
+{"kernel_name": "goulash-hip", "files": ["HeCBench/src/goulash-hip/main.cu"]}
+{"kernel_name": "goulash-omp", "files": ["HeCBench/src/goulash-omp/main.cpp"]}
+{"kernel_name": "goulash-sycl", "files": ["HeCBench/src/goulash-sycl/main.cpp"]}
+{"kernel_name": "gpp-cuda", "files": ["HeCBench/src/gpp-cuda/main.cu"]}
+{"kernel_name": "gpp-hip", "files": ["HeCBench/src/gpp-hip/main.cu"]}
+{"kernel_name": "gpp-omp", "files": ["HeCBench/src/gpp-omp/main.cpp"]}
+{"kernel_name": "gpp-sycl", "files": ["HeCBench/src/gpp-sycl/main.cpp"]}
+{"kernel_name": "graphB+-cuda", "files": ["HeCBench/src/graphB+-cuda/main.cu"]}
+{"kernel_name": "graphB+-hip", "files": ["HeCBench/src/graphB+-hip/main.cu"]}
+{"kernel_name": "graphB+-sycl", "files": ["HeCBench/src/graphB+-sycl/main.cpp"]}
+{"kernel_name": "graphExecution-cuda", "files": ["HeCBench/src/graphExecution-cuda/main.cu"]}
+{"kernel_name": "graphExecution-hip", "files": ["HeCBench/src/graphExecution-hip/main.cu"]}
+{"kernel_name": "graphExecution-sycl", "files": ["HeCBench/src/graphExecution-sycl/main.cpp"]}
+{"kernel_name": "grrt-cuda", "files": ["HeCBench/src/grrt-cuda/main.cu", "HeCBench/src/grrt-cuda/kernels.cu"]}
+{"kernel_name": "grrt-hip", "files": ["HeCBench/src/grrt-hip/main.cu", "HeCBench/src/grrt-hip/kernels.cu"]}
+{"kernel_name": "grrt-omp", "files": ["HeCBench/src/grrt-omp/main.cpp", "HeCBench/src/grrt-omp/kernels.cpp"]}
+{"kernel_name": "grrt-sycl", "files": ["HeCBench/src/grrt-sycl/main.cpp", "HeCBench/src/grrt-sycl/kernels.cpp"]}
+{"kernel_name": "gru-cuda", "files": ["HeCBench/src/gru-cuda/main.cu"]}
+{"kernel_name": "gru-hip", "files": ["HeCBench/src/gru-hip/main.cu"]}
+{"kernel_name": "gru-sycl", "files": ["HeCBench/src/gru-sycl/main.cpp"]}
+{"kernel_name": "haccmk-cuda", "files": ["HeCBench/src/haccmk-cuda/haccmk.cu"]}
+{"kernel_name": "haccmk-hip", "files": ["HeCBench/src/haccmk-hip/haccmk.cu"]}
+{"kernel_name": "haccmk-omp", "files": ["HeCBench/src/haccmk-omp/haccmk.cpp"]}
+{"kernel_name": "haccmk-sycl", "files": ["HeCBench/src/haccmk-sycl/haccmk.cpp"]}
+{"kernel_name": "hausdorff-cuda", "files": ["HeCBench/src/hausdorff-cuda/main.cu"]}
+{"kernel_name": "hausdorff-hip", "files": ["HeCBench/src/hausdorff-hip/main.cu"]}
+{"kernel_name": "hausdorff-omp", "files": ["HeCBench/src/hausdorff-omp/main.cpp"]}
+{"kernel_name": "hausdorff-sycl", "files": ["HeCBench/src/hausdorff-sycl/main.cpp"]}
+{"kernel_name": "haversine-cuda", "files": ["HeCBench/src/haversine-cuda/distance.cu", "HeCBench/src/haversine-cuda/main.cpp"]}
+{"kernel_name": "haversine-hip", "files": ["HeCBench/src/haversine-hip/distance.cu"]}
+{"kernel_name": "haversine-omp", "files": ["HeCBench/src/haversine-omp/distance.cpp"]}
+{"kernel_name": "haversine-sycl", "files": ["HeCBench/src/haversine-sycl/main.cpp"]}
+{"kernel_name": "hbc-hip", "files": ["HeCBench/src/hbc-hip/kernels.cu"]}
+{"kernel_name": "hbc-sycl", "files": ["HeCBench/src/hbc-sycl/main.cpp", "HeCBench/src/hbc-sycl/kernels.cpp"]}
+{"kernel_name": "heartwall-cuda", "files": ["HeCBench/src/heartwall-cuda/main.cu", "HeCBench/src/heartwall-cuda/kernel/kernel.cu"]}
+{"kernel_name": "heartwall-hip", "files": ["HeCBench/src/heartwall-hip/main.cu", "HeCBench/src/heartwall-hip/kernel/kernel.cu"]}
+{"kernel_name": "heartwall-omp", "files": ["HeCBench/src/heartwall-omp/main.c", "HeCBench/src/heartwall-omp/main.cpp", "HeCBench/src/heartwall-omp/kernel/kernel.cpp"]}
+{"kernel_name": "heartwall-sycl", "files": ["HeCBench/src/heartwall-sycl/main.c", "HeCBench/src/heartwall-sycl/kernel/kernel.cpp", "HeCBench/src/heartwall-sycl/kernel/kernel.sycl"]}
+{"kernel_name": "heat-cuda", "files": ["HeCBench/src/heat-cuda/heat.cu"]}
+{"kernel_name": "heat-hip", "files": ["HeCBench/src/heat-hip/heat.cu"]}
+{"kernel_name": "heat-omp", "files": ["HeCBench/src/heat-omp/heat.cpp"]}
+{"kernel_name": "heat-sycl", "files": ["HeCBench/src/heat-sycl/heat.cpp"]}
+{"kernel_name": "heat2d-omp", "files": ["HeCBench/src/heat2d-omp/io.c", "HeCBench/src/heat2d-omp/main.cpp"]}
+{"kernel_name": "hellinger-cuda", "files": ["HeCBench/src/hellinger-cuda/main.cu"]}
+{"kernel_name": "hellinger-hip", "files": ["HeCBench/src/hellinger-hip/main.cu"]}
+{"kernel_name": "hellinger-omp", "files": ["HeCBench/src/hellinger-omp/main.cpp"]}
+{"kernel_name": "hellinger-sycl", "files": ["HeCBench/src/hellinger-sycl/main.cpp"]}
+{"kernel_name": "henry-cuda", "files": ["HeCBench/src/henry-cuda/main.cu"]}
+{"kernel_name": "henry-hip", "files": ["HeCBench/src/henry-hip/main.cu"]}
+{"kernel_name": "henry-omp", "files": ["HeCBench/src/henry-omp/main.cpp"]}
+{"kernel_name": "henry-sycl", "files": ["HeCBench/src/henry-sycl/main.cpp"]}
+{"kernel_name": "hexciton-cuda", "files": ["HeCBench/src/hexciton-cuda/main.cu", "HeCBench/src/hexciton-cuda/kernels.cu"]}
+{"kernel_name": "hexciton-hip", "files": ["HeCBench/src/hexciton-hip/main.cu", "HeCBench/src/hexciton-hip/kernels.cu"]}
+{"kernel_name": "hexciton-omp", "files": ["HeCBench/src/hexciton-omp/main.cpp", "HeCBench/src/hexciton-omp/kernels.cpp"]}
+{"kernel_name": "hexciton-sycl", "files": ["HeCBench/src/hexciton-sycl/main.cpp"]}
+{"kernel_name": "histogram-cuda", "files": ["HeCBench/src/histogram-cuda/histogram_compare.cu"]}
+{"kernel_name": "histogram-hip", "files": ["HeCBench/src/histogram-hip/histogram_compare.cu"]}
+{"kernel_name": "histogram-omp", "files": ["HeCBench/src/histogram-omp/histogram_compare_base.cpp"]}
+{"kernel_name": "histogram-sycl", "files": ["HeCBench/src/histogram-sycl/histogram_compare_base.cpp"]}
+{"kernel_name": "hogbom-cuda", "files": ["HeCBench/src/hogbom-cuda/main.cpp", "HeCBench/src/hogbom-cuda/timer.cpp", "HeCBench/src/hogbom-cuda/kernels.cu"]}
+{"kernel_name": "hogbom-hip", "files": ["HeCBench/src/hogbom-hip/kernels.cu"]}
+{"kernel_name": "hogbom-omp", "files": ["HeCBench/src/hogbom-omp/kernels.cpp"]}
+{"kernel_name": "hogbom-sycl", "files": ["HeCBench/src/hogbom-sycl/kernels.cpp"]}
+{"kernel_name": "hotspot-cuda", "files": ["HeCBench/src/hotspot-cuda/hotspot.cu"]}
+{"kernel_name": "hotspot-hip", "files": ["HeCBench/src/hotspot-hip/hotspot.cu"]}
+{"kernel_name": "hotspot-sycl", "files": ["HeCBench/src/hotspot-sycl/hotspot.cpp", "HeCBench/src/hotspot-sycl/kernel_hotspot.sycl"]}
+{"kernel_name": "hotspot3D-cuda", "files": ["HeCBench/src/hotspot3D-cuda/3D.cu", "HeCBench/src/hotspot3D-cuda/3D_helper.cu"]}
+{"kernel_name": "hotspot3D-hip", "files": ["HeCBench/src/hotspot3D-hip/3D.cu", "HeCBench/src/hotspot3D-hip/3D_helper.cu"]}
+{"kernel_name": "hotspot3D-omp", "files": ["HeCBench/src/hotspot3D-omp/3D.cpp", "HeCBench/src/hotspot3D-omp/3D_helper.cpp"]}
+{"kernel_name": "hotspot3D-sycl", "files": ["HeCBench/src/hotspot3D-sycl/3D.cpp", "HeCBench/src/hotspot3D-sycl/3D_helper.cpp", "HeCBench/src/hotspot3D-sycl/kernel_hotspot.sycl"]}
+{"kernel_name": "hungarian-cuda", "files": ["HeCBench/src/hungarian-cuda/main.cu"]}
+{"kernel_name": "hungarian-hip", "files": ["HeCBench/src/hungarian-hip/main.cu"]}
+{"kernel_name": "hungarian-sycl", "files": ["HeCBench/src/hungarian-sycl/main.cpp"]}
+{"kernel_name": "hwt1d-cuda", "files": ["HeCBench/src/hwt1d-cuda/main.cu", "HeCBench/src/hwt1d-cuda/kernel.cu"]}
+{"kernel_name": "hwt1d-hip", "files": ["HeCBench/src/hwt1d-hip/main.cu", "HeCBench/src/hwt1d-hip/kernel.cu"]}
+{"kernel_name": "hwt1d-omp", "files": ["HeCBench/src/hwt1d-omp/main.cpp"]}
+{"kernel_name": "hwt1d-sycl", "files": ["HeCBench/src/hwt1d-sycl/main.cpp", "HeCBench/src/hwt1d-sycl/kernel.cpp"]}
+{"kernel_name": "hypterm-cuda", "files": ["HeCBench/src/hypterm-cuda/main.cpp", "HeCBench/src/hypterm-cuda/kernels.cu"]}
+{"kernel_name": "hypterm-hip", "files": ["HeCBench/src/hypterm-hip/kernels.cu"]}
+{"kernel_name": "hypterm-omp", "files": ["HeCBench/src/hypterm-omp/kernels.cpp"]}
+{"kernel_name": "hypterm-sycl", "files": ["HeCBench/src/hypterm-sycl/kernels.cpp"]}
+{"kernel_name": "idivide-cuda", "files": ["HeCBench/src/idivide-cuda/main.cu"]}
+{"kernel_name": "idivide-hip", "files": ["HeCBench/src/idivide-hip/main.cu"]}
+{"kernel_name": "idivide-omp", "files": ["HeCBench/src/idivide-omp/main.cpp"]}
+{"kernel_name": "idivide-sycl", "files": ["HeCBench/src/idivide-sycl/main.cpp"]}
+{"kernel_name": "interleave-cuda", "files": ["HeCBench/src/interleave-cuda/main.cu"]}
+{"kernel_name": "interleave-hip", "files": ["HeCBench/src/interleave-hip/main.cu"]}
+{"kernel_name": "interleave-omp", "files": ["HeCBench/src/interleave-omp/main.cpp"]}
+{"kernel_name": "interleave-sycl", "files": ["HeCBench/src/interleave-sycl/main.cpp"]}
+{"kernel_name": "interval-cuda", "files": ["HeCBench/src/interval-cuda/main.cu"]}
+{"kernel_name": "interval-hip", "files": ["HeCBench/src/interval-hip/main.cu"]}
+{"kernel_name": "interval-omp", "files": ["HeCBench/src/interval-omp/main.cpp"]}
+{"kernel_name": "interval-sycl", "files": ["HeCBench/src/interval-sycl/main.cpp"]}
+{"kernel_name": "intrinsics-cast-cuda", "files": ["HeCBench/src/intrinsics-cast-cuda/main.cu"]}
+{"kernel_name": "intrinsics-cast-hip", "files": ["HeCBench/src/intrinsics-cast-hip/main.cu"]}
+{"kernel_name": "intrinsics-cast-sycl", "files": ["HeCBench/src/intrinsics-cast-sycl/main.cpp"]}
+{"kernel_name": "intrinsics-simd-cuda", "files": ["HeCBench/src/intrinsics-simd-cuda/main.cu"]}
+{"kernel_name": "inversek2j-cuda", "files": ["HeCBench/src/inversek2j-cuda/main.cu"]}
+{"kernel_name": "inversek2j-hip", "files": ["HeCBench/src/inversek2j-hip/main.cu"]}
+{"kernel_name": "inversek2j-omp", "files": ["HeCBench/src/inversek2j-omp/main.cpp"]}
+{"kernel_name": "inversek2j-sycl", "files": ["HeCBench/src/inversek2j-sycl/main.cpp"]}
+{"kernel_name": "is-cuda", "files": ["HeCBench/src/is-cuda/main.cu"]}
+{"kernel_name": "is-hip", "files": ["HeCBench/src/is-hip/main.cu"]}
+{"kernel_name": "is-sycl", "files": ["HeCBench/src/is-sycl/main.cpp"]}
+{"kernel_name": "ising-cuda", "files": ["HeCBench/src/ising-cuda/main.cu"]}
+{"kernel_name": "ising-hip", "files": ["HeCBench/src/ising-hip/main.cu"]}
+{"kernel_name": "ising-omp", "files": ["HeCBench/src/ising-omp/main.cpp"]}
+{"kernel_name": "ising-sycl", "files": ["HeCBench/src/ising-sycl/main.cpp"]}
+{"kernel_name": "iso2dfd-cuda", "files": ["HeCBench/src/iso2dfd-cuda/iso2dfd.cu"]}
+{"kernel_name": "iso2dfd-hip", "files": ["HeCBench/src/iso2dfd-hip/iso2dfd.cu"]}
+{"kernel_name": "iso2dfd-omp", "files": ["HeCBench/src/iso2dfd-omp/iso2dfd.cpp"]}
+{"kernel_name": "iso2dfd-sycl", "files": ["HeCBench/src/iso2dfd-sycl/iso2dfd.cpp"]}
+{"kernel_name": "jaccard-cuda", "files": ["HeCBench/src/jaccard-cuda/main.cu"]}
+{"kernel_name": "jaccard-hip", "files": ["HeCBench/src/jaccard-hip/main.cu"]}
+{"kernel_name": "jaccard-sycl", "files": ["HeCBench/src/jaccard-sycl/main.cpp"]}
+{"kernel_name": "jacobi-cuda", "files": ["HeCBench/src/jacobi-cuda/main.cu"]}
+{"kernel_name": "jacobi-hip", "files": ["HeCBench/src/jacobi-hip/main.cu"]}
+{"kernel_name": "jacobi-omp", "files": ["HeCBench/src/jacobi-omp/main.cpp"]}
+{"kernel_name": "jacobi-sycl", "files": ["HeCBench/src/jacobi-sycl/main.cpp"]}
+{"kernel_name": "jenkins-hash-cuda", "files": ["HeCBench/src/jenkins-hash-cuda/main.cu"]}
+{"kernel_name": "jenkins-hash-hip", "files": ["HeCBench/src/jenkins-hash-hip/main.cu"]}
+{"kernel_name": "jenkins-hash-omp", "files": ["HeCBench/src/jenkins-hash-omp/main.cpp"]}
+{"kernel_name": "jenkins-hash-sycl", "files": ["HeCBench/src/jenkins-hash-sycl/main.cpp"]}
+{"kernel_name": "kalman-cuda", "files": ["HeCBench/src/kalman-cuda/main.cu"]}
+{"kernel_name": "kalman-hip", "files": ["HeCBench/src/kalman-hip/main.cu"]}
+{"kernel_name": "kalman-omp", "files": ["HeCBench/src/kalman-omp/main.cpp"]}
+{"kernel_name": "kalman-sycl", "files": ["HeCBench/src/kalman-sycl/main.cpp"]}
+{"kernel_name": "keogh-cuda", "files": ["HeCBench/src/keogh-cuda/main.cu"]}
+{"kernel_name": "keogh-hip", "files": ["HeCBench/src/keogh-hip/main.cu"]}
+{"kernel_name": "keogh-omp", "files": ["HeCBench/src/keogh-omp/main.cpp"]}
+{"kernel_name": "keogh-sycl", "files": ["HeCBench/src/keogh-sycl/main.cpp"]}
+{"kernel_name": "kernelLaunch-cuda", "files": ["HeCBench/src/kernelLaunch-cuda/main.cu"]}
+{"kernel_name": "kernelLaunch-hip", "files": ["HeCBench/src/kernelLaunch-hip/main.cu"]}
+{"kernel_name": "kernelLaunch-omp", "files": ["HeCBench/src/kernelLaunch-omp/main.cpp"]}
+{"kernel_name": "kernelLaunch-sycl", "files": ["HeCBench/src/kernelLaunch-sycl/main.cpp"]}
+{"kernel_name": "kmc-hip", "files": ["HeCBench/src/kmc-hip/main.cpp"]}
+{"kernel_name": "kmc-sycl", "files": ["HeCBench/src/kmc-sycl/main.cpp"]}
+{"kernel_name": "knn-cuda", "files": ["HeCBench/src/knn-cuda/main.cu"]}
+{"kernel_name": "knn-hip", "files": ["HeCBench/src/knn-hip/main.cu"]}
+{"kernel_name": "knn-omp", "files": ["HeCBench/src/knn-omp/main.cpp"]}
+{"kernel_name": "knn-sycl", "files": ["HeCBench/src/knn-sycl/main.cpp"]}
+{"kernel_name": "kurtosis-cuda", "files": ["HeCBench/src/kurtosis-cuda/main.cu"]}
+{"kernel_name": "kurtosis-hip", "files": ["HeCBench/src/kurtosis-hip/main.cu"]}
+{"kernel_name": "kurtosis-sycl", "files": ["HeCBench/src/kurtosis-sycl/main.cpp"]}
+{"kernel_name": "lanczos-cuda", "files": ["HeCBench/src/lanczos-cuda/lanczos.cu", "HeCBench/src/lanczos-cuda/main.cu"]}
+{"kernel_name": "lanczos-hip", "files": ["HeCBench/src/lanczos-hip/lanczos.cu", "HeCBench/src/lanczos-hip/main.cu"]}
+{"kernel_name": "lanczos-omp", "files": ["HeCBench/src/lanczos-omp/lanczos.cpp", "HeCBench/src/lanczos-omp/main.cpp"]}
+{"kernel_name": "lanczos-sycl", "files": ["HeCBench/src/lanczos-sycl/lanczos.cpp", "HeCBench/src/lanczos-sycl/main.cpp"]}
+{"kernel_name": "langevin-cuda", "files": ["HeCBench/src/langevin-cuda/main.cu"]}
+{"kernel_name": "langevin-hip", "files": ["HeCBench/src/langevin-hip/main.cu"]}
+{"kernel_name": "langevin-omp", "files": ["HeCBench/src/langevin-omp/main.cpp"]}
+{"kernel_name": "langevin-sycl", "files": ["HeCBench/src/langevin-sycl/main.cpp"]}
+{"kernel_name": "langford-cuda", "files": ["HeCBench/src/langford-cuda/main.cu"]}
+{"kernel_name": "langford-hip", "files": ["HeCBench/src/langford-hip/main.cu"]}
+{"kernel_name": "langford-omp", "files": ["HeCBench/src/langford-omp/main.cpp"]}
+{"kernel_name": "langford-sycl", "files": ["HeCBench/src/langford-sycl/main.cpp"]}
+{"kernel_name": "laplace-cuda", "files": ["HeCBench/src/laplace-cuda/main.cu"]}
+{"kernel_name": "laplace-hip", "files": ["HeCBench/src/laplace-hip/main.cu"]}
+{"kernel_name": "laplace-omp", "files": ["HeCBench/src/laplace-omp/main.cpp"]}
+{"kernel_name": "laplace-sycl", "files": ["HeCBench/src/laplace-sycl/main.cpp"]}
+{"kernel_name": "laplace3d-cuda", "files": ["HeCBench/src/laplace3d-cuda/main.cu"]}
+{"kernel_name": "laplace3d-hip", "files": ["HeCBench/src/laplace3d-hip/main.cu"]}
+{"kernel_name": "laplace3d-omp", "files": ["HeCBench/src/laplace3d-omp/main.cpp"]}
+{"kernel_name": "laplace3d-sycl", "files": ["HeCBench/src/laplace3d-sycl/main.cpp"]}
+{"kernel_name": "lavaMD-cuda", "files": ["HeCBench/src/lavaMD-cuda/main.cu"]}
+{"kernel_name": "lavaMD-hip", "files": ["HeCBench/src/lavaMD-hip/main.cu"]}
+{"kernel_name": "lavaMD-omp", "files": ["HeCBench/src/lavaMD-omp/main.cpp"]}
+{"kernel_name": "lavaMD-sycl", "files": ["HeCBench/src/lavaMD-sycl/main.cpp", "HeCBench/src/lavaMD-sycl/kernel.sycl"]}
+{"kernel_name": "layernorm-cuda", "files": ["HeCBench/src/layernorm-cuda/main.cu"]}
+{"kernel_name": "layernorm-hip", "files": ["HeCBench/src/layernorm-hip/main.cu"]}
+{"kernel_name": "layernorm-sycl", "files": ["HeCBench/src/layernorm-sycl/main.cpp"]}
+{"kernel_name": "layout-cuda", "files": ["HeCBench/src/layout-cuda/main.cu"]}
+{"kernel_name": "layout-hip", "files": ["HeCBench/src/layout-hip/main.cu"]}
+{"kernel_name": "layout-omp", "files": ["HeCBench/src/layout-omp/main.cpp"]}
+{"kernel_name": "layout-sycl", "files": ["HeCBench/src/layout-sycl/main.cpp"]}
+{"kernel_name": "lci-cuda", "files": ["HeCBench/src/lci-cuda/main.cu"]}
+{"kernel_name": "lci-hip", "files": ["HeCBench/src/lci-hip/main.cu"]}
+{"kernel_name": "lci-omp", "files": ["HeCBench/src/lci-omp/main.cpp"]}
+{"kernel_name": "lci-sycl", "files": ["HeCBench/src/lci-sycl/main.cpp"]}
+{"kernel_name": "lda-cuda", "files": ["HeCBench/src/lda-cuda/main.cu"]}
+{"kernel_name": "lda-hip", "files": ["HeCBench/src/lda-hip/main.cu"]}
+{"kernel_name": "lda-omp", "files": ["HeCBench/src/lda-omp/main.cpp"]}
+{"kernel_name": "lda-sycl", "files": ["HeCBench/src/lda-sycl/main.cpp"]}
+{"kernel_name": "ldpc-cuda", "files": ["HeCBench/src/ldpc-cuda/cpu.cu", "HeCBench/src/ldpc-cuda/main.cu", "HeCBench/src/ldpc-cuda/kernel.cu"]}
+{"kernel_name": "ldpc-hip", "files": ["HeCBench/src/ldpc-hip/cpu.cu", "HeCBench/src/ldpc-hip/main.cu", "HeCBench/src/ldpc-hip/kernel.cu"]}
+{"kernel_name": "ldpc-omp", "files": ["HeCBench/src/ldpc-omp/cpu.cpp", "HeCBench/src/ldpc-omp/main.cpp", "HeCBench/src/ldpc-omp/kernel.cpp"]}
+{"kernel_name": "ldpc-sycl", "files": ["HeCBench/src/ldpc-sycl/cpu.cpp", "HeCBench/src/ldpc-sycl/main.cpp", "HeCBench/src/ldpc-sycl/kernel.cpp"]}
+{"kernel_name": "lebesgue-cuda", "files": ["HeCBench/src/lebesgue-cuda/main.cpp", "HeCBench/src/lebesgue-cuda/kernels.cu"]}
+{"kernel_name": "lebesgue-hip", "files": ["HeCBench/src/lebesgue-hip/kernels.cu"]}
+{"kernel_name": "lebesgue-omp", "files": ["HeCBench/src/lebesgue-omp/kernels.cpp"]}
+{"kernel_name": "lebesgue-sycl", "files": ["HeCBench/src/lebesgue-sycl/main.cpp", "HeCBench/src/lebesgue-sycl/kernels.cpp"]}
+{"kernel_name": "lfib4-cuda", "files": ["HeCBench/src/lfib4-cuda/main.cu"]}
+{"kernel_name": "lfib4-hip", "files": ["HeCBench/src/lfib4-hip/main.cu"]}
+{"kernel_name": "lfib4-sycl", "files": ["HeCBench/src/lfib4-sycl/main.cpp"]}
+{"kernel_name": "libor-cuda", "files": ["HeCBench/src/libor-cuda/main.cu"]}
+{"kernel_name": "libor-hip", "files": ["HeCBench/src/libor-hip/main.cu"]}
+{"kernel_name": "libor-omp", "files": ["HeCBench/src/libor-omp/main.cpp"]}
+{"kernel_name": "libor-sycl", "files": ["HeCBench/src/libor-sycl/main.cpp"]}
+{"kernel_name": "lid-driven-cavity-cuda", "files": ["HeCBench/src/lid-driven-cavity-cuda/main.cu"]}
+{"kernel_name": "lid-driven-cavity-hip", "files": ["HeCBench/src/lid-driven-cavity-hip/main.cu"]}
+{"kernel_name": "lid-driven-cavity-omp", "files": ["HeCBench/src/lid-driven-cavity-omp/main.cpp"]}
+{"kernel_name": "lif-cuda", "files": ["HeCBench/src/lif-cuda/main.cu"]}
+{"kernel_name": "lif-hip", "files": ["HeCBench/src/lif-hip/main.cu"]}
+{"kernel_name": "lif-omp", "files": ["HeCBench/src/lif-omp/main.cpp"]}
+{"kernel_name": "lif-sycl", "files": ["HeCBench/src/lif-sycl/main.cpp"]}
+{"kernel_name": "local-ht-cuda", "files": ["HeCBench/src/local-ht-cuda/src/helper.cu", "HeCBench/src/local-ht-cuda/src/main.cu", "HeCBench/src/local-ht-cuda/src/kernel.cu"]}
+{"kernel_name": "log2-cuda", "files": ["HeCBench/src/log2-cuda/main.cu"]}
+{"kernel_name": "log2-hip", "files": ["HeCBench/src/log2-hip/main.cu"]}
+{"kernel_name": "log2-omp", "files": ["HeCBench/src/log2-omp/main.cpp"]}
+{"kernel_name": "log2-sycl", "files": ["HeCBench/src/log2-sycl/main.cpp"]}
+{"kernel_name": "logprob-cuda", "files": ["HeCBench/src/logprob-cuda/main.cu"]}
+{"kernel_name": "logprob-hip", "files": ["HeCBench/src/logprob-hip/main.cu"]}
+{"kernel_name": "logprob-sycl", "files": ["HeCBench/src/logprob-sycl/main.cpp"]}
+{"kernel_name": "lombscargle-cuda", "files": ["HeCBench/src/lombscargle-cuda/main.cu"]}
+{"kernel_name": "lombscargle-hip", "files": ["HeCBench/src/lombscargle-hip/main.cu"]}
+{"kernel_name": "lombscargle-omp", "files": ["HeCBench/src/lombscargle-omp/main.cpp"]}
+{"kernel_name": "lombscargle-sycl", "files": ["HeCBench/src/lombscargle-sycl/main.cpp"]}
+{"kernel_name": "loopback-cuda", "files": ["HeCBench/src/loopback-cuda/main.cu", "HeCBench/src/loopback-cuda/kernels.cu"]}
+{"kernel_name": "loopback-hip", "files": ["HeCBench/src/loopback-hip/main.cu", "HeCBench/src/loopback-hip/kernels.cu"]}
+{"kernel_name": "loopback-omp", "files": ["HeCBench/src/loopback-omp/main.cpp", "HeCBench/src/loopback-omp/kernels.cpp"]}
+{"kernel_name": "loopback-sycl", "files": ["HeCBench/src/loopback-sycl/main.cpp", "HeCBench/src/loopback-sycl/kernels.cpp"]}
+{"kernel_name": "lr-hip", "files": ["HeCBench/src/lr-hip/linear_par.cu"]}
+{"kernel_name": "lrn-cuda", "files": ["HeCBench/src/lrn-cuda/main.cu"]}
+{"kernel_name": "lrn-hip", "files": ["HeCBench/src/lrn-hip/main.cu"]}
+{"kernel_name": "lrn-omp", "files": ["HeCBench/src/lrn-omp/main.cpp"]}
+{"kernel_name": "lrn-sycl", "files": ["HeCBench/src/lrn-sycl/main.cpp"]}
+{"kernel_name": "lud-cuda", "files": ["HeCBench/src/lud-cuda/lud.cu", "HeCBench/src/lud-cuda/common/common.cu", "HeCBench/src/lud-cuda/lud_kernels.cu"]}
+{"kernel_name": "lud-hip", "files": ["HeCBench/src/lud-hip/lud.cu", "HeCBench/src/lud-hip/common/common.cu", "HeCBench/src/lud-hip/lud_kernels.cu"]}
+{"kernel_name": "lud-omp", "files": ["HeCBench/src/lud-omp/lud.cpp", "HeCBench/src/lud-omp/common/common.c"]}
+{"kernel_name": "ludb-cuda", "files": ["HeCBench/src/ludb-cuda/main.cu"]}
+{"kernel_name": "ludb-hip", "files": ["HeCBench/src/ludb-hip/main.cu"]}
+{"kernel_name": "ludb-sycl", "files": ["HeCBench/src/ludb-sycl/main.cpp"]}
+{"kernel_name": "lzss-cuda", "files": ["HeCBench/src/lzss-cuda/main.cu"]}
+{"kernel_name": "lzss-hip", "files": ["HeCBench/src/lzss-hip/main.cu"]}
+{"kernel_name": "lzss-sycl", "files": ["HeCBench/src/lzss-sycl/main.cpp"]}
+{"kernel_name": "mallocFree-cuda", "files": ["HeCBench/src/mallocFree-cuda/main.cu"]}
+{"kernel_name": "mallocFree-hip", "files": ["HeCBench/src/mallocFree-hip/main.cu"]}
+{"kernel_name": "mallocFree-omp", "files": ["HeCBench/src/mallocFree-omp/main.cpp"]}
+{"kernel_name": "mallocFree-sycl", "files": ["HeCBench/src/mallocFree-sycl/main.cpp"]}
+{"kernel_name": "mandelbrot-cuda", "files": ["HeCBench/src/mandelbrot-cuda/main.cu"]}
+{"kernel_name": "mandelbrot-hip", "files": ["HeCBench/src/mandelbrot-hip/main.cu"]}
+{"kernel_name": "mandelbrot-omp", "files": ["HeCBench/src/mandelbrot-omp/main.cpp"]}
+{"kernel_name": "mandelbrot-sycl", "files": ["HeCBench/src/mandelbrot-sycl/main.cpp"]}
+{"kernel_name": "marchingCubes-cuda", "files": ["HeCBench/src/marchingCubes-cuda/main.cu"]}
+{"kernel_name": "marchingCubes-hip", "files": ["HeCBench/src/marchingCubes-hip/main.cu"]}
+{"kernel_name": "marchingCubes-sycl", "files": ["HeCBench/src/marchingCubes-sycl/main.cpp"]}
+{"kernel_name": "mask-cuda", "files": ["HeCBench/src/mask-cuda/main.cu"]}
+{"kernel_name": "mask-hip", "files": ["HeCBench/src/mask-hip/main.cu"]}
+{"kernel_name": "mask-omp", "files": ["HeCBench/src/mask-omp/main.cpp"]}
+{"kernel_name": "mask-sycl", "files": ["HeCBench/src/mask-sycl/main.cpp"]}
+{"kernel_name": "match-cuda", "files": ["HeCBench/src/match-cuda/main.cu"]}
+{"kernel_name": "match-hip", "files": ["HeCBench/src/match-hip/main.cu"]}
+{"kernel_name": "match-omp", "files": ["HeCBench/src/match-omp/main.cpp"]}
+{"kernel_name": "match-sycl", "files": ["HeCBench/src/match-sycl/main.cpp"]}
+{"kernel_name": "matern-cuda", "files": ["HeCBench/src/matern-cuda/main.cu"]}
+{"kernel_name": "matern-hip", "files": ["HeCBench/src/matern-hip/main.cu"]}
+{"kernel_name": "matern-omp", "files": ["HeCBench/src/matern-omp/main.cpp"]}
+{"kernel_name": "matern-sycl", "files": ["HeCBench/src/matern-sycl/main.cpp"]}
+{"kernel_name": "matrix-rotate-cuda", "files": ["HeCBench/src/matrix-rotate-cuda/main.cu"]}
+{"kernel_name": "matrix-rotate-hip", "files": ["HeCBench/src/matrix-rotate-hip/main.cu"]}
+{"kernel_name": "matrix-rotate-omp", "files": ["HeCBench/src/matrix-rotate-omp/main.cpp"]}
+{"kernel_name": "matrix-rotate-sycl", "files": ["HeCBench/src/matrix-rotate-sycl/main.cpp"]}
+{"kernel_name": "matrixT-cuda", "files": ["HeCBench/src/matrixT-cuda/main.cu"]}
+{"kernel_name": "matrixT-hip", "files": ["HeCBench/src/matrixT-hip/main.cu"]}
+{"kernel_name": "matrixT-sycl", "files": ["HeCBench/src/matrixT-sycl/main.cpp"]}
+{"kernel_name": "maxFlops-cuda", "files": ["HeCBench/src/maxFlops-cuda/main.cu"]}
+{"kernel_name": "maxFlops-hip", "files": ["HeCBench/src/maxFlops-hip/main.cu"]}
+{"kernel_name": "maxFlops-omp", "files": ["HeCBench/src/maxFlops-omp/main.cpp"]}
+{"kernel_name": "maxFlops-sycl", "files": ["HeCBench/src/maxFlops-sycl/main.cpp"]}
+{"kernel_name": "maxpool3d-cuda", "files": ["HeCBench/src/maxpool3d-cuda/main.cu"]}
+{"kernel_name": "maxpool3d-hip", "files": ["HeCBench/src/maxpool3d-hip/main.cu"]}
+{"kernel_name": "maxpool3d-omp", "files": ["HeCBench/src/maxpool3d-omp/main.cpp"]}
+{"kernel_name": "maxpool3d-sycl", "files": ["HeCBench/src/maxpool3d-sycl/main.cpp"]}
+{"kernel_name": "mcmd-hip", "files": ["HeCBench/src/mcmd-hip/force_kernel.cu"]}
+{"kernel_name": "mcmd-omp", "files": ["HeCBench/src/mcmd-omp/force_kernel.cpp"]}
+{"kernel_name": "mcmd-sycl", "files": ["HeCBench/src/mcmd-sycl/force_kernel.cpp"]}
+{"kernel_name": "mcpr-cuda", "files": ["HeCBench/src/mcpr-cuda/main.cu"]}
+{"kernel_name": "mcpr-hip", "files": ["HeCBench/src/mcpr-hip/main.cu"]}
+{"kernel_name": "mcpr-omp", "files": ["HeCBench/src/mcpr-omp/main.cpp"]}
+{"kernel_name": "mcpr-sycl", "files": ["HeCBench/src/mcpr-sycl/main.cpp"]}
+{"kernel_name": "md-cuda", "files": ["HeCBench/src/md-cuda/main.cu"]}
+{"kernel_name": "md-hip", "files": ["HeCBench/src/md-hip/main.cu"]}
+{"kernel_name": "md-omp", "files": ["HeCBench/src/md-omp/main.cpp"]}
+{"kernel_name": "md-sycl", "files": ["HeCBench/src/md-sycl/main.cpp"]}
+{"kernel_name": "md5hash-cuda", "files": ["HeCBench/src/md5hash-cuda/MD5Hash.cpp", "HeCBench/src/md5hash-cuda/MD5Hash.cu"]}
+{"kernel_name": "md5hash-hip", "files": ["HeCBench/src/md5hash-hip/MD5Hash.cu"]}
+{"kernel_name": "md5hash-omp", "files": ["HeCBench/src/md5hash-omp/MD5Hash.cpp"]}
+{"kernel_name": "md5hash-sycl", "files": ["HeCBench/src/md5hash-sycl/MD5Hash.cpp"]}
+{"kernel_name": "mdh-cuda", "files": ["HeCBench/src/mdh-cuda/WKFUtils.cu", "HeCBench/src/mdh-cuda/main.cu"]}
+{"kernel_name": "mdh-hip", "files": ["HeCBench/src/mdh-hip/WKFUtils.cu", "HeCBench/src/mdh-hip/main.cu"]}
+{"kernel_name": "mdh-omp", "files": ["HeCBench/src/mdh-omp/WKFUtils.cpp", "HeCBench/src/mdh-omp/main.cpp"]}
+{"kernel_name": "mdh-sycl", "files": ["HeCBench/src/mdh-sycl/WKFUtils.cpp", "HeCBench/src/mdh-sycl/main.cpp"]}
+{"kernel_name": "meanshift-cuda", "files": ["HeCBench/src/meanshift-cuda/main.cu"]}
+{"kernel_name": "meanshift-hip", "files": ["HeCBench/src/meanshift-hip/main.cu"]}
+{"kernel_name": "meanshift-omp", "files": ["HeCBench/src/meanshift-omp/main.cpp"]}
+{"kernel_name": "meanshift-sycl", "files": ["HeCBench/src/meanshift-sycl/main.cpp"]}
+{"kernel_name": "memcpy-cuda", "files": ["HeCBench/src/memcpy-cuda/main.cu"]}
+{"kernel_name": "memcpy-hip", "files": ["HeCBench/src/memcpy-hip/main.cu"]}
+{"kernel_name": "memcpy-omp", "files": ["HeCBench/src/memcpy-omp/main.cpp"]}
+{"kernel_name": "memcpy-sycl", "files": ["HeCBench/src/memcpy-sycl/main.cpp"]}
+{"kernel_name": "memtest-cuda", "files": ["HeCBench/src/memtest-cuda/main.cu"]}
+{"kernel_name": "memtest-hip", "files": ["HeCBench/src/memtest-hip/main.cu"]}
+{"kernel_name": "memtest-omp", "files": ["HeCBench/src/memtest-omp/main.cpp"]}
+{"kernel_name": "memtest-sycl", "files": ["HeCBench/src/memtest-sycl/main.cpp"]}
+{"kernel_name": "merge-cuda", "files": ["HeCBench/src/merge-cuda/main.cu"]}
+{"kernel_name": "merge-hip", "files": ["HeCBench/src/merge-hip/main.cu"]}
+{"kernel_name": "merge-omp", "files": ["HeCBench/src/merge-omp/main.cpp"]}
+{"kernel_name": "merge-sycl", "files": ["HeCBench/src/merge-sycl/main.cpp"]}
+{"kernel_name": "metropolis-cuda", "files": ["HeCBench/src/metropolis-cuda/heap.cu", "HeCBench/src/metropolis-cuda/main.cu"]}
+{"kernel_name": "metropolis-hip", "files": ["HeCBench/src/metropolis-hip/heap.cu", "HeCBench/src/metropolis-hip/main.cu"]}
+{"kernel_name": "metropolis-omp", "files": ["HeCBench/src/metropolis-omp/heap.cpp", "HeCBench/src/metropolis-omp/main.cpp"]}
+{"kernel_name": "metropolis-sycl", "files": ["HeCBench/src/metropolis-sycl/heap.cpp", "HeCBench/src/metropolis-sycl/main.cpp"]}
+{"kernel_name": "mf-sgd-cuda", "files": ["HeCBench/src/mf-sgd-cuda/src/main.cpp", "HeCBench/src/mf-sgd-cuda/src/sgd.cu"]}
+{"kernel_name": "mf-sgd-hip", "files": ["HeCBench/src/mf-sgd-hip/src/main.cpp", "HeCBench/src/mf-sgd-hip/src/sgd.cu"]}
+{"kernel_name": "mf-sgd-sycl", "files": ["HeCBench/src/mf-sgd-sycl/src/main.cpp", "HeCBench/src/mf-sgd-sycl/src/sgd.cpp"]}
+{"kernel_name": "michalewicz-cuda", "files": ["HeCBench/src/michalewicz-cuda/main.cu"]}
+{"kernel_name": "michalewicz-hip", "files": ["HeCBench/src/michalewicz-hip/main.cu"]}
+{"kernel_name": "michalewicz-omp", "files": ["HeCBench/src/michalewicz-omp/main.cpp"]}
+{"kernel_name": "michalewicz-sycl", "files": ["HeCBench/src/michalewicz-sycl/main.cpp"]}
+{"kernel_name": "miniWeather-cuda", "files": ["HeCBench/src/miniWeather-cuda/main.cu"]}
+{"kernel_name": "miniWeather-hip", "files": ["HeCBench/src/miniWeather-hip/main.cu"]}
+{"kernel_name": "miniWeather-omp", "files": ["HeCBench/src/miniWeather-omp/main.cpp"]}
+{"kernel_name": "miniWeather-sycl", "files": ["HeCBench/src/miniWeather-sycl/main.cpp"]}
+{"kernel_name": "minibude-cuda", "files": ["HeCBench/src/minibude-cuda/main.cu", "HeCBench/src/minibude-cuda/kernel.cu"]}
+{"kernel_name": "minibude-hip", "files": ["HeCBench/src/minibude-hip/main.cu", "HeCBench/src/minibude-hip/kernel.cu"]}
+{"kernel_name": "minibude-omp", "files": ["HeCBench/src/minibude-omp/main.cpp", "HeCBench/src/minibude-omp/kernel.cpp"]}
+{"kernel_name": "minibude-sycl", "files": ["HeCBench/src/minibude-sycl/main.cpp", "HeCBench/src/minibude-sycl/kernel.cpp"]}
+{"kernel_name": "minisweep-cuda", "files": ["HeCBench/src/minisweep-cuda/main.cu", "HeCBench/src/minisweep-cuda/kernels.cu"]}
+{"kernel_name": "minisweep-hip", "files": ["HeCBench/src/minisweep-hip/main.cu"]}
+{"kernel_name": "minisweep-omp", "files": ["HeCBench/src/minisweep-omp/main.cpp", "HeCBench/src/minisweep-omp/kernels.cpp"]}
+{"kernel_name": "minisweep-sycl", "files": ["HeCBench/src/minisweep-sycl/main.cpp", "HeCBench/src/minisweep-sycl/kernels.cpp"]}
+{"kernel_name": "minkowski-cuda", "files": ["HeCBench/src/minkowski-cuda/main.cu", "HeCBench/src/minkowski-cuda/verify.cpp"]}
+{"kernel_name": "minkowski-hip", "files": ["HeCBench/src/minkowski-hip/main.cu"]}
+{"kernel_name": "minkowski-omp", "files": ["HeCBench/src/minkowski-omp/main.cpp"]}
+{"kernel_name": "minkowski-sycl", "files": ["HeCBench/src/minkowski-sycl/main.cpp"]}
+{"kernel_name": "minmax-cuda", "files": ["HeCBench/src/minmax-cuda/main.cu"]}
+{"kernel_name": "minmax-hip", "files": []}
+{"kernel_name": "minmax-sycl", "files": ["HeCBench/src/minmax-sycl/main.cpp"]}
+{"kernel_name": "mis-cuda", "files": ["HeCBench/src/mis-cuda/main.cu"]}
+{"kernel_name": "mis-hip", "files": ["HeCBench/src/mis-hip/main.cu"]}
+{"kernel_name": "mis-omp", "files": ["HeCBench/src/mis-omp/main.cpp"]}
+{"kernel_name": "mis-sycl", "files": ["HeCBench/src/mis-sycl/main.cpp"]}
+{"kernel_name": "mixbench-cuda", "files": ["HeCBench/src/mixbench-cuda/main.cu"]}
+{"kernel_name": "mixbench-hip", "files": ["HeCBench/src/mixbench-hip/main.cu"]}
+{"kernel_name": "mixbench-omp", "files": ["HeCBench/src/mixbench-omp/main.cpp"]}
+{"kernel_name": "mixbench-sycl", "files": ["HeCBench/src/mixbench-sycl/main.cpp"]}
+{"kernel_name": "mmcsf-cuda", "files": ["HeCBench/src/mmcsf-cuda/main.cu", "HeCBench/src/mmcsf-cuda/mttkrp_cpu.cu", "HeCBench/src/mmcsf-cuda/kernels.cu"]}
+{"kernel_name": "mmcsf-hip", "files": ["HeCBench/src/mmcsf-hip/main.cu", "HeCBench/src/mmcsf-hip/kernels.cu"]}
+{"kernel_name": "mmcsf-sycl", "files": ["HeCBench/src/mmcsf-sycl/main.cpp", "HeCBench/src/mmcsf-sycl/mttkrp_cpu.cpp", "HeCBench/src/mmcsf-sycl/kernels.cpp"]}
+{"kernel_name": "mnist-cuda", "files": ["HeCBench/src/mnist-cuda/main.cu"]}
+{"kernel_name": "mnist-hip", "files": ["HeCBench/src/mnist-hip/main.cu"]}
+{"kernel_name": "mnist-sycl", "files": ["HeCBench/src/mnist-sycl/main.cpp"]}
+{"kernel_name": "morphology-cuda", "files": ["HeCBench/src/morphology-cuda/main.cu", "HeCBench/src/morphology-cuda/morphology.cu"]}
+{"kernel_name": "morphology-hip", "files": ["HeCBench/src/morphology-hip/main.cu", "HeCBench/src/morphology-hip/morphology.cu"]}
+{"kernel_name": "morphology-omp", "files": ["HeCBench/src/morphology-omp/main.cpp", "HeCBench/src/morphology-omp/morphology.cpp"]}
+{"kernel_name": "morphology-sycl", "files": ["HeCBench/src/morphology-sycl/main.cpp", "HeCBench/src/morphology-sycl/morphology.cpp"]}
+{"kernel_name": "mpc-cuda", "files": ["HeCBench/src/mpc-cuda/fpc.c", "HeCBench/src/mpc-cuda/main.cu"]}
+{"kernel_name": "mpc-hip", "files": ["HeCBench/src/mpc-hip/main.cu"]}
+{"kernel_name": "mpc-sycl", "files": ["HeCBench/src/mpc-sycl/main.cpp"]}
+{"kernel_name": "mr-cuda", "files": ["HeCBench/src/mr-cuda/main.cu"]}
+{"kernel_name": "mr-hip", "files": ["HeCBench/src/mr-hip/main.cu"]}
+{"kernel_name": "mr-omp", "files": ["HeCBench/src/mr-omp/main.cpp"]}
+{"kernel_name": "mr-sycl", "files": ["HeCBench/src/mr-sycl/main.cpp"]}
+{"kernel_name": "mrc-cuda", "files": ["HeCBench/src/mrc-cuda/main.cu"]}
+{"kernel_name": "mrc-hip", "files": ["HeCBench/src/mrc-hip/main.cu"]}
+{"kernel_name": "mrc-omp", "files": ["HeCBench/src/mrc-omp/main.cpp"]}
+{"kernel_name": "mrc-sycl", "files": ["HeCBench/src/mrc-sycl/main.cpp"]}
+{"kernel_name": "mrg32k3a-cuda", "files": ["HeCBench/src/mrg32k3a-cuda/main.cu"]}
+{"kernel_name": "mrg32k3a-hip", "files": ["HeCBench/src/mrg32k3a-hip/main.cu"]}
+{"kernel_name": "mrg32k3a-sycl", "files": ["HeCBench/src/mrg32k3a-sycl/main.cpp"]}
+{"kernel_name": "mriQ-hip", "files": ["HeCBench/src/mriQ-hip/computeQ.cu", "HeCBench/src/mriQ-hip/main.cu"]}
+{"kernel_name": "mriQ-omp", "files": ["HeCBench/src/mriQ-omp/computeQ.cpp", "HeCBench/src/mriQ-omp/main.cpp"]}
+{"kernel_name": "mriQ-sycl", "files": ["HeCBench/src/mriQ-sycl/computeQ.cpp", "HeCBench/src/mriQ-sycl/main.cpp"]}
+{"kernel_name": "mtf-cuda", "files": ["HeCBench/src/mtf-cuda/main.cu"]}
+{"kernel_name": "mtf-hip", "files": []}
+{"kernel_name": "mtf-sycl", "files": ["HeCBench/src/mtf-sycl/main.cpp"]}
+{"kernel_name": "multinomial-cuda", "files": ["HeCBench/src/multinomial-cuda/main.cu"]}
+{"kernel_name": "multinomial-hip", "files": ["HeCBench/src/multinomial-hip/main.cu"]}
+{"kernel_name": "multinomial-sycl", "files": ["HeCBench/src/multinomial-sycl/main.cpp"]}
+{"kernel_name": "murmurhash3-cuda", "files": ["HeCBench/src/murmurhash3-cuda/murmurhash3.cu"]}
+{"kernel_name": "murmurhash3-hip", "files": ["HeCBench/src/murmurhash3-hip/murmurhash3.cu"]}
+{"kernel_name": "murmurhash3-omp", "files": ["HeCBench/src/murmurhash3-omp/murmurhash3.cpp"]}
+{"kernel_name": "murmurhash3-sycl", "files": ["HeCBench/src/murmurhash3-sycl/murmurhash3.cpp"]}
+{"kernel_name": "nbnxm-cuda", "files": ["HeCBench/src/nbnxm-cuda/main.cu"]}
+{"kernel_name": "nbnxm-hip", "files": ["HeCBench/src/nbnxm-hip/main.cu"]}
+{"kernel_name": "nbnxm-sycl", "files": ["HeCBench/src/nbnxm-sycl/main.cpp"]}
+{"kernel_name": "nbody-cuda", "files": ["HeCBench/src/nbody-cuda/GSimulation.cu", "HeCBench/src/nbody-cuda/main.cu"]}
+{"kernel_name": "nbody-hip", "files": ["HeCBench/src/nbody-hip/GSimulation.cu", "HeCBench/src/nbody-hip/main.cu"]}
+{"kernel_name": "nbody-omp", "files": ["HeCBench/src/nbody-omp/GSimulation.cpp", "HeCBench/src/nbody-omp/main.cpp"]}
+{"kernel_name": "nbody-sycl", "files": ["HeCBench/src/nbody-sycl/GSimulation.cpp", "HeCBench/src/nbody-sycl/main.cpp"]}
+{"kernel_name": "ne-cuda", "files": ["HeCBench/src/ne-cuda/main.cu"]}
+{"kernel_name": "ne-hip", "files": ["HeCBench/src/ne-hip/main.cu"]}
+{"kernel_name": "ne-omp", "files": ["HeCBench/src/ne-omp/main.cpp"]}
+{"kernel_name": "ne-sycl", "files": ["HeCBench/src/ne-sycl/main.cpp"]}
+{"kernel_name": "nlll-cuda", "files": ["HeCBench/src/nlll-cuda/main.cu"]}
+{"kernel_name": "nlll-hip", "files": ["HeCBench/src/nlll-hip/main.cu"]}
+{"kernel_name": "nlll-omp", "files": ["HeCBench/src/nlll-omp/main.cpp"]}
+{"kernel_name": "nlll-sycl", "files": ["HeCBench/src/nlll-sycl/main.cpp"]}
+{"kernel_name": "nms-cuda", "files": ["HeCBench/src/nms-cuda/main.cu"]}
+{"kernel_name": "nms-hip", "files": ["HeCBench/src/nms-hip/main.cu"]}
+{"kernel_name": "nms-omp", "files": ["HeCBench/src/nms-omp/main.cpp"]}
+{"kernel_name": "nms-sycl", "files": ["HeCBench/src/nms-sycl/main.cpp"]}
+{"kernel_name": "nn-cuda", "files": ["HeCBench/src/nn-cuda/nearestNeighbor.cu"]}
+{"kernel_name": "nn-hip", "files": ["HeCBench/src/nn-hip/nearestNeighbor.cu"]}
+{"kernel_name": "nn-omp", "files": ["HeCBench/src/nn-omp/nearestNeighbor.cpp"]}
+{"kernel_name": "nn-sycl", "files": ["HeCBench/src/nn-sycl/nearestNeighbor.cpp"]}
+{"kernel_name": "nonzero-cuda", "files": ["HeCBench/src/nonzero-cuda/main.cu"]}
+{"kernel_name": "nonzero-hip", "files": ["HeCBench/src/nonzero-hip/main.cu"]}
+{"kernel_name": "nonzero-sycl", "files": ["HeCBench/src/nonzero-sycl/main.cpp"]}
+{"kernel_name": "norm2-cuda", "files": ["HeCBench/src/norm2-cuda/main.cu"]}
+{"kernel_name": "norm2-hip", "files": ["HeCBench/src/norm2-hip/main.cu"]}
+{"kernel_name": "norm2-omp", "files": ["HeCBench/src/norm2-omp/main.cpp"]}
+{"kernel_name": "norm2-sycl", "files": ["HeCBench/src/norm2-sycl/main.cpp"]}
+{"kernel_name": "nosync-cuda", "files": ["HeCBench/src/nosync-cuda/main.cu"]}
+{"kernel_name": "nosync-hip", "files": ["HeCBench/src/nosync-hip/main.cu"]}
+{"kernel_name": "nosync-sycl", "files": ["HeCBench/src/nosync-sycl/main.cpp"]}
+{"kernel_name": "nqueen-cuda", "files": ["HeCBench/src/nqueen-cuda/main.cu"]}
+{"kernel_name": "nqueen-hip", "files": ["HeCBench/src/nqueen-hip/main.cu"]}
+{"kernel_name": "nqueen-omp", "files": ["HeCBench/src/nqueen-omp/main.cpp"]}
+{"kernel_name": "nqueen-sycl", "files": ["HeCBench/src/nqueen-sycl/main.cpp"]}
+{"kernel_name": "ntt-cuda", "files": ["HeCBench/src/ntt-cuda/main.cu"]}
+{"kernel_name": "ntt-hip", "files": ["HeCBench/src/ntt-hip/main.cu"]}
+{"kernel_name": "ntt-omp", "files": ["HeCBench/src/ntt-omp/main.cpp"]}
+{"kernel_name": "ntt-sycl", "files": ["HeCBench/src/ntt-sycl/main.cpp"]}
+{"kernel_name": "nw-cuda", "files": ["HeCBench/src/nw-cuda/nw.cu"]}
+{"kernel_name": "nw-hip", "files": ["HeCBench/src/nw-hip/nw.cu"]}
+{"kernel_name": "nw-omp", "files": ["HeCBench/src/nw-omp/nw.cpp"]}
+{"kernel_name": "nw-sycl", "files": ["HeCBench/src/nw-sycl/nw.cpp", "HeCBench/src/nw-sycl/kernel1.sycl", "HeCBench/src/nw-sycl/kernel2.sycl"]}
+{"kernel_name": "openmp-cuda", "files": ["HeCBench/src/openmp-cuda/main.cu"]}
+{"kernel_name": "openmp-hip", "files": ["HeCBench/src/openmp-hip/main.cu"]}
+{"kernel_name": "openmp-omp", "files": ["HeCBench/src/openmp-omp/main.cpp"]}
+{"kernel_name": "openmp-sycl", "files": ["HeCBench/src/openmp-sycl/main.cpp"]}
+{"kernel_name": "overlap-cuda", "files": ["HeCBench/src/overlap-cuda/main.cu"]}
+{"kernel_name": "overlap-hip", "files": ["HeCBench/src/overlap-hip/main.cu"]}
+{"kernel_name": "overlap-sycl", "files": ["HeCBench/src/overlap-sycl/main.cpp"]}
+{"kernel_name": "overlay-cuda", "files": ["HeCBench/src/overlay-cuda/main.cu"]}
+{"kernel_name": "overlay-hip", "files": ["HeCBench/src/overlay-hip/main.cu"]}
+{"kernel_name": "overlay-omp", "files": ["HeCBench/src/overlay-omp/main.cpp"]}
+{"kernel_name": "overlay-sycl", "files": ["HeCBench/src/overlay-sycl/main.cpp"]}
+{"kernel_name": "p2p-cuda", "files": ["HeCBench/src/p2p-cuda/main.cu"]}
+{"kernel_name": "p2p-hip", "files": ["HeCBench/src/p2p-hip/main.cu"]}
+{"kernel_name": "p2p-sycl", "files": ["HeCBench/src/p2p-sycl/main.cpp"]}
+{"kernel_name": "p4-cuda", "files": ["HeCBench/src/p4-cuda/main.cu"]}
+{"kernel_name": "p4-hip", "files": ["HeCBench/src/p4-hip/main.cu"]}
+{"kernel_name": "p4-omp", "files": ["HeCBench/src/p4-omp/main.cpp"]}
+{"kernel_name": "p4-sycl", "files": ["HeCBench/src/p4-sycl/main.cpp"]}
+{"kernel_name": "pad-cuda", "files": ["HeCBench/src/pad-cuda/host_task.cpp", "HeCBench/src/pad-cuda/main.cu", "HeCBench/src/pad-cuda/kernel.cu"]}
+{"kernel_name": "pad-hip", "files": ["HeCBench/src/pad-hip/main.cu", "HeCBench/src/pad-hip/kernel.cu"]}
+{"kernel_name": "pad-sycl", "files": ["HeCBench/src/pad-sycl/host_task.cpp", "HeCBench/src/pad-sycl/main.cpp", "HeCBench/src/pad-sycl/kernel.cpp"]}
+{"kernel_name": "page-rank-cuda", "files": ["HeCBench/src/page-rank-cuda/main.cu"]}
+{"kernel_name": "page-rank-hip", "files": ["HeCBench/src/page-rank-hip/main.cu"]}
+{"kernel_name": "page-rank-omp", "files": ["HeCBench/src/page-rank-omp/main.cpp"]}
+{"kernel_name": "page-rank-sycl", "files": ["HeCBench/src/page-rank-sycl/main.cpp"]}
+{"kernel_name": "particle-diffusion-cuda", "files": ["HeCBench/src/particle-diffusion-cuda/motionsim.cu"]}
+{"kernel_name": "particle-diffusion-hip", "files": ["HeCBench/src/particle-diffusion-hip/motionsim.cu"]}
+{"kernel_name": "particle-diffusion-omp", "files": ["HeCBench/src/particle-diffusion-omp/motionsim.cpp"]}
+{"kernel_name": "particle-diffusion-sycl", "files": ["HeCBench/src/particle-diffusion-sycl/motionsim.cpp"]}
+{"kernel_name": "particlefilter-cuda", "files": ["HeCBench/src/particlefilter-cuda/main.cu"]}
+{"kernel_name": "particlefilter-hip", "files": ["HeCBench/src/particlefilter-hip/main.cu"]}
+{"kernel_name": "particlefilter-omp", "files": ["HeCBench/src/particlefilter-omp/main.cpp"]}
+{"kernel_name": "pathfinder-cuda", "files": ["HeCBench/src/pathfinder-cuda/main.cu"]}
+{"kernel_name": "pathfinder-hip", "files": ["HeCBench/src/pathfinder-hip/main.cu"]}
+{"kernel_name": "pathfinder-omp", "files": ["HeCBench/src/pathfinder-omp/main.cpp"]}
+{"kernel_name": "pathfinder-sycl", "files": ["HeCBench/src/pathfinder-sycl/main.cpp", "HeCBench/src/pathfinder-sycl/kernel.sycl"]}
+{"kernel_name": "pcc-cuda", "files": ["HeCBench/src/pcc-cuda/device.cu", "HeCBench/src/pcc-cuda/main.cpp"]}
+{"kernel_name": "pcc-hip", "files": ["HeCBench/src/pcc-hip/device.cu"]}
+{"kernel_name": "pcc-sycl", "files": ["HeCBench/src/pcc-sycl/device.cpp"]}
+{"kernel_name": "perlin-cuda", "files": ["HeCBench/src/perlin-cuda/main.cu", "HeCBench/src/perlin-cuda/noise.cu"]}
+{"kernel_name": "perlin-hip", "files": ["HeCBench/src/perlin-hip/main.cu", "HeCBench/src/perlin-hip/noise.cu"]}
+{"kernel_name": "perlin-sycl", "files": ["HeCBench/src/perlin-sycl/main.cpp", "HeCBench/src/perlin-sycl/noise.cpp"]}
+{"kernel_name": "permutate-hip", "files": ["HeCBench/src/permutate-hip/gpu_permutation_testing.cu"]}
+{"kernel_name": "permutate-omp", "files": ["HeCBench/src/permutate-omp/gpu_permutation_testing.cpp"]}
+{"kernel_name": "permutate-sycl", "files": ["HeCBench/src/permutate-sycl/gpu_permutation_testing.cpp"]}
+{"kernel_name": "permute-cuda", "files": ["HeCBench/src/permute-cuda/main.cu"]}
+{"kernel_name": "permute-hip", "files": ["HeCBench/src/permute-hip/main.cu"]}
+{"kernel_name": "permute-omp", "files": ["HeCBench/src/permute-omp/main.cpp"]}
+{"kernel_name": "permute-sycl", "files": ["HeCBench/src/permute-sycl/main.cpp"]}
+{"kernel_name": "perplexity-cuda", "files": ["HeCBench/src/perplexity-cuda/main.cu"]}
+{"kernel_name": "perplexity-hip", "files": ["HeCBench/src/perplexity-hip/main.cu"]}
+{"kernel_name": "perplexity-omp", "files": ["HeCBench/src/perplexity-omp/main.cpp"]}
+{"kernel_name": "perplexity-sycl", "files": ["HeCBench/src/perplexity-sycl/main.cpp"]}
+{"kernel_name": "phmm-cuda", "files": ["HeCBench/src/phmm-cuda/main.cu"]}
+{"kernel_name": "phmm-hip", "files": ["HeCBench/src/phmm-hip/main.cu"]}
+{"kernel_name": "phmm-omp", "files": ["HeCBench/src/phmm-omp/main.cpp"]}
+{"kernel_name": "phmm-sycl", "files": ["HeCBench/src/phmm-sycl/main.cpp"]}
+{"kernel_name": "pingpong-cuda", "files": ["HeCBench/src/pingpong-cuda/main-mpi.cu", "HeCBench/src/pingpong-cuda/main-nccl.cu"]}
+{"kernel_name": "pingpong-hip", "files": ["HeCBench/src/pingpong-hip/main-mpi.cu", "HeCBench/src/pingpong-hip/main-nccl.cu"]}
+{"kernel_name": "pingpong-sycl", "files": ["HeCBench/src/pingpong-sycl/main-ccl.cpp", "HeCBench/src/pingpong-sycl/main-mpi.cpp"]}
+{"kernel_name": "pitch-cuda", "files": ["HeCBench/src/pitch-cuda/main.cu"]}
+{"kernel_name": "pitch-hip", "files": ["HeCBench/src/pitch-hip/main.cu"]}
+{"kernel_name": "pitch-sycl", "files": ["HeCBench/src/pitch-sycl/main.cpp"]}
+{"kernel_name": "pnpoly-cuda", "files": ["HeCBench/src/pnpoly-cuda/main.cu"]}
+{"kernel_name": "pnpoly-hip", "files": ["HeCBench/src/pnpoly-hip/main.cu"]}
+{"kernel_name": "pnpoly-omp", "files": ["HeCBench/src/pnpoly-omp/main.cpp"]}
+{"kernel_name": "pnpoly-sycl", "files": ["HeCBench/src/pnpoly-sycl/main.cpp"]}
+{"kernel_name": "pns-cuda", "files": ["HeCBench/src/pns-cuda/main.cu", "HeCBench/src/pns-cuda/rand_gen.cu", "HeCBench/src/pns-cuda/petri_kernel.cu"]}
+{"kernel_name": "pns-hip", "files": ["HeCBench/src/pns-hip/main.cu"]}
+{"kernel_name": "pns-omp", "files": ["HeCBench/src/pns-omp/main.cpp", "HeCBench/src/pns-omp/rand_gen.cpp", "HeCBench/src/pns-omp/petri_kernel.cpp"]}
+{"kernel_name": "pns-sycl", "files": ["HeCBench/src/pns-sycl/main.cpp", "HeCBench/src/pns-sycl/rand_gen.cpp", "HeCBench/src/pns-sycl/petri_kernel.cpp"]}
+{"kernel_name": "pointwise-cuda", "files": ["HeCBench/src/pointwise-cuda/main.cu"]}
+{"kernel_name": "pointwise-hip", "files": ["HeCBench/src/pointwise-hip/main.cu"]}
+{"kernel_name": "pointwise-omp", "files": ["HeCBench/src/pointwise-omp/main.cpp"]}
+{"kernel_name": "pointwise-sycl", "files": ["HeCBench/src/pointwise-sycl/main.cpp"]}
+{"kernel_name": "pool-cuda", "files": ["HeCBench/src/pool-cuda/main.cu"]}
+{"kernel_name": "pool-hip", "files": ["HeCBench/src/pool-hip/main.cu"]}
+{"kernel_name": "pool-omp", "files": ["HeCBench/src/pool-omp/main.cpp"]}
+{"kernel_name": "pool-sycl", "files": ["HeCBench/src/pool-sycl/main.cpp"]}
+{"kernel_name": "popcount-cuda", "files": ["HeCBench/src/popcount-cuda/main.cu"]}
+{"kernel_name": "popcount-hip", "files": ["HeCBench/src/popcount-hip/main.cu"]}
+{"kernel_name": "popcount-omp", "files": ["HeCBench/src/popcount-omp/main.cpp"]}
+{"kernel_name": "popcount-sycl", "files": ["HeCBench/src/popcount-sycl/main.cpp"]}
+{"kernel_name": "prefetch-cuda", "files": ["HeCBench/src/prefetch-cuda/main.cu"]}
+{"kernel_name": "prefetch-hip", "files": ["HeCBench/src/prefetch-hip/main.cu"]}
+{"kernel_name": "prefetch-sycl", "files": ["HeCBench/src/prefetch-sycl/main.cpp"]}
+{"kernel_name": "present-cuda", "files": ["HeCBench/src/present-cuda/main.cu"]}
+{"kernel_name": "present-hip", "files": ["HeCBench/src/present-hip/main.cu"]}
+{"kernel_name": "present-omp", "files": ["HeCBench/src/present-omp/main.cpp"]}
+{"kernel_name": "present-sycl", "files": ["HeCBench/src/present-sycl/main.cpp"]}
+{"kernel_name": "prna-hip", "files": ["HeCBench/src/prna-hip/prna.cu"]}
+{"kernel_name": "projectile-cuda", "files": ["HeCBench/src/projectile-cuda/Projectile.cu"]}
+{"kernel_name": "projectile-hip", "files": ["HeCBench/src/projectile-hip/Projectile.cu"]}
+{"kernel_name": "projectile-omp", "files": ["HeCBench/src/projectile-omp/Projectile.cpp"]}
+{"kernel_name": "projectile-sycl", "files": ["HeCBench/src/projectile-sycl/Projectile.cpp"]}
+{"kernel_name": "pso-cuda", "files": ["HeCBench/src/pso-cuda/main.cpp", "HeCBench/src/pso-cuda/kernel_cpu.cpp", "HeCBench/src/pso-cuda/kernel_gpu.cu"]}
+{"kernel_name": "pso-hip", "files": ["HeCBench/src/pso-hip/kernel_gpu.cu"]}
+{"kernel_name": "pso-omp", "files": ["HeCBench/src/pso-omp/kernel_gpu.cpp"]}
+{"kernel_name": "pso-sycl", "files": ["HeCBench/src/pso-sycl/kernel_gpu.cpp"]}
+{"kernel_name": "qem-cuda", "files": ["HeCBench/src/qem-cuda/gpu_solver.cu", "HeCBench/src/qem-cuda/main.cu"]}
+{"kernel_name": "qem-hip", "files": ["HeCBench/src/qem-hip/gpu_solver.cu", "HeCBench/src/qem-hip/main.cu"]}
+{"kernel_name": "qem-sycl", "files": ["HeCBench/src/qem-sycl/gpu_solver.cpp", "HeCBench/src/qem-sycl/main.cpp"]}
+{"kernel_name": "qkv-cuda", "files": ["HeCBench/src/qkv-cuda/main.cu"]}
+{"kernel_name": "qkv-hip", "files": ["HeCBench/src/qkv-hip/main.cu"]}
+{"kernel_name": "qkv-sycl", "files": ["HeCBench/src/qkv-sycl/main.cpp"]}
+{"kernel_name": "qrg-cuda", "files": ["HeCBench/src/qrg-cuda/main.cu"]}
+{"kernel_name": "qrg-hip", "files": ["HeCBench/src/qrg-hip/main.cu"]}
+{"kernel_name": "qrg-omp", "files": ["HeCBench/src/qrg-omp/main.cpp"]}
+{"kernel_name": "qrg-sycl", "files": ["HeCBench/src/qrg-sycl/main.cpp"]}
+{"kernel_name": "quicksort-cuda", "files": ["HeCBench/src/quicksort-cuda/main.cu"]}
+{"kernel_name": "quicksort-hip", "files": ["HeCBench/src/quicksort-hip/main.cu"]}
+{"kernel_name": "quicksort-omp", "files": ["HeCBench/src/quicksort-omp/main.cpp"]}
+{"kernel_name": "quicksort-sycl", "files": ["HeCBench/src/quicksort-sycl/main.cpp"]}
+{"kernel_name": "radixsort2-cuda", "files": ["HeCBench/src/radixsort2-cuda/main.cu"]}
+{"kernel_name": "radixsort2-hip", "files": ["HeCBench/src/radixsort2-hip/main.cu"]}
+{"kernel_name": "radixsort2-sycl", "files": ["HeCBench/src/radixsort2-sycl/main.cpp"]}
+{"kernel_name": "rainflow-cuda", "files": ["HeCBench/src/rainflow-cuda/main.cu"]}
+{"kernel_name": "rainflow-hip", "files": ["HeCBench/src/rainflow-hip/main.cu"]}
+{"kernel_name": "rainflow-omp", "files": ["HeCBench/src/rainflow-omp/main.cpp"]}
+{"kernel_name": "rainflow-sycl", "files": ["HeCBench/src/rainflow-sycl/main.cpp"]}
+{"kernel_name": "randomAccess-cuda", "files": ["HeCBench/src/randomAccess-cuda/main.cu"]}
+{"kernel_name": "randomAccess-hip", "files": ["HeCBench/src/randomAccess-hip/main.cu"]}
+{"kernel_name": "randomAccess-omp", "files": ["HeCBench/src/randomAccess-omp/main.cpp"]}
+{"kernel_name": "randomAccess-sycl", "files": ["HeCBench/src/randomAccess-sycl/main.cpp"]}
+{"kernel_name": "rayleighBenardConvection-cuda", "files": ["HeCBench/src/rayleighBenardConvection-cuda/main.cu"]}
+{"kernel_name": "rayleighBenardConvection-hip", "files": ["HeCBench/src/rayleighBenardConvection-hip/main.cu"]}
+{"kernel_name": "rayleighBenardConvection-sycl", "files": ["HeCBench/src/rayleighBenardConvection-sycl/main.cpp"]}
+{"kernel_name": "reaction-cuda", "files": ["HeCBench/src/reaction-cuda/main.cu", "HeCBench/src/reaction-cuda/kernels.cu"]}
+{"kernel_name": "reaction-hip", "files": ["HeCBench/src/reaction-hip/main.cu"]}
+{"kernel_name": "reaction-omp", "files": ["HeCBench/src/reaction-omp/main.cpp", "HeCBench/src/reaction-omp/kernels.cpp"]}
+{"kernel_name": "reaction-sycl", "files": ["HeCBench/src/reaction-sycl/main.cpp", "HeCBench/src/reaction-sycl/kernels.cpp"]}
+{"kernel_name": "relu-cuda", "files": ["HeCBench/src/relu-cuda/main.cu"]}
+{"kernel_name": "relu-hip", "files": ["HeCBench/src/relu-hip/main.cu"]}
+{"kernel_name": "relu-sycl", "files": ["HeCBench/src/relu-sycl/main.cpp"]}
+{"kernel_name": "remap-cuda", "files": ["HeCBench/src/remap-cuda/main.cu"]}
+{"kernel_name": "remap-hip", "files": ["HeCBench/src/remap-hip/main.cu"]}
+{"kernel_name": "remap-sycl", "files": ["HeCBench/src/remap-sycl/main.cpp"]}
+{"kernel_name": "resize-cuda", "files": ["HeCBench/src/resize-cuda/main.cu"]}
+{"kernel_name": "resize-hip", "files": ["HeCBench/src/resize-hip/main.cu"]}
+{"kernel_name": "resize-omp", "files": ["HeCBench/src/resize-omp/main.cpp"]}
+{"kernel_name": "resize-sycl", "files": ["HeCBench/src/resize-sycl/main.cpp"]}
+{"kernel_name": "reverse-cuda", "files": ["HeCBench/src/reverse-cuda/main.cu"]}
+{"kernel_name": "reverse-hip", "files": ["HeCBench/src/reverse-hip/main.cu"]}
+{"kernel_name": "reverse-omp", "files": ["HeCBench/src/reverse-omp/main.cpp"]}
+{"kernel_name": "reverse-sycl", "files": ["HeCBench/src/reverse-sycl/main.cpp"]}
+{"kernel_name": "reverse2D-cuda", "files": ["HeCBench/src/reverse2D-cuda/main.cu"]}
+{"kernel_name": "reverse2D-hip", "files": ["HeCBench/src/reverse2D-hip/main.cu"]}
+{"kernel_name": "reverse2D-sycl", "files": ["HeCBench/src/reverse2D-sycl/main.cpp"]}
+{"kernel_name": "rfs-cuda", "files": ["HeCBench/src/rfs-cuda/main.cu"]}
+{"kernel_name": "rfs-hip", "files": ["HeCBench/src/rfs-hip/main.cu"]}
+{"kernel_name": "rfs-omp", "files": ["HeCBench/src/rfs-omp/main.cpp"]}
+{"kernel_name": "rfs-sycl", "files": ["HeCBench/src/rfs-sycl/main.cpp"]}
+{"kernel_name": "ring-cuda", "files": ["HeCBench/src/ring-cuda/main.cu"]}
+{"kernel_name": "ring-hip", "files": ["HeCBench/src/ring-hip/main.cu"]}
+{"kernel_name": "ring-sycl", "files": ["HeCBench/src/ring-sycl/main.cpp"]}
+{"kernel_name": "rle-cuda", "files": ["HeCBench/src/rle-cuda/main.cu"]}
+{"kernel_name": "rle-hip", "files": ["HeCBench/src/rle-hip/main.cu"]}
+{"kernel_name": "rng-wallace-cuda", "files": ["HeCBench/src/rng-wallace-cuda/main.cu", "HeCBench/src/rng-wallace-cuda/wallace_kernel.cu"]}
+{"kernel_name": "rng-wallace-hip", "files": ["HeCBench/src/rng-wallace-hip/main.cu", "HeCBench/src/rng-wallace-hip/wallace_kernel.cu"]}
+{"kernel_name": "rng-wallace-omp", "files": ["HeCBench/src/rng-wallace-omp/main.cpp"]}
+{"kernel_name": "rng-wallace-sycl", "files": ["HeCBench/src/rng-wallace-sycl/main.cpp"]}
+{"kernel_name": "rodrigues-cuda", "files": ["HeCBench/src/rodrigues-cuda/main.cu"]}
+{"kernel_name": "rodrigues-hip", "files": ["HeCBench/src/rodrigues-hip/main.cu"]}
+{"kernel_name": "rodrigues-omp", "files": ["HeCBench/src/rodrigues-omp/main.cpp"]}
+{"kernel_name": "rodrigues-sycl", "files": ["HeCBench/src/rodrigues-sycl/main.cpp"]}
+{"kernel_name": "romberg-cuda", "files": ["HeCBench/src/romberg-cuda/main.cu"]}
+{"kernel_name": "romberg-hip", "files": ["HeCBench/src/romberg-hip/main.cu"]}
+{"kernel_name": "romberg-omp", "files": ["HeCBench/src/romberg-omp/main.cpp"]}
+{"kernel_name": "romberg-sycl", "files": ["HeCBench/src/romberg-sycl/main.cpp"]}
+{"kernel_name": "rotary-cuda", "files": ["HeCBench/src/rotary-cuda/main.cu"]}
+{"kernel_name": "rotary-hip", "files": ["HeCBench/src/rotary-hip/main.cu"]}
+{"kernel_name": "rotary-sycl", "files": ["HeCBench/src/rotary-sycl/main.cpp"]}
+{"kernel_name": "rowwiseMoments-cuda", "files": ["HeCBench/src/rowwiseMoments-cuda/main.cu"]}
+{"kernel_name": "rowwiseMoments-hip", "files": ["HeCBench/src/rowwiseMoments-hip/main.cu"]}
+{"kernel_name": "rowwiseMoments-sycl", "files": ["HeCBench/src/rowwiseMoments-sycl/main.cpp"]}
+{"kernel_name": "rsc-hip", "files": ["HeCBench/src/rsc-hip/main.cu", "HeCBench/src/rsc-hip/model_eval.cu"]}
+{"kernel_name": "rsc-omp", "files": ["HeCBench/src/rsc-omp/main.cpp", "HeCBench/src/rsc-omp/model_eval.cpp"]}
+{"kernel_name": "rsc-sycl", "files": ["HeCBench/src/rsc-sycl/main.cpp", "HeCBench/src/rsc-sycl/model_eval.cpp"]}
+{"kernel_name": "rsmt-cuda", "files": ["HeCBench/src/rsmt-cuda/main.cu"]}
+{"kernel_name": "rsmt-sycl", "files": ["HeCBench/src/rsmt-sycl/main.cpp"]}
+{"kernel_name": "rtm8-cuda", "files": ["HeCBench/src/rtm8-cuda/mysecond.c", "HeCBench/src/rtm8-cuda/rtm8.cu"]}
+{"kernel_name": "rtm8-hip", "files": ["HeCBench/src/rtm8-hip/mysecond.c", "HeCBench/src/rtm8-hip/rtm8.cu"]}
+{"kernel_name": "rtm8-omp", "files": ["HeCBench/src/rtm8-omp/mysecond.c", "HeCBench/src/rtm8-omp/rtm8.cpp"]}
+{"kernel_name": "rtm8-sycl", "files": ["HeCBench/src/rtm8-sycl/mysecond.c", "HeCBench/src/rtm8-sycl/rtm8.cpp"]}
+{"kernel_name": "rushlarsen-cuda", "files": ["HeCBench/src/rushlarsen-cuda/main.cu", "HeCBench/src/rushlarsen-cuda/kernels.cu"]}
+{"kernel_name": "rushlarsen-hip", "files": ["HeCBench/src/rushlarsen-hip/main.cu", "HeCBench/src/rushlarsen-hip/kernels.cu"]}
+{"kernel_name": "rushlarsen-omp", "files": ["HeCBench/src/rushlarsen-omp/main.cpp", "HeCBench/src/rushlarsen-omp/kernels.cpp"]}
+{"kernel_name": "rushlarsen-sycl", "files": ["HeCBench/src/rushlarsen-sycl/main.cpp", "HeCBench/src/rushlarsen-sycl/kernels.cpp"]}
+{"kernel_name": "s8n-cuda", "files": ["HeCBench/src/s8n-cuda/main.cu"]}
+{"kernel_name": "s8n-hip", "files": ["HeCBench/src/s8n-hip/main.cu"]}
+{"kernel_name": "s8n-omp", "files": ["HeCBench/src/s8n-omp/main.cpp"]}
+{"kernel_name": "s8n-sycl", "files": ["HeCBench/src/s8n-sycl/main.cpp"]}
+{"kernel_name": "sa-cuda", "files": ["HeCBench/src/sa-cuda/main.cu"]}
+{"kernel_name": "sa-hip", "files": ["HeCBench/src/sa-hip/main.cu"]}
+{"kernel_name": "sa-sycl", "files": ["HeCBench/src/sa-sycl/main.cpp"]}
+{"kernel_name": "sad-cuda", "files": ["HeCBench/src/sad-cuda/main.cu"]}
+{"kernel_name": "sad-hip", "files": ["HeCBench/src/sad-hip/main.cu"]}
+{"kernel_name": "sad-omp", "files": ["HeCBench/src/sad-omp/main.cpp"]}
+{"kernel_name": "sad-sycl", "files": ["HeCBench/src/sad-sycl/main.cpp"]}
+{"kernel_name": "sampling-cuda", "files": ["HeCBench/src/sampling-cuda/main.cu", "HeCBench/src/sampling-cuda/kernels.cu"]}
+{"kernel_name": "sampling-hip", "files": ["HeCBench/src/sampling-hip/main.cu", "HeCBench/src/sampling-hip/kernels.cu"]}
+{"kernel_name": "sampling-omp", "files": ["HeCBench/src/sampling-omp/main.cpp"]}
+{"kernel_name": "sampling-sycl", "files": ["HeCBench/src/sampling-sycl/main.cpp", "HeCBench/src/sampling-sycl/kernels.cpp"]}
+{"kernel_name": "sc-hip", "files": ["HeCBench/src/sc-hip/device_sc.cu", "HeCBench/src/sc-hip/main.cu"]}
+{"kernel_name": "sc-sycl", "files": ["HeCBench/src/sc-sycl/device_sc.cpp", "HeCBench/src/sc-sycl/main.cpp"]}
+{"kernel_name": "scan-cuda", "files": ["HeCBench/src/scan-cuda/main.cu"]}
+{"kernel_name": "scan-hip", "files": ["HeCBench/src/scan-hip/main.cu"]}
+{"kernel_name": "scan-omp", "files": ["HeCBench/src/scan-omp/main.cpp"]}
+{"kernel_name": "scan-sycl", "files": ["HeCBench/src/scan-sycl/main.cpp"]}
+{"kernel_name": "scan2-cuda", "files": ["HeCBench/src/scan2-cuda/main.cu"]}
+{"kernel_name": "scan2-hip", "files": ["HeCBench/src/scan2-hip/main.cu"]}
+{"kernel_name": "scan2-omp", "files": ["HeCBench/src/scan2-omp/main.cpp"]}
+{"kernel_name": "scan2-sycl", "files": ["HeCBench/src/scan2-sycl/main.cpp"]}
+{"kernel_name": "scan3-cuda", "files": ["HeCBench/src/scan3-cuda/main.cu"]}
+{"kernel_name": "scan3-hip", "files": ["HeCBench/src/scan3-hip/main.cu"]}
+{"kernel_name": "scan3-sycl", "files": ["HeCBench/src/scan3-sycl/main.cpp"]}
+{"kernel_name": "scel-cuda", "files": ["HeCBench/src/scel-cuda/main.cu"]}
+{"kernel_name": "scel-hip", "files": ["HeCBench/src/scel-hip/main.cu"]}
+{"kernel_name": "scel-omp", "files": ["HeCBench/src/scel-omp/main.cpp"]}
+{"kernel_name": "scel-sycl", "files": ["HeCBench/src/scel-sycl/main.cpp"]}
+{"kernel_name": "score-cuda", "files": ["HeCBench/src/score-cuda/main.cu"]}
+{"kernel_name": "score-hip", "files": ["HeCBench/src/score-hip/main.cu"]}
+{"kernel_name": "score-sycl", "files": ["HeCBench/src/score-sycl/main.cpp"]}
+{"kernel_name": "sddmm-batch-cuda", "files": ["HeCBench/src/sddmm-batch-cuda/main.cu"]}
+{"kernel_name": "sddmm-batch-hip", "files": ["HeCBench/src/sddmm-batch-hip/main.cu"]}
+{"kernel_name": "seam-carving-cuda", "files": ["HeCBench/src/seam-carving-cuda/main.cu"]}
+{"kernel_name": "seam-carving-hip", "files": ["HeCBench/src/seam-carving-hip/main.cu"]}
+{"kernel_name": "seam-carving-sycl", "files": ["HeCBench/src/seam-carving-sycl/main.cpp"]}
+{"kernel_name": "secp256k1-cuda", "files": ["HeCBench/src/secp256k1-cuda/main.cu"]}
+{"kernel_name": "secp256k1-hip", "files": ["HeCBench/src/secp256k1-hip/main.cu"]}
+{"kernel_name": "secp256k1-omp", "files": ["HeCBench/src/secp256k1-omp/main.cpp"]}
+{"kernel_name": "secp256k1-sycl", "files": ["HeCBench/src/secp256k1-sycl/main.cpp"]}
+{"kernel_name": "segment-reduce-cuda", "files": ["HeCBench/src/segment-reduce-cuda/main.cu"]}
+{"kernel_name": "segment-reduce-hip", "files": ["HeCBench/src/segment-reduce-hip/main.cu"]}
+{"kernel_name": "segment-reduce-sycl", "files": ["HeCBench/src/segment-reduce-sycl/main.cpp"]}
+{"kernel_name": "segsort-cuda", "files": ["HeCBench/src/segsort-cuda/main.cu"]}
+{"kernel_name": "segsort-hip", "files": ["HeCBench/src/segsort-hip/main.cu"]}
+{"kernel_name": "segsort-sycl", "files": ["HeCBench/src/segsort-sycl/main.cpp"]}
+{"kernel_name": "sheath-cuda", "files": ["HeCBench/src/sheath-cuda/main.cu"]}
+{"kernel_name": "sheath-hip", "files": ["HeCBench/src/sheath-hip/main.cu"]}
+{"kernel_name": "sheath-omp", "files": ["HeCBench/src/sheath-omp/main.cpp"]}
+{"kernel_name": "sheath-sycl", "files": ["HeCBench/src/sheath-sycl/main.cpp"]}
+{"kernel_name": "shmembench-cuda", "files": ["HeCBench/src/shmembench-cuda/main.cu", "HeCBench/src/shmembench-cuda/shmem_kernels.cu"]}
+{"kernel_name": "shmembench-hip", "files": ["HeCBench/src/shmembench-hip/main.cu", "HeCBench/src/shmembench-hip/shmem_kernels.cu"]}
+{"kernel_name": "shmembench-omp", "files": ["HeCBench/src/shmembench-omp/main.cpp", "HeCBench/src/shmembench-omp/shmem_kernels.cpp"]}
+{"kernel_name": "shmembench-sycl", "files": ["HeCBench/src/shmembench-sycl/main.cpp", "HeCBench/src/shmembench-sycl/shmem_kernels.cpp"]}
+{"kernel_name": "shuffle-cuda", "files": ["HeCBench/src/shuffle-cuda/main.cu"]}
+{"kernel_name": "shuffle-hip", "files": ["HeCBench/src/shuffle-hip/main.cu"]}
+{"kernel_name": "shuffle-sycl", "files": ["HeCBench/src/shuffle-sycl/main.cpp"]}
+{"kernel_name": "si-cuda", "files": ["HeCBench/src/si-cuda/src/generate_dataset.cpp", "HeCBench/src/si-cuda/src/main.cu"]}
+{"kernel_name": "si-hip", "files": ["HeCBench/src/si-hip/src/generate_dataset.cpp", "HeCBench/src/si-hip/src/main.cpp"]}
+{"kernel_name": "si-sycl", "files": ["HeCBench/src/si-sycl/src/generate_dataset.cpp", "HeCBench/src/si-sycl/src/main.cpp"]}
+{"kernel_name": "simpleMultiDevice-cuda", "files": ["HeCBench/src/simpleMultiDevice-cuda/main.cu"]}
+{"kernel_name": "simpleMultiDevice-hip", "files": ["HeCBench/src/simpleMultiDevice-hip/main.cu"]}
+{"kernel_name": "simpleMultiDevice-sycl", "files": ["HeCBench/src/simpleMultiDevice-sycl/main.cpp"]}
+{"kernel_name": "simpleSpmv-cuda", "files": ["HeCBench/src/simpleSpmv-cuda/main.cpp", "HeCBench/src/simpleSpmv-cuda/kernels.cu"]}
+{"kernel_name": "simpleSpmv-hip", "files": ["HeCBench/src/simpleSpmv-hip/kernels.cu"]}
+{"kernel_name": "simpleSpmv-omp", "files": ["HeCBench/src/simpleSpmv-omp/kernels.cpp"]}
+{"kernel_name": "simpleSpmv-sycl", "files": ["HeCBench/src/simpleSpmv-sycl/kernels.cpp"]}
+{"kernel_name": "slit-cuda", "files": ["HeCBench/src/slit-cuda/main.cu"]}
+{"kernel_name": "slit-hip", "files": ["HeCBench/src/slit-hip/main.cu"]}
+{"kernel_name": "slit-sycl", "files": ["HeCBench/src/slit-sycl/main.cpp"]}
+{"kernel_name": "slu-hip", "files": ["HeCBench/src/slu-hip/numeric.cu"]}
+{"kernel_name": "slu-omp", "files": ["HeCBench/src/slu-omp/numeric.cpp"]}
+{"kernel_name": "slu-sycl", "files": ["HeCBench/src/slu-sycl/numeric.cpp"]}
+{"kernel_name": "snake-cuda", "files": ["HeCBench/src/snake-cuda/main.cu"]}
+{"kernel_name": "snake-hip", "files": ["HeCBench/src/snake-hip/main.cu"]}
+{"kernel_name": "snake-omp", "files": ["HeCBench/src/snake-omp/main.cpp"]}
+{"kernel_name": "snake-sycl", "files": ["HeCBench/src/snake-sycl/main.cpp"]}
+{"kernel_name": "sobel-cuda", "files": ["HeCBench/src/sobel-cuda/main.cu", "HeCBench/src/sobel-cuda/kernels.cu"]}
+{"kernel_name": "sobel-hip", "files": ["HeCBench/src/sobel-hip/main.cu", "HeCBench/src/sobel-hip/kernels.cu"]}
+{"kernel_name": "sobel-omp", "files": ["HeCBench/src/sobel-omp/main.cpp", "HeCBench/src/sobel-omp/kernels.cpp"]}
+{"kernel_name": "sobel-sycl", "files": ["HeCBench/src/sobel-sycl/main.cpp", "HeCBench/src/sobel-sycl/kernels.cpp"]}
+{"kernel_name": "softmax-cuda", "files": ["HeCBench/src/softmax-cuda/main.cu"]}
+{"kernel_name": "softmax-fused-cuda", "files": ["HeCBench/src/softmax-fused-cuda/main.cu"]}
+{"kernel_name": "softmax-fused-hip", "files": ["HeCBench/src/softmax-fused-hip/main.cu"]}
+{"kernel_name": "softmax-fused-sycl", "files": ["HeCBench/src/softmax-fused-sycl/main.cpp"]}
+{"kernel_name": "softmax-hip", "files": ["HeCBench/src/softmax-hip/main.cu"]}
+{"kernel_name": "softmax-omp", "files": ["HeCBench/src/softmax-omp/main.cpp"]}
+{"kernel_name": "softmax-online-cuda", "files": ["HeCBench/src/softmax-online-cuda/main.cu"]}
+{"kernel_name": "softmax-online-hip", "files": ["HeCBench/src/softmax-online-hip/main.cu"]}
+{"kernel_name": "softmax-online-sycl", "files": ["HeCBench/src/softmax-online-sycl/main.cpp"]}
+{"kernel_name": "softmax-sycl", "files": ["HeCBench/src/softmax-sycl/main.cpp"]}
+{"kernel_name": "sort-cuda", "files": ["HeCBench/src/sort-cuda/main.cu"]}
+{"kernel_name": "sort-hip", "files": ["HeCBench/src/sort-hip/main.cu"]}
+{"kernel_name": "sort-omp", "files": ["HeCBench/src/sort-omp/main.cpp"]}
+{"kernel_name": "sortKV-cuda", "files": ["HeCBench/src/sortKV-cuda/main.cu"]}
+{"kernel_name": "sortKV-hip", "files": ["HeCBench/src/sortKV-hip/main.cu"]}
+{"kernel_name": "sortKV-sycl", "files": ["HeCBench/src/sortKV-sycl/main.cpp"]}
+{"kernel_name": "sosfil-cuda", "files": ["HeCBench/src/sosfil-cuda/main.cu"]}
+{"kernel_name": "sosfil-hip", "files": ["HeCBench/src/sosfil-hip/main.cu"]}
+{"kernel_name": "sosfil-omp", "files": ["HeCBench/src/sosfil-omp/main.cpp"]}
+{"kernel_name": "sosfil-sycl", "files": ["HeCBench/src/sosfil-sycl/main.cpp"]}
+{"kernel_name": "sparkler-cuda", "files": ["HeCBench/src/sparkler-cuda/main.cu"]}
+{"kernel_name": "sparkler-hip", "files": ["HeCBench/src/sparkler-hip/main.cu"]}
+{"kernel_name": "sparkler-sycl", "files": ["HeCBench/src/sparkler-sycl/main.cpp"]}
+{"kernel_name": "spaxpby-cuda", "files": ["HeCBench/src/spaxpby-cuda/main.cu"]}
+{"kernel_name": "spaxpby-hip", "files": ["HeCBench/src/spaxpby-hip/main.cu"]}
+{"kernel_name": "spd2s-cuda", "files": ["HeCBench/src/spd2s-cuda/main.cu"]}
+{"kernel_name": "spd2s-hip", "files": ["HeCBench/src/spd2s-hip/main.cu"]}
+{"kernel_name": "spgeam-cuda", "files": ["HeCBench/src/spgeam-cuda/main.cu"]}
+{"kernel_name": "spgeam-hip", "files": ["HeCBench/src/spgeam-hip/main.cu"]}
+{"kernel_name": "spgeam-sycl", "files": ["HeCBench/src/spgeam-sycl/main.cpp"]}
+{"kernel_name": "spgemm-cuda", "files": ["HeCBench/src/spgemm-cuda/main.cu"]}
+{"kernel_name": "spgemm-hip", "files": ["HeCBench/src/spgemm-hip/main.cu"]}
+{"kernel_name": "spgemm-sycl", "files": ["HeCBench/src/spgemm-sycl/main.cpp"]}
+{"kernel_name": "split-cuda", "files": ["HeCBench/src/split-cuda/main.cu", "HeCBench/src/split-cuda/verify.cu"]}
+{"kernel_name": "split-hip", "files": ["HeCBench/src/split-hip/main.cu", "HeCBench/src/split-hip/verify.cu"]}
+{"kernel_name": "split-omp", "files": ["HeCBench/src/split-omp/main.cpp", "HeCBench/src/split-omp/verify.cpp"]}
+{"kernel_name": "split-sycl", "files": ["HeCBench/src/split-sycl/main.cpp", "HeCBench/src/split-sycl/verify.cpp"]}
+{"kernel_name": "spm-cuda", "files": ["HeCBench/src/spm-cuda/main.cu"]}
+{"kernel_name": "spm-hip", "files": ["HeCBench/src/spm-hip/main.cu"]}
+{"kernel_name": "spm-omp", "files": ["HeCBench/src/spm-omp/main.cpp"]}
+{"kernel_name": "spm-sycl", "files": ["HeCBench/src/spm-sycl/main.cpp"]}
+{"kernel_name": "spmm-cuda", "files": ["HeCBench/src/spmm-cuda/main.cu"]}
+{"kernel_name": "spmm-hip", "files": ["HeCBench/src/spmm-hip/main.cu"]}
+{"kernel_name": "spmv-cuda", "files": ["HeCBench/src/spmv-cuda/main.cpp", "HeCBench/src/spmv-cuda/kernels.cu"]}
+{"kernel_name": "spmv-hip", "files": ["HeCBench/src/spmv-hip/kernels.cu"]}
+{"kernel_name": "spmv-sycl", "files": ["HeCBench/src/spmv-sycl/kernels.cpp"]}
+{"kernel_name": "spnnz-cuda", "files": ["HeCBench/src/spnnz-cuda/main.cu"]}
+{"kernel_name": "spnnz-hip", "files": ["HeCBench/src/spnnz-hip/main.cu"]}
+{"kernel_name": "sps2d-cuda", "files": ["HeCBench/src/sps2d-cuda/main.cu"]}
+{"kernel_name": "sps2d-hip", "files": ["HeCBench/src/sps2d-hip/main.cu"]}
+{"kernel_name": "spsm-cuda", "files": ["HeCBench/src/spsm-cuda/main.cu"]}
+{"kernel_name": "spsm-hip", "files": ["HeCBench/src/spsm-hip/main.cu"]}
+{"kernel_name": "spsort-cuda", "files": ["HeCBench/src/spsort-cuda/main.cu"]}
+{"kernel_name": "spsort-hip", "files": ["HeCBench/src/spsort-hip/main.cu"]}
+{"kernel_name": "spsort-sycl", "files": ["HeCBench/src/spsort-sycl/main.cpp"]}
+{"kernel_name": "sptrsv-cuda", "files": ["HeCBench/src/sptrsv-cuda/sptrsv_syncfree.cu"]}
+{"kernel_name": "sptrsv-hip", "files": ["HeCBench/src/sptrsv-hip/sptrsv_syncfree.cu"]}
+{"kernel_name": "sptrsv-omp", "files": ["HeCBench/src/sptrsv-omp/sptrsv_syncfree.cpp"]}
+{"kernel_name": "sptrsv-sycl", "files": ["HeCBench/src/sptrsv-sycl/main.cpp", "HeCBench/src/sptrsv-sycl/sptrsv_syncfree.cpp"]}
+{"kernel_name": "srad-omp", "files": ["HeCBench/src/srad-omp/main.c"]}
+{"kernel_name": "ss-cuda", "files": ["HeCBench/src/ss-cuda/main.cu", "HeCBench/src/ss-cuda/kernels.cu"]}
+{"kernel_name": "ss-hip", "files": ["HeCBench/src/ss-hip/main.cu", "HeCBench/src/ss-hip/kernels.cu"]}
+{"kernel_name": "ss-omp", "files": ["HeCBench/src/ss-omp/main.cpp"]}
+{"kernel_name": "ss-sycl", "files": ["HeCBench/src/ss-sycl/main.cpp"]}
+{"kernel_name": "ssim-cuda", "files": ["HeCBench/src/ssim-cuda/main.cu", "HeCBench/src/ssim-cuda/gdt/gdt.cpp"]}
+{"kernel_name": "ssim-hip", "files": ["HeCBench/src/ssim-hip/main.cu"]}
+{"kernel_name": "ssim-sycl", "files": ["HeCBench/src/ssim-sycl/main.cpp"]}
+{"kernel_name": "sssp-cuda", "files": ["HeCBench/src/sssp-cuda/main.cu", "HeCBench/src/sssp-cuda/kernel.cu"]}
+{"kernel_name": "sssp-hip", "files": ["HeCBench/src/sssp-hip/main.cu", "HeCBench/src/sssp-hip/kernel.cu"]}
+{"kernel_name": "sssp-sycl", "files": ["HeCBench/src/sssp-sycl/main.cpp", "HeCBench/src/sssp-sycl/kernel.cpp"]}
+{"kernel_name": "stddev-cuda", "files": ["HeCBench/src/stddev-cuda/main.cu"]}
+{"kernel_name": "stddev-hip", "files": ["HeCBench/src/stddev-hip/main.cu"]}
+{"kernel_name": "stddev-omp", "files": ["HeCBench/src/stddev-omp/main.cpp"]}
+{"kernel_name": "stddev-sycl", "files": ["HeCBench/src/stddev-sycl/main.cpp"]}
+{"kernel_name": "stencil1d-cuda", "files": ["HeCBench/src/stencil1d-cuda/stencil_1d.cu"]}
+{"kernel_name": "stencil1d-hip", "files": ["HeCBench/src/stencil1d-hip/stencil_1d.cu"]}
+{"kernel_name": "stencil1d-omp", "files": ["HeCBench/src/stencil1d-omp/stencil_1d.cpp"]}
+{"kernel_name": "stencil1d-sycl", "files": ["HeCBench/src/stencil1d-sycl/stencil_1d.cpp"]}
+{"kernel_name": "stencil3d-cuda", "files": ["HeCBench/src/stencil3d-cuda/main.cu"]}
+{"kernel_name": "stencil3d-hip", "files": ["HeCBench/src/stencil3d-hip/main.cu"]}
+{"kernel_name": "stencil3d-omp", "files": ["HeCBench/src/stencil3d-omp/main.cpp"]}
+{"kernel_name": "stencil3d-sycl", "files": ["HeCBench/src/stencil3d-sycl/main.cpp"]}
+{"kernel_name": "streamCreateCopyDestroy-cuda", "files": ["HeCBench/src/streamCreateCopyDestroy-cuda/main.cu"]}
+{"kernel_name": "streamCreateCopyDestroy-hip", "files": ["HeCBench/src/streamCreateCopyDestroy-hip/main.cu"]}
+{"kernel_name": "streamCreateCopyDestroy-sycl", "files": ["HeCBench/src/streamCreateCopyDestroy-sycl/main-dpct.cpp", "HeCBench/src/streamCreateCopyDestroy-sycl/main.cpp"]}
+{"kernel_name": "streamOrderedAllocation-cuda", "files": ["HeCBench/src/streamOrderedAllocation-cuda/main.cu"]}
+{"kernel_name": "streamOrderedAllocation-hip", "files": ["HeCBench/src/streamOrderedAllocation-hip/main.cu"]}
+{"kernel_name": "streamPriority-cuda", "files": ["HeCBench/src/streamPriority-cuda/main.cu"]}
+{"kernel_name": "streamPriority-hip", "files": ["HeCBench/src/streamPriority-hip/main.cu"]}
+{"kernel_name": "streamPriority-sycl", "files": ["HeCBench/src/streamPriority-sycl/main.cpp"]}
+{"kernel_name": "streamUM-cuda", "files": ["HeCBench/src/streamUM-cuda/main.cu"]}
+{"kernel_name": "streamUM-hip", "files": ["HeCBench/src/streamUM-hip/main.cu"]}
+{"kernel_name": "streamUM-sycl", "files": ["HeCBench/src/streamUM-sycl/main.cpp"]}
+{"kernel_name": "streamcluster-cuda", "files": ["HeCBench/src/streamcluster-cuda/streamcluster.cu"]}
+{"kernel_name": "streamcluster-hip", "files": ["HeCBench/src/streamcluster-hip/streamcluster.cu"]}
+{"kernel_name": "streamcluster-omp", "files": ["HeCBench/src/streamcluster-omp/streamcluster.cpp"]}
+{"kernel_name": "streamcluster-sycl", "files": ["HeCBench/src/streamcluster-sycl/streamcluster.cpp", "HeCBench/src/streamcluster-sycl/kernel.sycl"]}
+{"kernel_name": "stsg-cuda", "files": ["HeCBench/src/stsg-cuda/Filter.cu", "HeCBench/src/stsg-cuda/main.cu"]}
+{"kernel_name": "stsg-hip", "files": ["HeCBench/src/stsg-hip/main.cu"]}
+{"kernel_name": "stsg-sycl", "files": ["HeCBench/src/stsg-sycl/Filter.cpp", "HeCBench/src/stsg-sycl/main.cpp"]}
+{"kernel_name": "su3-cuda", "files": ["HeCBench/src/su3-cuda/su3_nn_bench.cu"]}
+{"kernel_name": "su3-hip", "files": ["HeCBench/src/su3-hip/su3_nn_bench.cu"]}
+{"kernel_name": "su3-omp", "files": ["HeCBench/src/su3-omp/su3_nn_bench.cpp"]}
+{"kernel_name": "su3-sycl", "files": ["HeCBench/src/su3-sycl/su3_nn_bench.cpp"]}
+{"kernel_name": "surfel-cuda", "files": ["HeCBench/src/surfel-cuda/main.cu"]}
+{"kernel_name": "surfel-hip", "files": ["HeCBench/src/surfel-hip/main.cu"]}
+{"kernel_name": "surfel-omp", "files": ["HeCBench/src/surfel-omp/main.cpp"]}
+{"kernel_name": "surfel-sycl", "files": ["HeCBench/src/surfel-sycl/main.cpp"]}
+{"kernel_name": "svd3x3-cuda", "files": ["HeCBench/src/svd3x3-cuda/main.cu", "HeCBench/src/svd3x3-cuda/kernels.cu"]}
+{"kernel_name": "svd3x3-hip", "files": ["HeCBench/src/svd3x3-hip/main.cu", "HeCBench/src/svd3x3-hip/kernels.cu"]}
+{"kernel_name": "svd3x3-omp", "files": ["HeCBench/src/svd3x3-omp/main.cpp", "HeCBench/src/svd3x3-omp/kernels.cpp"]}
+{"kernel_name": "svd3x3-sycl", "files": ["HeCBench/src/svd3x3-sycl/main.cpp", "HeCBench/src/svd3x3-sycl/kernels.cpp"]}
+{"kernel_name": "swish-cuda", "files": ["HeCBench/src/swish-cuda/main.cu"]}
+{"kernel_name": "swish-hip", "files": ["HeCBench/src/swish-hip/main.cu"]}
+{"kernel_name": "swish-omp", "files": ["HeCBench/src/swish-omp/main.cpp"]}
+{"kernel_name": "swish-sycl", "files": ["HeCBench/src/swish-sycl/main.cpp"]}
+{"kernel_name": "tensorAccessor-cuda", "files": ["HeCBench/src/tensorAccessor-cuda/main.cu"]}
+{"kernel_name": "tensorAccessor-hip", "files": ["HeCBench/src/tensorAccessor-hip/main.cu"]}
+{"kernel_name": "tensorAccessor-sycl", "files": ["HeCBench/src/tensorAccessor-sycl/main.cpp"]}
+{"kernel_name": "tensorT-cuda", "files": ["HeCBench/src/tensorT-cuda/main.cu"]}
+{"kernel_name": "tensorT-hip", "files": ["HeCBench/src/tensorT-hip/main.cu"]}
+{"kernel_name": "tensorT-omp", "files": ["HeCBench/src/tensorT-omp/main.cpp"]}
+{"kernel_name": "tensorT-sycl", "files": ["HeCBench/src/tensorT-sycl/main.cpp"]}
+{"kernel_name": "testSNAP-cuda", "files": ["HeCBench/src/testSNAP-cuda/main.cu"]}
+{"kernel_name": "testSNAP-hip", "files": ["HeCBench/src/testSNAP-hip/main.cu"]}
+{"kernel_name": "testSNAP-omp", "files": ["HeCBench/src/testSNAP-omp/main.cpp"]}
+{"kernel_name": "testSNAP-sycl", "files": ["HeCBench/src/testSNAP-sycl/main.cpp"]}
+{"kernel_name": "thomas-cuda", "files": ["HeCBench/src/thomas-cuda/cuThomasBatch.cu", "HeCBench/src/thomas-cuda/main.cu"]}
+{"kernel_name": "thomas-hip", "files": ["HeCBench/src/thomas-hip/cuThomasBatch.cu", "HeCBench/src/thomas-hip/main.cu"]}
+{"kernel_name": "thomas-omp", "files": ["HeCBench/src/thomas-omp/main.cpp"]}
+{"kernel_name": "thomas-sycl", "files": ["HeCBench/src/thomas-sycl/main.cpp"]}
+{"kernel_name": "threadfence-cuda", "files": ["HeCBench/src/threadfence-cuda/main.cu"]}
+{"kernel_name": "threadfence-hip", "files": ["HeCBench/src/threadfence-hip/main.cu"]}
+{"kernel_name": "threadfence-omp", "files": ["HeCBench/src/threadfence-omp/main.cpp"]}
+{"kernel_name": "threadfence-sycl", "files": ["HeCBench/src/threadfence-sycl/main.cpp"]}
+{"kernel_name": "tissue-cuda", "files": ["HeCBench/src/tissue-cuda/main.cu"]}
+{"kernel_name": "tissue-hip", "files": ["HeCBench/src/tissue-hip/main.cu"]}
+{"kernel_name": "tissue-omp", "files": ["HeCBench/src/tissue-omp/main.cpp"]}
+{"kernel_name": "tissue-sycl", "files": ["HeCBench/src/tissue-sycl/main.cpp"]}
+{"kernel_name": "tonemapping-cuda", "files": ["HeCBench/src/tonemapping-cuda/main.cu", "HeCBench/src/tonemapping-cuda/kernels.cu"]}
+{"kernel_name": "tonemapping-hip", "files": ["HeCBench/src/tonemapping-hip/main.cu", "HeCBench/src/tonemapping-hip/kernels.cu"]}
+{"kernel_name": "tonemapping-omp", "files": ["HeCBench/src/tonemapping-omp/main.cpp"]}
+{"kernel_name": "tonemapping-sycl", "files": ["HeCBench/src/tonemapping-sycl/main.cpp", "HeCBench/src/tonemapping-sycl/kernels.cpp"]}
+{"kernel_name": "tpacf-hip", "files": ["HeCBench/src/tpacf-hip/compute.cu", "HeCBench/src/tpacf-hip/ACF_kernel.cu", "HeCBench/src/tpacf-hip/histogram_kernel.cu"]}
+{"kernel_name": "tqs-cuda", "files": ["HeCBench/src/tqs-cuda/host_task.cpp", "HeCBench/src/tqs-cuda/main.cu", "HeCBench/src/tqs-cuda/kernel.cu"]}
+{"kernel_name": "tqs-hip", "files": ["HeCBench/src/tqs-hip/host_task.cpp", "HeCBench/src/tqs-hip/main.cu", "HeCBench/src/tqs-hip/kernel.cu"]}
+{"kernel_name": "tqs-omp", "files": ["HeCBench/src/tqs-omp/host_task.cpp", "HeCBench/src/tqs-omp/main.cpp", "HeCBench/src/tqs-omp/kernel.cpp"]}
+{"kernel_name": "tqs-sycl", "files": ["HeCBench/src/tqs-sycl/host_task.cpp", "HeCBench/src/tqs-sycl/main.cpp", "HeCBench/src/tqs-sycl/kernel.cpp"]}
+{"kernel_name": "tsa-cuda", "files": ["HeCBench/src/tsa-cuda/main.cu"]}
+{"kernel_name": "tsa-hip", "files": ["HeCBench/src/tsa-hip/main.cu"]}
+{"kernel_name": "tsa-omp", "files": ["HeCBench/src/tsa-omp/main.cpp"]}
+{"kernel_name": "tsa-sycl", "files": ["HeCBench/src/tsa-sycl/main.cpp"]}
+{"kernel_name": "tsp-cuda", "files": ["HeCBench/src/tsp-cuda/main.cu"]}
+{"kernel_name": "tsp-hip", "files": ["HeCBench/src/tsp-hip/main.cu"]}
+{"kernel_name": "tsp-omp", "files": ["HeCBench/src/tsp-omp/main.cpp"]}
+{"kernel_name": "tsp-sycl", "files": ["HeCBench/src/tsp-sycl/main.cpp"]}
+{"kernel_name": "unfold-cuda", "files": ["HeCBench/src/unfold-cuda/main.cu"]}
+{"kernel_name": "unfold-hip", "files": ["HeCBench/src/unfold-hip/main.cu"]}
+{"kernel_name": "unfold-sycl", "files": ["HeCBench/src/unfold-sycl/main.cpp"]}
+{"kernel_name": "urng-cuda", "files": ["HeCBench/src/urng-cuda/main.cu", "HeCBench/src/urng-cuda/kernel.cu"]}
+{"kernel_name": "urng-hip", "files": ["HeCBench/src/urng-hip/main.cu"]}
+{"kernel_name": "urng-omp", "files": ["HeCBench/src/urng-omp/main.cpp", "HeCBench/src/urng-omp/kernel.cpp"]}
+{"kernel_name": "urng-sycl", "files": ["HeCBench/src/urng-sycl/main.cpp", "HeCBench/src/urng-sycl/kernel.cpp"]}
+{"kernel_name": "vanGenuchten-cuda", "files": ["HeCBench/src/vanGenuchten-cuda/main.cu"]}
+{"kernel_name": "vanGenuchten-hip", "files": ["HeCBench/src/vanGenuchten-hip/main.cu"]}
+{"kernel_name": "vanGenuchten-omp", "files": ["HeCBench/src/vanGenuchten-omp/main.cpp"]}
+{"kernel_name": "vanGenuchten-sycl", "files": ["HeCBench/src/vanGenuchten-sycl/main.cpp"]}
+{"kernel_name": "vmc-cuda", "files": ["HeCBench/src/vmc-cuda/vmc.cu", "HeCBench/src/vmc-cuda/vmc2.cu"]}
+{"kernel_name": "vmc-hip", "files": ["HeCBench/src/vmc-hip/vmc.cu", "HeCBench/src/vmc-hip/vmc2.cu"]}
+{"kernel_name": "vmc-omp", "files": ["HeCBench/src/vmc-omp/vmc.cpp"]}
+{"kernel_name": "vmc-sycl", "files": ["HeCBench/src/vmc-sycl/vmc.cpp", "HeCBench/src/vmc-sycl/vmc2.cpp"]}
+{"kernel_name": "vol2col-cuda", "files": ["HeCBench/src/vol2col-cuda/main.cu"]}
+{"kernel_name": "vol2col-hip", "files": ["HeCBench/src/vol2col-hip/main.cu"]}
+{"kernel_name": "vol2col-omp", "files": ["HeCBench/src/vol2col-omp/main.cpp"]}
+{"kernel_name": "vol2col-sycl", "files": ["HeCBench/src/vol2col-sycl/main.cpp"]}
+{"kernel_name": "vote-cuda", "files": ["HeCBench/src/vote-cuda/main.cu"]}
+{"kernel_name": "vote-hip", "files": ["HeCBench/src/vote-hip/main.cu"]}
+{"kernel_name": "vote-sycl", "files": ["HeCBench/src/vote-sycl/main.cpp"]}
+{"kernel_name": "voxelization-cuda", "files": ["HeCBench/src/voxelization-cuda/main.cu"]}
+{"kernel_name": "voxelization-hip", "files": ["HeCBench/src/voxelization-hip/main.cu"]}
+{"kernel_name": "voxelization-sycl", "files": ["HeCBench/src/voxelization-sycl/main.cpp"]}
+{"kernel_name": "warpexchange-cuda", "files": ["HeCBench/src/warpexchange-cuda/main.cu"]}
+{"kernel_name": "warpexchange-hip", "files": ["HeCBench/src/warpexchange-hip/main.cu"]}
+{"kernel_name": "warpexchange-sycl", "files": ["HeCBench/src/warpexchange-sycl/main.cpp"]}
+{"kernel_name": "warpsort-cuda", "files": ["HeCBench/src/warpsort-cuda/main.cpp", "HeCBench/src/warpsort-cuda/warpsort.cu"]}
+{"kernel_name": "warpsort-hip", "files": ["HeCBench/src/warpsort-hip/main.cpp", "HeCBench/src/warpsort-hip/warpsort.cu"]}
+{"kernel_name": "warpsort-sycl", "files": ["HeCBench/src/warpsort-sycl/main.cpp", "HeCBench/src/warpsort-sycl/warpsort.cpp"]}
+{"kernel_name": "wedford-cuda", "files": ["HeCBench/src/wedford-cuda/main.cu"]}
+{"kernel_name": "wedford-hip", "files": ["HeCBench/src/wedford-hip/main.cu"]}
+{"kernel_name": "wedford-sycl", "files": ["HeCBench/src/wedford-sycl/main.cpp"]}
+{"kernel_name": "winograd-cuda", "files": ["HeCBench/src/winograd-cuda/main.cu"]}
+{"kernel_name": "winograd-hip", "files": ["HeCBench/src/winograd-hip/main.cu"]}
+{"kernel_name": "winograd-omp", "files": ["HeCBench/src/winograd-omp/main.cpp"]}
+{"kernel_name": "winograd-sycl", "files": ["HeCBench/src/winograd-sycl/main.cpp"]}
+{"kernel_name": "wlcpow-cuda", "files": ["HeCBench/src/wlcpow-cuda/main.cu"]}
+{"kernel_name": "wlcpow-hip", "files": ["HeCBench/src/wlcpow-hip/main.cu"]}
+{"kernel_name": "wlcpow-omp", "files": ["HeCBench/src/wlcpow-omp/main.cpp"]}
+{"kernel_name": "wlcpow-sycl", "files": ["HeCBench/src/wlcpow-sycl/main.cpp"]}
+{"kernel_name": "wmma-cuda", "files": ["HeCBench/src/wmma-cuda/main.cu"]}
+{"kernel_name": "wmma-hip", "files": ["HeCBench/src/wmma-hip/main.cu"]}
+{"kernel_name": "wmma-sycl", "files": ["HeCBench/src/wmma-sycl/main.cpp"]}
+{"kernel_name": "word2vec-cuda", "files": ["HeCBench/src/word2vec-cuda/cbow.cu", "HeCBench/src/word2vec-cuda/word2vec.cu"]}
+{"kernel_name": "word2vec-hip", "files": ["HeCBench/src/word2vec-hip/cbow.cu", "HeCBench/src/word2vec-hip/word2vec.cu"]}
+{"kernel_name": "word2vec-sycl", "files": ["HeCBench/src/word2vec-sycl/cbow.cpp", "HeCBench/src/word2vec-sycl/word2vec.cpp"]}
+{"kernel_name": "wordcount-cuda", "files": ["HeCBench/src/wordcount-cuda/wc.cu"]}
+{"kernel_name": "wordcount-hip", "files": ["HeCBench/src/wordcount-hip/wc.cu"]}
+{"kernel_name": "wordcount-omp", "files": ["HeCBench/src/wordcount-omp/wc.cpp"]}
+{"kernel_name": "wordcount-sycl", "files": ["HeCBench/src/wordcount-sycl/main.cpp", "HeCBench/src/wordcount-sycl/wc.cpp"]}
+{"kernel_name": "wsm5-cuda", "files": ["HeCBench/src/wsm5-cuda/main.cu"]}
+{"kernel_name": "wsm5-hip", "files": ["HeCBench/src/wsm5-hip/main.cu"]}
+{"kernel_name": "wsm5-omp", "files": ["HeCBench/src/wsm5-omp/main.cpp"]}
+{"kernel_name": "wsm5-sycl", "files": ["HeCBench/src/wsm5-sycl/main.cpp"]}
+{"kernel_name": "wyllie-cuda", "files": ["HeCBench/src/wyllie-cuda/main.cu"]}
+{"kernel_name": "wyllie-hip", "files": ["HeCBench/src/wyllie-hip/main.cu"]}
+{"kernel_name": "wyllie-omp", "files": ["HeCBench/src/wyllie-omp/main.cpp"]}
+{"kernel_name": "wyllie-sycl", "files": ["HeCBench/src/wyllie-sycl/main.cpp"]}
+{"kernel_name": "xsbench-hip", "files": ["HeCBench/src/xsbench-hip/Simulation.cu"]}
+{"kernel_name": "xsbench-omp", "files": ["HeCBench/src/xsbench-omp/Simulation.cpp"]}
+{"kernel_name": "xsbench-sycl", "files": ["HeCBench/src/xsbench-sycl/Simulation.cpp"]}
+{"kernel_name": "zerocopy-cuda", "files": ["HeCBench/src/zerocopy-cuda/main.cu"]}
+{"kernel_name": "zerocopy-hip", "files": ["HeCBench/src/zerocopy-hip/main.cu"]}
+{"kernel_name": "zerocopy-sycl", "files": ["HeCBench/src/zerocopy-sycl/main.cpp"]}
+{"kernel_name": "zeropoint-cuda", "files": ["HeCBench/src/zeropoint-cuda/main.cu"]}
+{"kernel_name": "zeropoint-hip", "files": ["HeCBench/src/zeropoint-hip/main.cu"]}
+{"kernel_name": "zeropoint-omp", "files": ["HeCBench/src/zeropoint-omp/main.cpp"]}
+{"kernel_name": "zeropoint-sycl", "files": ["HeCBench/src/zeropoint-sycl/main.cpp"]}
+{"kernel_name": "zmddft-cuda", "files": ["HeCBench/src/zmddft-cuda/main.cu"]}
+{"kernel_name": "zmddft-hip", "files": ["HeCBench/src/zmddft-hip/main.cu"]}
+{"kernel_name": "zmddft-omp", "files": ["HeCBench/src/zmddft-omp/main.cpp"]}
+{"kernel_name": "zmddft-sycl", "files": ["HeCBench/src/zmddft-sycl/main.cpp"]}
+{"kernel_name": "zoom-cuda", "files": ["HeCBench/src/zoom-cuda/main.cu"]}
+{"kernel_name": "zoom-hip", "files": ["HeCBench/src/zoom-hip/main.cu"]}
+{"kernel_name": "zoom-sycl", "files": ["HeCBench/src/zoom-sycl/main.cpp"]}
