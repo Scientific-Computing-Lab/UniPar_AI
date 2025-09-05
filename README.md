@@ -2,6 +2,8 @@
 
 This project includes the code used in the [Unipar Paper](http:/link) 
 
+<img margin: auto width="820" height="410" alt="Image" src="https://github.com/user-attachments/assets/79fb5340-7cfb-4a9a-aabc-2d58034d71a7" />
+
 ### System Overview
 Multi-agent system for translating code between parallel programming APIs (e.g., CUDA to OpenMP) using language models with a feedback loop for error correction.
 
