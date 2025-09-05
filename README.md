@@ -37,16 +37,14 @@ The multi agent pipeline consists of three main components:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/UniPar.git
+   git clone https://github.com/Scientific-Computing-Lab/UniPar_AI.git
    cd UniPar
    ```
 
 2. **Create and activate the conda environment**:
    ```bash
-   conda env create -f uniparllama4.yaml
-   conda env create -f erel_unipar_2.yaml
-   conda activate uniparllama4
-   conda activate erel_unipar_2
+   conda env create -f env.yaml
+   conda activate unipar
    ```
 
 Ensure you have all the required dependencies listed in env.yaml before running the program.
